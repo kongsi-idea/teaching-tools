@@ -1,6 +1,6 @@
 # Teaching Tools：本机工具清单
 
-所有工具均独立维护、独立 Git、独立 Vercel 部署；平台入口与课程索引在 [课堂点子铺 Hub](../eduneo-hub/)。开发规范请先读 [agents.md](agents.md)。
+所有工具均独立维护、独立 Git、独立 Vercel 部署；平台入口与课程索引在 [课堂点子铺 Hub](../kongsi-idea/)。开发规范请先读 [agents.md](agents.md)。
 
 | slug | 工具 | 本机路径 | 网址 |
 |---|---|---|---|
