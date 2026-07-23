@@ -1,0 +1,8 @@
+{
+  "name": "teaching-tools-status",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "status:sync": "node scripts/sync-tools-status.mjs"
+  }
+}

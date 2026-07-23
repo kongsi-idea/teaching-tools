@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "qualityValues": ["满意", "待评估", "待观察", "需优化", "未完成"],
+  "tools": {
+    "tahun1-bc-bushou": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun1-bc-chongzu": {
+      "title": "词句拼拼乐",
+      "lifecycle": "开发中",
+      "quality": "未完成",
+      "knownIssues": [
+        "单文件 React 原型，尚无独立 Git、handoff、DSKP 核对、Vercel 部署和 Hub 登记"
+      ],
+      "nextStep": "先确认继续或放弃；若继续，先补 handoff.md，再完成 DSKP 核对、测试与部署",
+      "lastUpdated": "2026-07-22"
+    },
+    "tahun1-bc-liangci": {
+      "quality": "需优化",
+      "knownIssues": [
+        "Hub 的 DSKP unitCode/objectiveCodes 与 DSKP_INDEX 结构不一致，详情页目前无法显示课程标准",
+        "changelog 顺序与平台的时间顺序规则相反"
+      ],
+      "nextStep": "修正 DSKP 引用与 changelog 顺序，再测试学习目标搜索和详情页"
+    },
+    "tahun1-bc-shizi": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun1-bc-zaoju": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun1-bm-kvkv": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun1-dst-magnet": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun1-mt-bundar": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun2-mt-baigetu": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun2-mt-shulie-boss": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun2-mt-shulie-duel": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun2-mt-shulie-explore": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun2-mt-shuzhi": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun2-mt-wang": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun3-bc-kewen": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun3-dst-density": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun4-mt-nombor": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    }
+  }
+}
