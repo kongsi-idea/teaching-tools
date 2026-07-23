@@ -40,4 +40,4 @@
 
 - 时间：2026-07-24
 - 更新者：Codex @ mr007s-Macbook-Air.local
-- Git push：待推
+- Git push：✅ 已推（功能提交 `6d80d1e`）
