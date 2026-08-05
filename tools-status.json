@@ -9,21 +9,19 @@
     },
     "tahun1-bc-chongzu": {
       "title": "词句拼拼乐",
-      "lifecycle": "开发中",
+      "lifecycle": "暂停",
       "quality": "未完成",
       "knownIssues": [
         "单文件 React 原型，尚无独立 Git、handoff、DSKP 核对、Vercel 部署和 Hub 登记"
       ],
-      "nextStep": "先确认继续或放弃；若继续，先补 handoff.md，再完成 DSKP 核对、测试与部署",
-      "lastUpdated": "2026-07-22"
+      "nextStep": "已确认搁置（2026-07-24），暂不继续；之后想重启再补 handoff.md 走完整流程",
+      "lastUpdated": "2026-07-24"
     },
     "tahun1-bc-liangci": {
-      "quality": "需优化",
-      "knownIssues": [
-        "Hub 的 DSKP unitCode/objectiveCodes 与 DSKP_INDEX 结构不一致，详情页目前无法显示课程标准",
-        "changelog 顺序与平台的时间顺序规则相反"
-      ],
-      "nextStep": "修正 DSKP 引用与 changelog 顺序，再测试学习目标搜索和详情页"
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记",
+      "lastUpdated": "2026-07-24"
     },
     "tahun1-bc-shizi": {
       "quality": "待评估",
