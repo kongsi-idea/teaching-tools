@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
-  "qualityValues": ["满意", "待评估", "待观察", "需优化", "未完成"],
+  "qualityValues": [
+    "满意",
+    "待评估",
+    "待观察",
+    "需优化",
+    "未完成"
+  ],
   "tools": {
     "tahun1-bc-bushou": {
       "quality": "待评估",
@@ -47,6 +53,19 @@
       "quality": "待评估",
       "knownIssues": [],
       "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun1-mt-masa": {
+      "title": "时刻大对决",
+      "lifecycle": "开发中",
+      "quality": "未完成",
+      "knownIssues": [
+        "尚未部署、未上架 Hub：等老师在真实设备实测确认后才走部署流程（newtool skill 第7条硬性规定）",
+        "马来文 DSKP 官方用词未查证，暂不收进 kongsi-idea/data/dskp-index.js",
+        "本机没有一年级数学课本原文可对照，「4时／4时半／4时一刻／4时15分」用词照 DSKP 摘要＋老师口述，待老师对课本",
+        "真实触屏（尤其课室一体机）的拖拽手感、音效音量还没实测，只在 headless 模拟过"
+      ],
+      "nextStep": "老师本机/真实设备实测确认玩法、手感与音效 → git init/gh repo create → Vercel 部署 → 截图 → Hub TOOLS 登记(含 hasLeaderboard) + published-tools-coverage.md 加一行",
+      "lastUpdated": "2026-08-14"
     },
     "tahun2-mt-baigetu": {
       "quality": "待评估",
