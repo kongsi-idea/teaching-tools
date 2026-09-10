@@ -111,6 +111,11 @@
       "quality": "待评估",
       "knownIssues": [],
       "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+    },
+    "tahun1-bc-bishun": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "老师本机+电脑室实测确认笔顺判定松紧、三步流程节奏、音效音量；等课堂反馈"
     }
   }
 }

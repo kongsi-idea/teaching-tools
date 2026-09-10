@@ -7,6 +7,7 @@
 
 | slug | 工具 | 本机路径 | 网址 |
 |---|---|---|---|
+| `tahun1-bc-bishun` | 一年级写字 | `tahun1-bc-bishun/` | https://tahun1-bc-bishun.vercel.app |
 | `tahun1-bc-bushou` | 部首大对垒 | `tahun1-bc-bushou/` | https://tahun1-bc-bushou.vercel.app |
 | `tahun1-bc-juxing` | 句型跳跳队 | `tahun1-bc-juxing/` | https://tahun1-bc-juxing.vercel.app |
 | `tahun1-bc-liangci` | 量词大冒险 | `tahun1-bc-liangci/` | https://tahun1-bc-liangci.vercel.app |
@@ -15,6 +16,7 @@
 | `tahun1-bm-kvkv` | KVKV音节打地鼠 | `tahun1-bm-kvkv/` | https://tahun1-bm-kvkv.vercel.app |
 | `tahun1-dst-magnet` | 磁铁大发现 | `tahun1-dst-magnet/` | https://tahun1-dst-magnet.vercel.app |
 | `tahun1-mt-bundar` | 近似值特快车 | `tahun1-mt-bundar/` | https://tahun1-mt-bundar.vercel.app |
+| `tahun2-bc-bishun` | 二年级写字 | `tahun2-bc-bishun/` | https://tahun2-bc-bishun.vercel.app |
 | `tahun2-mt-baigetu` | 百格图乘法表动画 | `tahun2-mt-baigetu/` | https://tahun2-mt-baigetu.vercel.app |
 | `tahun2-mt-shulie-boss` | 数字数列大对决 | `tahun2-mt-shulie-boss/` | https://tahun2-mt-shulie-boss.vercel.app |
 | `tahun2-mt-shulie-duel` | 双人数字对决 | `tahun2-mt-shulie-duel/` | https://tahun2-mt-shulie-duel.vercel.app |
