@@ -23,6 +23,7 @@
 | `tahun2-mt-shulie-explore` | 数序列小探险 | `tahun2-mt-shulie-explore/` | https://tahun2-mt-shulie-explore.vercel.app |
 | `tahun2-mt-shuzhi` | 苹果果园数学 | `tahun2-mt-shuzhi/` | https://tahun2-mt-shuzhi.vercel.app |
 | `tahun2-mt-wang` | 钱币乐园 | `tahun2-mt-wang/`（互动网页在 `app/`） | https://tahun2-mt-wang.vercel.app |
+| `tahun3-bc-bishun` | 三年级写字 | `tahun3-bc-bishun/` | https://tahun3-bc-bishun.vercel.app |
 | `tahun3-bc-kewen` | 语文课文大PK | `tahun3-bc-kewen/` | https://tahun3-bc-kewen.vercel.app |
 | `tahun3-dst-density` | 浮沉实验室：密度大发现 | `tahun3-dst-density/` | https://tahun3-dst-density.vercel.app |
 | `tahun4-mt-nombor` | 数学知识大比拼 | `tahun4-mt-nombor/` | https://tahun4-mt-nombor.vercel.app |
