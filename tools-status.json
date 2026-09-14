@@ -112,6 +112,16 @@
       "knownIssues": [],
       "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
     },
+    "tahun4-bi-writing": {
+      "title": "Story Quest · Sentence Workshop",
+      "quality": "待评估",
+      "version": "0.3.0",
+      "knownIssues": [
+        "纸本作业投稿仅测过一次性测试图片，尚无真实学生投稿；教师审核端（把 pending 改 approved/rejected）还没有介面，只能直接在 Supabase Dashboard 操作"
+      ],
+      "nextStep": "等课堂真实使用反馈；视需要补一个给老师审核投稿的简单介面",
+      "lastUpdated": "2026-09-15"
+    },
     "tahun1-bc-bishun": {
       "quality": "待评估",
       "knownIssues": [],
