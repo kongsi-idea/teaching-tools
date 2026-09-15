@@ -122,6 +122,17 @@
       "nextStep": "等课堂真实使用反馈；视需要补一个给老师审核投稿的简单介面",
       "lastUpdated": "2026-09-15"
     },
+    "tahun4-bc-bishun": {
+      "title": "四年级写字",
+      "lifecycle": "开发中",
+      "quality": "待评估",
+      "version": "1.0.0",
+      "knownIssues": [
+        "真实滑鼠描写与学校电脑室手感尚未由教师验收；线上 Supabase migration、Vercel 部署与 Hub 登记尚未执行"
+      ],
+      "nextStep": "老师先对照课本第193–194页并在普通浏览器实写一字；确认后再做 migration、独立部署、截图与 Hub 登记",
+      "lastUpdated": "2026-09-15"
+    },
     "tahun1-bc-bishun": {
       "quality": "待评估",
       "knownIssues": [],
