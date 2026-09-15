@@ -124,13 +124,13 @@
     },
     "tahun4-bc-bishun": {
       "title": "四年级写字",
-      "lifecycle": "开发中",
+      "lifecycle": "已上架",
       "quality": "待评估",
-      "version": "1.0.0",
+      "version": "2.0",
       "knownIssues": [
-        "真实滑鼠描写与学校电脑室手感尚未由教师验收；Supabase migration 与 Hub 登记尚未执行；本机 DNS 无法完成线上 curl 复验"
+        "真实滑鼠描写与学校电脑室手感尚未由教师验收；Supabase migration 尚未执行；本机 DNS 无法完成线上 curl 复验"
       ],
-      "nextStep": "老师先打开 https://tahun4-bc-bishun.vercel.app 对照课本第193–194页并实写一字；确认后再做 migration、截图与 Hub 登记",
+      "nextStep": "老师先打开 https://tahun4-bc-bishun.vercel.app 对照课本第193–194页并实写一字；确认后再决定是否执行 migration 与补真实缩图",
       "lastUpdated": "2026-09-15"
     },
     "tahun1-bc-bishun": {
