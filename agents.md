@@ -32,7 +32,12 @@
 - 工具应可单独开发、单独部署与单独回滚；不要引用 `kongsi-idea/` 的运行时代码。
 - 按 DSKP 自主找题时，先提出「教学目标 + 学生困难假设 + 核心课堂玩法」给用户确认；**没有用户确认，不可直接生成或发布工具**。不能只因 DSKP 有一条标准就自动生成工具。
 - 完成后：测试工具 → commit/push 自己的 Git 仓库 → 独立部署到 Vercel → 截图 → 回到 Hub 登记工具资料。
-- 工具有老师反馈后的调整，必须更新工具的 `version` 与 `changelog`，并由 Hub 详情页呈现更新记录。
+- **已上架工具每次上线新版本，Hub 必须同步更新，这是完成的一部分，不是可选收尾**（2026-09-17 老师定：浮沉实验室 v2.0 上线了 Hub 却还是 v1，被点名）。工具部署后、回报「已上线」之前，逐项做完：
+  1. `kongsi-idea/app.js` 该工具的 `version` 升版，`changelog` 在最前面加一条 `{ version, date: 上线当天日期, note: 这次改了什么 }`；`desc`／`keywords`／`teachingMode`／`prep` 若因改版失效，一并改写。
+  2. 用 Playwright 操作**正式网址**重新截真实画面，放进 `kongsi-idea/assets/thumbs/{slug}/`（新档名带版本，如 `v2-1-xxx.png`），`thumbnails` 换成新图并写 label；旧图搬 `~/Documents/待删除/`，不留失效引用。
+  3. `kongsi-idea/docs/published-tools-coverage.md` 该行「优化备注」写上版本与日期，以及仍待改的点。
+  4. `teaching-tools/tools-status.json` 更新 `version`／`lastUpdated`，跑 `npm run status:sync`。
+  5. Hub commit＋push，按 `kongsi-idea/agents.md` 的部署三步（`vercel --prod` → `alias set kongsi-idea.vercel.app` → `curl` 线上 `app.js` 确认新版本号与新缩图路径真的在）。没做完第 5 步，只能回报「工具已上线，Hub 未更新」。
 - 不要把 API key、学生资料、学校机密资料写进源码或 commit。
 - 工具若用 `speechSynthesis` 读汉字，**不要直接读孤立单字**——多音字（系/长/了/卷/省……）引擎会猜错读音，
   常常不是课本那一课教的。做法参考 `tahun1/2/3-bc-bishun`（2026-09-11）：`pypinyin` 解大多数字的默认读音，
