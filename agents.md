@@ -32,6 +32,7 @@
 - 工具应可单独开发、单独部署与单独回滚；不要引用 `kongsi-idea/` 的运行时代码。
 - 按 DSKP 自主找题时，先提出「教学目标 + 学生困难假设 + 核心课堂玩法」给用户确认；**没有用户确认，不可直接生成或发布工具**。不能只因 DSKP 有一条标准就自动生成工具。
 - 完成后：测试工具 → commit/push 自己的 Git 仓库 → 独立部署到 Vercel → 截图 → 回到 Hub 登记工具资料。
+- **单个 tahunN 工具的 `vercel --prod`／alias 不在 guard 的 `deploy_allowlist` 内**（该名单只有 `hks-hub`／`kongsi-idea`／`3g-assessment`／`fgs-checkin-system`／`kk2-selamat`／`class_system-1`／`bliayad-2026` 七个专案，Hub 本体 `kongsi-idea` 在，但底下每个 `tahunN-*` 工具自己的 Vercel 项目都不在）——2026-09-17 磁力创造实验室 v2 发布时实测被挡（guard 提示「专案 tahun1-dst-magnet 不在长期授权名单内」）。Agent 遇到会被 guard 拦下，不要找办法绕过；请老师本人在对话里用 `!` 前缀跑该部署命令即可，不需要改 guard-policy.json。
 - **已上架工具每次上线新版本，Hub 必须同步更新，这是完成的一部分，不是可选收尾**（2026-09-17 老师定：浮沉实验室 v2.0 上线了 Hub 却还是 v1，被点名）。工具部署后、回报「已上线」之前，逐项做完：
   1. `kongsi-idea/app.js` 该工具的 `version` 升版，`changelog` 在最前面加一条 `{ version, date: 上线当天日期, note: 这次改了什么 }`；`desc`／`keywords`／`teachingMode`／`prep` 若因改版失效，一并改写。
   2. 用 Playwright 操作**正式网址**重新截真实画面，放进 `kongsi-idea/assets/thumbs/{slug}/`（新档名带版本，如 `v2-1-xxx.png`），`thumbnails` 换成新图并写 label；旧图搬 `~/Documents/待删除/`，不留失效引用。
