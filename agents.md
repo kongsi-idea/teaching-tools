@@ -30,6 +30,7 @@
 - **Vercel 项目一律部署到 `kongsi-idea` 这个 Vercel Team**（不是老师个人的 `mr007's projects` team，老师口中的「yquan77」）：2026-09-11 发现历史上有 13 个 `tahunN-科目-单元` 工具意外分裂两边（`kongsi-idea` 团队里是乱码域名分身，`mr007's projects` 才是干净域名的正版），已整理统一进 `kongsi-idea` 团队。新工具第一次 `vercel` 部署时要确认 `--scope kongsi-idea`，不要用默认 scope。
 - 新工具的 `index.html`／`package.json`／`src/` 默认放在 slug 根目录；`tahun2-mt-wang/app/` 是为了保留既有素材相对路径的历史例外。若确实要用子资料夹，必须在该工具自己的 `agents.md` 写明原因与 Vercel 部署根目录。
 - 工具应可单独开发、单独部署与单独回滚；不要引用 `kongsi-idea/` 的运行时代码。
+- **班级名单工具必须沿用共用接入标准**：依序引用 `https://kongsi-idea.vercel.app/data/supabase-client.js` 与 `https://kongsi-idea.vercel.app/data/class-code-client.js`，使用 `await ClassCode.loadOrPrompt()` 取得名单。共用客户端提供错误代码持续重试与「换班级」按钮；不要在单个工具重新实现输入、记忆或换班逻辑。换班会验证新代码、保留其他网址参数并重新载入当前工具，确保上一班的学生／成绩／进度状态被清理。
 - 按 DSKP 自主找题时，先提出「教学目标 + 学生困难假设 + 核心课堂玩法」给用户确认；**没有用户确认，不可直接生成或发布工具**。不能只因 DSKP 有一条标准就自动生成工具。
 - 完成后：测试工具 → commit/push 自己的 Git 仓库 → 独立部署到 Vercel → 截图 → 回到 Hub 登记工具资料。
 - **单个 tahunN 工具的 `vercel --prod`／alias 不在 guard 的 `deploy_allowlist` 内**（该名单只有 `hks-hub`／`kongsi-idea`／`3g-assessment`／`fgs-checkin-system`／`kk2-selamat`／`class_system-1`／`bliayad-2026` 七个专案，Hub 本体 `kongsi-idea` 在，但底下每个 `tahunN-*` 工具自己的 Vercel 项目都不在）——2026-09-17 磁力创造实验室 v2 发布时实测被挡（guard 提示「专案 tahun1-dst-magnet 不在长期授权名单内」）。Agent 遇到会被 guard 拦下，不要找办法绕过；请老师本人在对话里用 `!` 前缀跑该部署命令即可，不需要改 guard-policy.json。
