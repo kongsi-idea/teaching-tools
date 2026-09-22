@@ -72,11 +72,11 @@
       "lifecycle": "开发中",
       "quality": "待评估",
       "knownIssues": [
-        "Supabase migration 尚未获授权执行，线上排行榜表与 RPC 目前不存在",
-        "新项目尚未正式安装依赖、初始化独立 Git 或部署 preview",
+        "尚未用真实班级与访客完成一次成绩写入／读取验证",
+        "尚未初始化 GitHub 远端或部署 preview",
         "朋友提供的生成插画公开发布授权仍需确认"
       ],
-      "nextStep": "授权 npm install 与 Supabase migration → 正式 build／真实成绩验证 → 建独立仓库与 preview → 老师验收后上架 Hub",
+      "nextStep": "建立 GitHub／Vercel preview → 老师点击验收 → 用真实班级与访客验证成绩 → 上架 Hub",
       "version": "0.1.0",
       "lastUpdated": "2026-09-21"
     },
