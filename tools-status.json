@@ -69,14 +69,14 @@
     },
     "tahun2-bc-zonghe": {
       "title": "华文勇者大冒险",
-      "lifecycle": "开发中",
+      "lifecycle": "已上架",
       "quality": "待评估",
       "knownIssues": [
         "尚未用真实班级与访客完成一次成绩写入／读取验证",
         "Vercel preview 已部署，但 Kongsi Idea 团队默认启用 SSO，普通未登录访客会先看到 Vercel 登录页；当前 preview：https://tahun2-bc-zonghe-3z8g2goax-kongsi-idea.vercel.app",
         "朋友提供的生成插画公开发布授权仍需确认"
       ],
-      "nextStep": "老师点击 preview 验收 → 用真实班级与访客验证成绩 → 决定是否调整 preview 保护设定 → 上架 Hub",
+      "nextStep": "老师点击 Hub 入口验收 → 用真实班级与访客验证成绩 → 决定是否调整 preview 保护设定",
       "version": "0.1.0",
       "lastUpdated": "2026-09-22"
     },
