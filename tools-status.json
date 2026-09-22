@@ -73,10 +73,10 @@
       "quality": "待评估",
       "knownIssues": [
         "尚未用真实班级与访客完成一次成绩写入／读取验证",
-        "Hub 已上线 https://eduneo-hub.vercel.app；工具本身仍是 preview，且 Kongsi Idea 团队默认启用 SSO，普通未登录访客会先看到 Vercel 登录页",
+        "Hub 已上线 https://eduneo-hub.vercel.app；正式工具域名 https://tahun2-bc-zonghe.vercel.app 已可访问，尚未用真实班级与访客完成成绩写入／读取验证",
         "李老师提供的生成插画公开发布授权仍需确认"
       ],
-      "nextStep": "老师点击 Hub 入口验收 → 用真实班级与访客验证成绩 → 决定是否调整 preview 保护设定",
+      "nextStep": "老师点击 Hub 入口验收 → 用真实班级与访客验证成绩写入／读取",
       "version": "0.1.0",
       "lastUpdated": "2026-09-22"
     },
