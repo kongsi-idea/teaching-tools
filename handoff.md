@@ -47,4 +47,4 @@
 
 - 时间：2026-09-25
 - 更新者：Claude Sonnet 5 @ MacBook Air M3
-- Git push：待推
+- Git push：✅ 已推（`8ea6aa5`）
