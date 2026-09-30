@@ -155,6 +155,19 @@
       "quality": "待评估",
       "knownIssues": [],
       "nextStep": "老师本机+电脑室实测确认笔顺判定松紧、三步流程节奏、音效音量；等课堂反馈"
+    },
+    "tahun1-mt-pecahan": {
+      "title": "燕菜切切乐",
+      "lifecycle": "已上架",
+      "quality": "待评估",
+      "knownIssues": [
+        "本机没有一年级数学课本分数单元（第40–42页）原文；「二分之一／四分之一」读法与直式写法照 DSKP 摘要，待老师对课本",
+        "「燕菜」＝agar-agar 是马来西亚华语惯用说法（既有知识，待老师确认）",
+        "Windows 学校电脑与课室一体机触控未实测；朗读为 edge-tts 预录，改句子要重跑 gen-voice.py"
+      ],
+      "nextStep": "等课堂反馈；老师对课本分数单元用词",
+      "lastUpdated": "2026-09-29",
+      "version": "1.0"
     }
   }
 }
