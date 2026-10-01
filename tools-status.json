@@ -174,13 +174,12 @@
       "lifecycle": "已上架",
       "quality": "待评估",
       "knownIssues": [
-        "J、M/N、k、B、U/u/y、i/j 笔顺是按惯例定的，待老师对课本",
-        "马来文笔画说明用词（cangkuk、condong ke dalam/luar、kembali ke garis tegak）待老师确认",
+        "马来文笔画说明用词（cangkuk 等）国文老师未逐条回覆，暂维持",
         "Windows 学校电脑与课室一体机触控未实测"
       ],
-      "nextStep": "老师对课本核对笔顺与用词；课堂实测",
+      "nextStep": "课堂实测；有用词意见再改",
       "lastUpdated": "2026-10-01",
-      "version": "1.0"
+      "version": "1.1"
     }
   }
 }
