@@ -116,14 +116,14 @@
       "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
     },
     "tahun3-dst-density": {
-      "quality": "待评估",
+      "quality": "待观察",
       "knownIssues": [
-        "站④神秘方块排序区的方块图示过小",
-        "课本（Unit Ketumpatan）未取得，内容只按 DSKP 摘要；液体分层、加糖未做"
+        "学校触控一体机流畅度未实测（有自动降画质）",
+        "手机直立时 3D 画面偏小"
       ],
-      "nextStep": "等课堂反馈；修站④方块图示",
-      "version": "2.0",
-      "lastUpdated": "2026-09-17"
+      "nextStep": "课堂实际试用后收集反馈",
+      "version": "3.0",
+      "lastUpdated": "2026-10-02"
     },
     "tahun4-mt-nombor": {
       "quality": "待评估",
