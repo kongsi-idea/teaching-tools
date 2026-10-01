@@ -45,9 +45,11 @@
       "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
     },
     "tahun1-dst-magnet": {
-      "quality": "待评估",
-      "knownIssues": [],
-      "nextStep": "等待课堂反馈；有不满意之处时在这里登记"
+      "quality": "待观察",
+      "knownIssues": [
+        "2026-10-02 分析：探索／磁极互动是写死的固定反应，没有真实磁力计算；磁力线画成同心椭圆（科学上错误）；交接档写 DSKP 7.1.1–7.1.6，但 Dokumen Penjajaran Edisi 3 只有 7.1.1–7.1.3，7.1.1「生活中的磁铁」完全没覆盖；公平实验室不在一年级 SP"
+      ],
+      "nextStep": "重做暂缓：KP2027 一年级无磁铁（4.1.7–4.1.11 待补）。等 KP2027 二、三年级 DSKP 公布再决定；重做方案见 tahun1-dst-magnet/handoff.md"
     },
     "tahun1-mt-bundar": {
       "quality": "待评估",
