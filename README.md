@@ -13,6 +13,7 @@
 | `tahun1-bc-liangci` | 量词大冒险 | `tahun1-bc-liangci/` | https://tahun1-bc-liangci.vercel.app |
 | `tahun1-bc-shizi` | 识字大对决 | `tahun1-bc-shizi/` | https://tahun1-bc-shizi.vercel.app |
 | `tahun1-bc-zaoju` | 神奇句子小火车 | `tahun1-bc-zaoju/` | https://tahun1-bc-zaoju.vercel.app |
+| `tahun1-bm-huruf` | Huruf A–Z 写字母 | `tahun1-bm-huruf/` | https://tahun1-bm-huruf.vercel.app |
 | `tahun1-bm-kvkv` | KVKV音节打地鼠 | `tahun1-bm-kvkv/` | https://tahun1-bm-kvkv.vercel.app |
 | `tahun1-dst-magnet` | 磁力创造实验室 | `tahun1-dst-magnet/` | https://tahun1-dst-magnet.vercel.app |
 | `tahun1-mt-bundar` | 近似值特快车 | `tahun1-mt-bundar/` | https://tahun1-mt-bundar.vercel.app |

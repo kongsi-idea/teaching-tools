@@ -168,6 +168,19 @@
       "nextStep": "等课堂反馈；老师对课本分数单元用词",
       "lastUpdated": "2026-09-29",
       "version": "1.0"
+    },
+    "tahun1-bm-huruf": {
+      "title": "Huruf A–Z 写字母",
+      "lifecycle": "已上架",
+      "quality": "待评估",
+      "knownIssues": [
+        "J、M/N、k、B、U/u/y、i/j 笔顺是按惯例定的，待老师对课本",
+        "马来文笔画说明用词（cangkuk、condong ke dalam/luar、kembali ke garis tegak）待老师确认",
+        "Windows 学校电脑与课室一体机触控未实测"
+      ],
+      "nextStep": "老师对课本核对笔顺与用词；课堂实测",
+      "lastUpdated": "2026-10-01",
+      "version": "1.0"
     }
   }
 }
