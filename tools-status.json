@@ -182,6 +182,15 @@
       "nextStep": "课堂实测；有用词意见再改",
       "lastUpdated": "2026-10-01",
       "version": "1.3"
+    },
+    "tahun1-am-cahaya": {
+      "title": "光的小探险",
+      "quality": "未完成",
+      "knownIssues": [
+        "v0.1 本机原型，尚未在学校电脑／投影／触屏实测；无语音；Tema 5 SP 抄录缺页"
+      ],
+      "nextStep": "老师本机实测 http://127.0.0.1:8791/ → 修改 → 确认后建 repo、部署、上架",
+      "lastUpdated": "2026-10-02"
     }
   }
 }
