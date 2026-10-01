@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "status:sync": "node scripts/sync-tools-status.mjs"
+    "status:sync": "node scripts/sync-tools-status.mjs",
+    "new": "node scripts/new-tool.mjs",
+    "check": "node scripts/check-live.mjs"
   }
 }
