@@ -187,11 +187,11 @@
       "title": "光的小探险",
       "quality": "待评估",
       "knownIssues": [
-        "v1.0 未在学校电脑／投影／触屏实测；无语音；Tema 5 SP 抄录缺页；马来文用词待查证"
+        "v1.1 未在学校电脑／投影／触屏实测；无语音；Tema 5 SP 抄录缺页；马来文用词待查证"
       ],
       "nextStep": "老师在学校电脑／投影／触屏实测，回填反馈",
       "lastUpdated": "2026-10-02",
-      "version": "1.0"
+      "version": "1.1"
     },
     "tahun1-bc-juxing": {
       "quality": "待评估",
