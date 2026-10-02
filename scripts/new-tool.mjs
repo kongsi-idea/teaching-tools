@@ -42,7 +42,7 @@ fs.writeFileSync(
 1. 老师确认方案后动工。
 
 ## ⚠️ 注意事项
-- 本机测试：\`python3 -m http.server 8765\`，开 http://localhost:8765
+- 本机测试：\`python3 -m http.server 8791 --bind 127.0.0.1\`，开 http://127.0.0.1:8791（8765 常被 Hub 本机服务占用）
 
 ## 🕐 最后更新
 ${today}
