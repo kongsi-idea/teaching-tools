@@ -191,6 +191,24 @@
       ],
       "nextStep": "老师本机实测 http://127.0.0.1:8791/ → 修改 → 确认后建 repo、部署、上架",
       "lastUpdated": "2026-10-02"
+    },
+    "tahun1-bc-juxing": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记",
+      "lastUpdated": "2026-10-02"
+    },
+    "tahun2-bc-bishun": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记",
+      "lastUpdated": "2026-10-02"
+    },
+    "tahun3-bc-bishun": {
+      "quality": "待评估",
+      "knownIssues": [],
+      "nextStep": "等待课堂反馈；有不满意之处时在这里登记",
+      "lastUpdated": "2026-10-02"
     }
   }
 }
