@@ -7,6 +7,7 @@
 
 | slug | 工具 | 本机路径 | 网址 |
 |---|---|---|---|
+| `tahun1-am-cahaya` | 光的小探险 | `tahun1-am-cahaya/` | https://tahun1-am-cahaya.vercel.app |
 | `tahun1-bc-bishun` | 一年级写字 | `tahun1-bc-bishun/` | https://tahun1-bc-bishun.vercel.app |
 | `tahun1-bc-bushou` | 部首大对垒 | `tahun1-bc-bushou/` | https://tahun1-bc-bushou.vercel.app |
 | `tahun1-bc-juxing` | 句型跳跳队 | `tahun1-bc-juxing/` | https://tahun1-bc-juxing.vercel.app |
