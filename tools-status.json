@@ -58,16 +58,18 @@
     },
     "tahun1-mt-masa": {
       "title": "时刻大对决",
-      "lifecycle": "开发中",
-      "quality": "未完成",
+      "lifecycle": "已上架",
+      "quality": "待评估",
       "knownIssues": [
-        "尚未部署、未上架 Hub：等老师在真实设备实测确认后才走部署流程（newtool skill 第7条硬性规定）",
+        "对垒每轮换人后，排行榜只记最后一轮上场的两位，待老师定是否改成每轮都记",
         "马来文 DSKP 官方用词未查证，暂不收进 kongsi-idea/data/dskp-index.js",
-        "本机没有一年级数学课本原文可对照，「4时／4时半／4时一刻／4时15分」用词照 DSKP 摘要＋老师口述，待老师对课本",
-        "真实触屏（尤其课室一体机）的拖拽手感、音效音量还没实测，只在 headless 模拟过"
+        "「4时／4时半／4时一刻／4时15分」用词待对一年级数学课本",
+        "课室一体机触控手感、音效音量未实测",
+        "test-e2e.mjs／test-edge-cases.mjs 需补处理线上 ClassCode 的「暂不选班」对话框，否则原样跑会失败"
       ],
-      "nextStep": "老师本机/真实设备实测确认玩法、手感与音效 → git init/gh repo create → Vercel 部署 → 截图 → Hub TOOLS 登记(含 hasLeaderboard) + published-tools-coverage.md 加一行",
-      "lastUpdated": "2026-08-14"
+      "nextStep": "老师在一体机实测手感与音效；定排行榜记录方式；对课本核对用词",
+      "lastUpdated": "2026-10-08",
+      "version": "1.0"
     },
     "tahun2-bc-zonghe": {
       "title": "华文勇者大冒险",
@@ -220,6 +222,13 @@
       "nextStep": "课堂实测；有不满意之处时在这里登记",
       "lastUpdated": "2026-10-08",
       "version": "1.0"
+    },
+    "tahun1-mt-ruang": {
+      "title": "空间小天地",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-08"
     }
   }
 }
