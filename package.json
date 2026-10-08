@@ -5,6 +5,7 @@
   "scripts": {
     "status:sync": "node scripts/sync-tools-status.mjs",
     "new": "node scripts/new-tool.mjs",
-    "check": "node scripts/check-live.mjs"
+    "check": "node scripts/check-live.mjs",
+    "deploy": "zsh scripts/deploy-tool.sh"
   }
 }
