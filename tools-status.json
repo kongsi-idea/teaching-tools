@@ -225,10 +225,18 @@
     },
     "tahun1-mt-ruang": {
       "title": "空间小天地",
-      "quality": "未完成",
-      "knownIssues": [],
-      "nextStep": "等老师确认方案",
-      "lastUpdated": "2026-10-08"
+      "quality": "待评估",
+      "knownIssues": [
+        "面边顶点数量、「正方棱锥体」、平面图形用「顶点」等用词照 DSKP 摘要＋老师口述，待老师对课本",
+        "只用 Chrome 模拟触控，未真机测试（尤其 iOS Safari、课室一体机）",
+        "立体模式排列画面偏小；「下载图片」未验证实际弹出下载",
+        "马来文 DSKP 官方用词未核对，未收进 kongsi-idea/data/dskp-index.js",
+        "正方棱锥体实心渲染从斜上方最多看到 2 个三角形面、底面被挡，像三角锥；待老师决定是否加课本式虚线（看不见的边）"
+      ],
+      "nextStep": "老师真机与课堂实测；对课本用词",
+      "lastUpdated": "2026-10-08",
+      "lifecycle": "已上架",
+      "version": "1.0"
     }
   }
 }
