@@ -34,6 +34,11 @@ async function checkPage(url, hops = 0) {
   if (redirect && hops < 2) {
     return checkPage(new URL(redirect, base).href.replace(/\/$/, ""), hops + 1);
   }
+  // 使用次数统计：直接打开工具网址也要计入 Hub（2026-10-08 起每个工具必备，见 agents.md）
+  const host = new URL(base).hostname.replace(/\.vercel\.app$/, "");
+  const tracker = new RegExp(`track-use\\.js"[^>]*data-slug="${host}"|data-slug="${host}"[^>]*track-use\\.js`);
+  const legacyHost = new URL(base).hostname;
+  const trackerProblem = (tracker.test(page.text) || (page.text.includes("track-use.js") && page.text.includes(`data-host="${legacyHost}"`))) ? [] : [`缺使用次数统计：页面没有 track-use.js（data-slug="${host}"）`];
   const refs = new Set(
     [...page.text.matchAll(/(?:src|href)=["']([^"'#?]+\.(?:js|mjs|css|mp3|ogg|wav|png|jpe?g|svg|webp|json|glb|gltf))["']/g)]
       .map((m) => m[1])
@@ -44,7 +49,7 @@ async function checkPage(url, hops = 0) {
     const { status } = await fetchStatus(new URL(ref, base).href);
     if (status !== 200) problems.push(`资源 ${status}：${ref}`);
   }
-  return problems;
+  return [...trackerProblem, ...problems];
 }
 
 function hubBlock(source, slug) {

@@ -25,6 +25,7 @@
 - 新工具资料夹命名必须为 `tahun{年级}-{科目缩写}-{单元关键词}`，例如 `tahun2-mt-wang`。
 - **一开始动工（哪怕只是先生成一个原型 index.html）就要做两件事**：① 在工具自己的资料夹建一份最简 `handoff.md`（状态／已知问题／下一步／最后更新时间）；② 在本目录运行 `npm run status:sync`。同步脚本会自动发现新的 `tahun*` 目录，并把它列入 [`PROGRESS.md`](PROGRESS.md)；不要直接手改生成表格。
 - **两个脚本（2026-10-02）**：开工用 `npm run new -- {slug} "中文名"`（建目录＋`.gitignore`＋`handoff.md`＋`tools-status.json` 登记＋同步）；上线后用 `npm run check -- {slug}` 从学生那端验收（工具网址与资源 200、线上 Hub 版本、缩图、本机登记），`npm run check -- --all` 扫全部 Hub 工具网址。没通过 check 不说「已上线」。
+- **每个工具的入口 `index.html` 必须带使用次数统计（2026-10-08 老师定，新工具建立时就写好）**：`</head>` 前加一行 `<script src="https://kongsi-idea.vercel.app/data/track-use.js" data-slug="{slug}" defer></script>`。原因：老师常把工具网址直接转发，只靠 Hub「开始使用」会漏掉这些使用。`data-slug` 必须等于 `{slug}.vercel.app` 的前缀，否则不计数；Hub 的链接带 `?kh=1`，脚本看到会跳过并清掉它，所以不会重复计。多页工具只放在学生会落地的入口页。`npm run check -- {slug}` 与 `--all` 会检查线上页面有没有这一行，缺了不算通过。
 - 工具做到一半要停工／换人接手：先把 `handoff.md` 更新成「卡在哪、下一步是什么」再收工，不要留空白状态。
 - 工具的“满意／待评估／待观察／需优化／未完成”、已知问题与下一步统一维护在 [`tools-status.json`](tools-status.json)；`PROGRESS.md` 是给人和 Agent 快速查询的自动生成总览。
 - 每个工具保持独立 Git 仓库与独立 Vercel 项目；GitHub org 使用 `kongsi-idea`，仓库名称等于 slug。
