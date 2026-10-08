@@ -4,11 +4,18 @@
 
 ## ⏯️ 目前做到哪
 
+**2026-10-08：使用次数统计＋自动部署**
+- 29 个工具入口 `index.html` 都带 `track-use.js`（规则见 `agents.md`），`npm run check` 会验。
+- **push 到 main 即自动部署**：每个仓库有 `.github/workflows/deploy.yml`＋仓库级 `VERCEL_TOKEN`（token 在本机钥匙串 `vercel-actions / VERCEL_TOKEN_KONGSI`）。29 个仓库首轮运行全成功。后备：`npm run deploy -- <slug>`。新工具首次部署后要跑 `set-vercel-secret.py` ＋ `add-actions.sh`。
+- `tahun2-mt-wang` 已改成与其他工具同规格；`tahun4-bc-bishun` 新建了 GitHub 私有仓库 `kongsi-idea/tahun4-bc-bishun`。
+- 没做：`tahun1-mt-ruang`、`tahun1-bc-chongzu` 未部署、不在 hub，不在这次范围。
+- `PROGRESS.md` 有未提交改动（自动生成，不是我改的）。
+
 **本次（2026-10-02）**：优化全局 skill `newtool`（`~/.claude/skills/newtool/SKILL.md`，旧版备份在 `~/Documents/待删除/newtool-skill-backup-20261002/`），并新增两个脚本：`npm run new -- {slug} "中文名"`（开工脚手架）、`npm run check -- {slug|--all}`（上线后从学生那端验收）。把 juxing、tahun2-bc-bishun、tahun3-bc-bishun 登记为「待评估」。全站 `check --all` 全部通过；钱币乐园 404 已被另一个会话重新部署修好。脚本和 skill 的设计理由见 `agents.md`「两个脚本」一条与 SKILL.md 开头；新流程尚未在真实新工具上跑过一轮。
 
 **四年级历史集锦簿电子模拟器**（09-18～25，设计讨论阶段，尚无代码）：详见 [`_planning/tahun4-sj-jijinbu/规划笔记.md`](_planning/tahun4-sj-jijinbu/规划笔记.md)，接手前先读那份。
 
-09-11：13 个工具的 Vercel 项目统一转入 `kongsi-idea` 团队，`tahun2-mt-wang` 的 GitHub 自动部署因此断线，待老师去 Dashboard 重连。
+09-11：13 个工具的 Vercel 项目统一转入 `kongsi-idea` 团队，当时 GitHub 自动部署断线；2026-10-08 已改用 GitHub Actions 取代（Vercel Git 集成对 Hobby＋私有组织仓库不可用）。
 
 ## 🚦 目前状态
 
