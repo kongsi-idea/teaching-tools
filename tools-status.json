@@ -276,6 +276,49 @@
       "lastUpdated": "2026-10-10",
       "lifecycle": "已上架",
       "version": "1.1"
+    },
+    "tahun1-pj-haiwan": {
+      "title": "动物模仿秀",
+      "quality": "待评估",
+      "knownIssues": [
+        "侦测阈值未经学生真人大量实测",
+        "navigator.share 未经真机验证"
+      ],
+      "nextStep": "1I 班学生实际使用后收集反馈：侦测阈值（青蛙蹲、小狗、鳄鱼侧身）、真机分享到 Classroom／WhatsApp",
+      "lastUpdated": "2026-10-10",
+      "version": "1.0"
     }
-  }
+  },
+  "planned": [
+    {
+      "slug": "tahun2-pj-*",
+      "title": "蓝天操场",
+      "grade": "二年级",
+      "subject": "Pendidikan Jasmani",
+      "idea": "居家动作打卡第二弹：手机前置镜头骨架侦测，摆对动作并撑满 5 秒自动拍照，拼成打卡卡分享给老师",
+      "dskp": "1.7.1、1.3.1、3.4.1、3.3.1",
+      "prerequisite": "tahun1-pj-haiwan 打磨好后复制骨架",
+      "added": "2026-10-10"
+    },
+    {
+      "slug": "tahun3-pj-*",
+      "title": "运动员贴纸簿",
+      "grade": "三年级",
+      "subject": "Pendidikan Jasmani",
+      "idea": "居家动作打卡第三弹：15 秒自动计次数（半蹲、半程仰卧起坐、踮脚等）、定时拉筋、运动前后量脉搏、找家人搭档做双人平衡，交出运动员成绩卡",
+      "dskp": "3.4.1、3.3.1、3.1.3、1.1.2",
+      "prerequisite": "tahun1-pj-haiwan 打磨好后复制骨架",
+      "added": "2026-10-10"
+    },
+    {
+      "slug": "tahun4to6-pj-*",
+      "title": "居家体能挑战",
+      "grade": "四至六年级（一个工具，进去先选年级）",
+      "subject": "Pendidikan Jasmani",
+      "idea": "只做在家能做的体能部分：20–30 秒计次数（半蹲、仰卧起坐、俯卧撑、侧身卷腹等）＋运动前后量脉搏，交成绩卡，照片可有可无。体操、球类、田径、游泳在家做不了，不放。可以兼当 SEGAK 居家练习（这点未查证）",
+      "dskp": "3.1–3.4（各年级用词与时长不同，开工时再逐条核对）",
+      "prerequisite": "老师 10-10 定：先记下，有空再做；复用 T3 的计次数技术",
+      "added": "2026-10-10"
+    }
+  ]
 }

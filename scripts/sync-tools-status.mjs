@@ -165,6 +165,15 @@ ${rows}
 }
 
 function renderProgress(records, subjects, coverageText, generatedAt) {
+  const plannedRows =
+    planned
+      .map((p) =>
+        [p.slug, p.title, p.grade, p.subject, p.idea, p.dskp, p.prerequisite, p.added]
+          .map((v) => String(v ?? "—").replace(/\|/g, "／"))
+          .join(" | "),
+      )
+      .map((row) => `| ${row} |`)
+      .join("\n") || "| — | — | — | — | — | — | — | — |";
   const published = records.filter((record) => record.lifecycle === "已上架");
   const developing = records.filter((record) => record.lifecycle === "开发中");
   const paused = records.filter((record) => record.lifecycle === "暂停");
@@ -261,6 +270,14 @@ function renderProgress(records, subjects, coverageText, generatedAt) {
 |---|---|---|---|---|
 ${actionRows}
 
+## 计划中（还没开目录）
+
+> 来源：\`tools-status.json\` 的 \`planned\`。开工时用 \`npm run new\` 建目录，再把该条从 \`planned\` 移除。
+
+| 暂定 slug | 名称 | 年级 | 科目 | 构想 | DSKP | 前置条件 | 记录日期 |
+|---|---|---|---|---|---|---|---|
+${plannedRows}
+
 ## 全部工具主表
 
 | slug | 名称 | 年级 | 科目 | DSKP 涵盖 | 开发状态 | 品质状态 | 版本 | Hub 同步 | handoff | 已知问题／不满意 | 下一步 | 最后更新 |
@@ -330,6 +347,7 @@ function renderHubMirror(progressContent) {
 
 const statusConfig = readJson(overridesPath);
 const overrides = statusConfig.tools || {};
+const planned = statusConfig.planned || [];
 const hubTools = extractArrayConstant(appPath, "TOOLS");
 const subjects = extractArrayConstant(appPath, "SUBJECTS");
 const dskpIndex = extractArrayConstant(dskpPath, "DSKP_INDEX");
