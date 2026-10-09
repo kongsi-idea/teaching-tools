@@ -237,6 +237,16 @@
       "lastUpdated": "2026-10-08",
       "lifecycle": "已上架",
       "version": "1.0"
+    },
+    "tahun1-bc-liangci1": {
+      "title": "量词南瓜丰收季",
+      "quality": "待评估",
+      "knownIssues": [
+        "南瓜与背景是 SVG（生图额度用完），有额度可换 gpt-image 生图"
+      ],
+      "nextStep": "等待课堂反馈；有不满意之处在这里登记",
+      "lastUpdated": "2026-10-09",
+      "version": "1.0"
     }
   }
 }

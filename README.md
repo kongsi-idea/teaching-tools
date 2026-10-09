@@ -13,6 +13,7 @@
 | `tahun1-bc-juxing` | 句型跳跳队 | `tahun1-bc-juxing/` | https://tahun1-bc-juxing.vercel.app |
 | `tahun1-bc-kantu` | 看图小侦探 | `tahun1-bc-kantu/` | https://tahun1-bc-kantu.vercel.app |
 | `tahun1-bc-liangci` | 量词大冒险 | `tahun1-bc-liangci/` | https://tahun1-bc-liangci.vercel.app |
+| `tahun1-bc-liangci1` | 量词南瓜丰收季 | `tahun1-bc-liangci1/` | https://tahun1-bc-liangci1.vercel.app |
 | `tahun1-bc-shizi` | 识字大对决 | `tahun1-bc-shizi/` | https://tahun1-bc-shizi.vercel.app |
 | `tahun1-bc-zaoju` | 神奇句子小火车 | `tahun1-bc-zaoju/` | https://tahun1-bc-zaoju.vercel.app |
 | `tahun1-bm-huruf` | Huruf A–Z 写字母 | `tahun1-bm-huruf/` | https://tahun1-bm-huruf.vercel.app |
