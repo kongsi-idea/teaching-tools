@@ -247,6 +247,26 @@
       "nextStep": "等待课堂反馈；有不满意之处在这里登记",
       "lastUpdated": "2026-10-09",
       "version": "1.0"
+    },
+    "tahun1-all-online": {
+      "title": "网课同步作答",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-09"
+    },
+    "tahun2-dst-tower": {
+      "title": "科学叠叠塔",
+      "quality": "待评估",
+      "knownIssues": [
+        "题库学习标准代码未核对官方 PDF（本机无 Tahun 2 科学原件）",
+        "老师后台（错题统计）未做",
+        "平板横屏舞台偏窄；音效、真机手感未实测"
+      ],
+      "nextStep": "课堂实测后改满意／需优化；想要老师后台先问再建作答记录表",
+      "lastUpdated": "2026-10-09",
+      "lifecycle": "已上架",
+      "version": "1.0"
     }
   }
 }

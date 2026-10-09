@@ -25,6 +25,7 @@
 | `tahun1-mt-ruang` | 空间小天地 | `tahun1-mt-ruang/` | https://tahun1-mt-ruang.vercel.app |
 | `tahun2-bc-bishun` | 二年级写字 | `tahun2-bc-bishun/` | https://tahun2-bc-bishun.vercel.app |
 | `tahun2-bc-zonghe` | 华文勇者大冒险 | `tahun2-bc-zonghe/` | https://tahun2-bc-zonghe.vercel.app |
+| `tahun2-dst-tower` | 科学叠叠塔 | `tahun2-dst-tower/` | https://tahun2-dst-tower.vercel.app |
 | `tahun2-mt-baigetu` | 百格图乘法表动画 | `tahun2-mt-baigetu/` | https://tahun2-mt-baigetu.vercel.app |
 | `tahun2-mt-shulie-boss` | 数字数列大对决 | `tahun2-mt-shulie-boss/` | https://tahun2-mt-shulie-boss.vercel.app |
 | `tahun2-mt-shulie-duel` | 双人数字对决 | `tahun2-mt-shulie-duel/` | https://tahun2-mt-shulie-duel.vercel.app |
