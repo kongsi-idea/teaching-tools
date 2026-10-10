@@ -278,7 +278,7 @@
       "version": "1.1"
     },
     "tahun1-pj-pergerakan": {
-      "title": "动作打卡",
+      "title": "动物模仿秀",
       "quality": "待评估",
       "knownIssues": [
         "侦测阈值未经学生真人大量实测",
@@ -289,7 +289,7 @@
       "version": "1.1.0"
     },
     "tahun2-pj-pergerakan": {
-      "title": "动作打卡",
+      "title": "蓝天操场",
       "quality": "未完成",
       "knownIssues": [],
       "nextStep": "方案已确认（7 个动作、蓝天操场水彩风）；开发中，插画待老师跑 cx",
@@ -299,7 +299,7 @@
   "planned": [
     {
       "slug": "tahun3-pj-pergerakan",
-      "title": "动作打卡",
+      "title": "运动员贴纸簿",
       "grade": "三年级",
       "subject": "Pendidikan Jasmani",
       "idea": "居家动作打卡第三弹：15 秒自动计次数（半蹲、半程仰卧起坐、踮脚等）、定时拉筋、运动前后量脉搏、找家人搭档做双人平衡，交出运动员成绩卡",
@@ -309,7 +309,7 @@
     },
     {
       "slug": "tahun4to6-pj-pergerakan",
-      "title": "动作打卡",
+      "title": "居家体能挑战",
       "grade": "四至六年级（一个工具，进去先选年级）",
       "subject": "Pendidikan Jasmani",
       "idea": "只做在家能做的体能部分：20–30 秒计次数（半蹲、仰卧起坐、俯卧撑、侧身卷腹等）＋运动前后量脉搏，交成绩卡，照片可有可无。体操、球类、田径、游泳在家做不了，不放。可以兼当 SEGAK 居家练习（这点未查证）",
