@@ -4,6 +4,13 @@
 
 ## ⏯️ 目前做到哪
 
+**2026-10-10：建立「磨合复盘」机制**
+- 新增 `_retro/`（做工具的磨合记录，累积用、平时不读，说明见 `_retro/README.md`），含 10-03～10-10 一周回填。收工时 `shutdown` 的 L1.6 步骤会写新的一份。
+- 因此改了 `~/.claude/skills/newtool/SKILL.md`（关口 ① 每次问使用场景、关口 ① 后的 Opus 规划→Sonnet 实作分工、交付前对照承诺清单、时刻写「5 时」、命名分两层）和 `agents.md`（slug／展示名规则）。`~/.claude/` 没有备份。
+- 另装了 `UserPromptSubmit` hook（`~/.claude/hooks/shutdown-nudge.py`）：老师说收工类短句时提醒 agent 先读 shutdown skill。
+- 工具清单以 `PROGRESS.md`（自动生成）为准；下面「目前状态」的数字已过期（10-09～10 新增体育打卡一／二年级、量词 liangci1、标点＋疑问词、课堂互动工具等）。
+- **刻意没做**：newtool「视觉」一节按原则重整，等 `_retro/` 累到约 5 份再合订。
+
 **2026-10-08：使用次数统计＋自动部署**
 - 29 个工具入口 `index.html` 都带 `track-use.js`（规则见 `agents.md`），`npm run check` 会验。
 - **push 到 main 即自动部署**：每个仓库有 `.github/workflows/deploy.yml`＋仓库级 `VERCEL_TOKEN`（token 在本机钥匙串 `vercel-actions / VERCEL_TOKEN_KONGSI`）。29 个仓库首轮运行全成功。后备：`npm run deploy -- <slug>`。新工具首次部署后要跑 `set-vercel-secret.py` ＋ `add-actions.sh`。
@@ -32,7 +39,7 @@
 
 **既有工具（延续中）**：
 4. 收集 `tahun1-bc-juxing` 课堂实测反馈，尤其 3 人以上摄像头侦测的实际稳定性。
-5. 下次做新工具时用新流程（`npm run new` → 三关口 → `npm run check`），遇到不顺的地方回头改 `newtool` SKILL.md。
+5. 下次做新工具时用新流程（`npm run new` → 三关口 → `npm run check`），收工时 L1.6 写 `_retro/`；同类纠正累计两次再改 `newtool` SKILL.md。`_retro/` 累到约 5 份时做第一次合订。
 5b. `tahun1to6-drone` Hub 有登记但本机 `teaching-tools/` 没有目录，查源码放哪、要不要纳管。
 6. 查证 DSKP 5.4/5.4.1 的官方马来文用词，核对过再补进 `kongsi-idea/data/dskp-index.js`。
 6. 决定 `tahun1-bc-chongzu` 是继续完成还是暂停／放弃。
@@ -49,6 +56,6 @@
 
 ## 🕐 最后更新
 
-- 时间：2026-10-02
-- 更新者：Claude Sonnet 5.5（本次 skill／脚本由 Opus 5.5 完成）@ MacBook Air
-- Git push：✅ 已推
+- 时间：2026-10-10
+- 更新者：Claude Sonnet 5.5 @ MacBook Air
+- Git push：待推（L2 完成后回填）
