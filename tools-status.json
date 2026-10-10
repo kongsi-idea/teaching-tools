@@ -298,6 +298,17 @@
       "nextStep": "iPhone 实测（尤其风车扭腰、踮脚摘云、火箭半蹲的判定）；1I 班学生用过后收集反馈",
       "lastUpdated": "2026-10-10",
       "version": "1.0"
+    },
+    "tahun6-bi-questiontags": {
+      "title": "侦探语法局 Question Tags",
+      "quality": "待评估",
+      "knownIssues": [
+        "未经 iPhone／Safari 真机实测；朗读音质只验证了请求 200",
+        "DSKP 代码未核对官方 PDF，未收进 dskp-index"
+      ],
+      "nextStep": "Irene 老师与学生试用后收集反馈（题量、线索是否够用）；拓展档案用法",
+      "lastUpdated": "2026-10-10",
+      "version": "1.0"
     }
   },
   "planned": [

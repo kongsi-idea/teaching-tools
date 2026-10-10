@@ -41,3 +41,4 @@
 | `tahun4-bc-bishun` | 四年级写字 | `tahun4-bc-bishun/` | https://tahun4-bc-bishun.vercel.app |
 | `tahun4-bi-writing` | Story Quest · Sentence Workshop | `tahun4-bi-writing/` | https://tahun4-bi-writing.vercel.app |
 | `tahun4-mt-nombor` | 数学知识大比拼 | `tahun4-mt-nombor/` | https://tahun4-mt-nombor.vercel.app |
+| `tahun6-bi-questiontags` | 侦探语法局 Question Tags | `tahun6-bi-questiontags/` | https://tahun6-bi-questiontags.vercel.app |
