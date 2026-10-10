@@ -58,4 +58,4 @@
 
 - 时间：2026-10-10
 - 更新者：Claude Sonnet 5.5 @ MacBook Air
-- Git push：待推（L2 完成后回填）
+- Git push：✅ 已推（2a2a4b6）
