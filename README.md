@@ -23,7 +23,7 @@
 | `tahun1-mt-masa` | 时刻大对决 | `tahun1-mt-masa/` | https://tahun1-mt-masa.vercel.app |
 | `tahun1-mt-pecahan` | 燕菜切切乐 | `tahun1-mt-pecahan/` | https://tahun1-mt-pecahan.vercel.app |
 | `tahun1-mt-ruang` | 空间小天地 | `tahun1-mt-ruang/` | https://tahun1-mt-ruang.vercel.app |
-| `tahun1-pj-haiwan` | 动物模仿秀 | `tahun1-pj-haiwan/` | https://tahun1-pj-haiwan.vercel.app |
+| `tahun1-pj-pergerakan` | 动作打卡 | `tahun1-pj-pergerakan/` | https://tahun1-pj-pergerakan.vercel.app |
 | `tahun2-bc-bishun` | 二年级写字 | `tahun2-bc-bishun/` | https://tahun2-bc-bishun.vercel.app |
 | `tahun2-bc-zonghe` | 华文勇者大冒险 | `tahun2-bc-zonghe/` | https://tahun2-bc-zonghe.vercel.app |
 | `tahun2-bi-punctuation` | 句子小火车 Sentence Train | `tahun2-bi-punctuation/` | https://tahun2-bi-punctuation.vercel.app |
