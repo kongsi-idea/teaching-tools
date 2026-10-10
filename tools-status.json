@@ -286,14 +286,18 @@
       ],
       "nextStep": "1I 班学生实际使用后收集反馈（侦测阈值、真机分享）；老师 10-10 决定：镜头放大 1.5x、趴下动作改头朝手机，都先不做，用一阵子再说",
       "lastUpdated": "2026-10-10",
-      "version": "1.1.0"
+      "version": "1.1.2"
     },
     "tahun2-pj-pergerakan": {
       "title": "蓝天操场",
-      "quality": "未完成",
-      "knownIssues": [],
-      "nextStep": "方案已确认（7 个动作、蓝天操场水彩风）；开发中，插画待老师跑 cx",
-      "lastUpdated": "2026-10-10"
+      "quality": "待评估",
+      "knownIssues": [
+        "判定阈值只用合成骨架测过，没有真人数据",
+        "navigator.share 未经真机验证"
+      ],
+      "nextStep": "iPhone 实测（尤其风车扭腰、踮脚摘云、火箭半蹲的判定）；1I 班学生用过后收集反馈",
+      "lastUpdated": "2026-10-10",
+      "version": "1.0"
     }
   },
   "planned": [
