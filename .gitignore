@@ -4,3 +4,6 @@
 # 总目录自己的状态同步工具需要由本仓库版本化。
 !/scripts/
 !/scripts/sync-tools-status.mjs
+
+# 做工具的磨合记录属于总目录，由本仓库版本化。
+!/_retro/
