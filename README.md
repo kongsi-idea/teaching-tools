@@ -23,9 +23,11 @@
 | `tahun1-mt-masa` | 时刻大对决 | `tahun1-mt-masa/` | https://tahun1-mt-masa.vercel.app |
 | `tahun1-mt-pecahan` | 燕菜切切乐 | `tahun1-mt-pecahan/` | https://tahun1-mt-pecahan.vercel.app |
 | `tahun1-mt-ruang` | 空间小天地 | `tahun1-mt-ruang/` | https://tahun1-mt-ruang.vercel.app |
+| `tahun1-mz-irama` | 软糖回声乐园 | `tahun1-mz-irama/` | https://tahun1-mz-irama.vercel.app |
 | `tahun1-pj-pergerakan` | 动物模仿秀 | `tahun1-pj-pergerakan/` | https://tahun1-pj-pergerakan.vercel.app |
 | `tahun2-bc-bishun` | 二年级写字 | `tahun2-bc-bishun/` | https://tahun2-bc-bishun.vercel.app |
 | `tahun2-bc-zonghe` | 华文勇者大冒险 | `tahun2-bc-zonghe/` | https://tahun2-bc-zonghe.vercel.app |
+| `tahun2-bi-dressing` | The Dressing Game | `tahun2-bi-dressing/` | https://tahun2-bi-dressing.vercel.app |
 | `tahun2-bi-punctuation` | 句子小火车 Sentence Train | `tahun2-bi-punctuation/` | https://tahun2-bi-punctuation.vercel.app |
 | `tahun2-dst-tower` | 科学叠叠塔 | `tahun2-dst-tower/` | https://tahun2-dst-tower.vercel.app |
 | `tahun2-mt-baigetu` | 百格图乘法表动画 | `tahun2-mt-baigetu/` | https://tahun2-mt-baigetu.vercel.app |

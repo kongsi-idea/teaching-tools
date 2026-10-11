@@ -324,6 +324,27 @@
       "nextStep": "老师课堂实测；确认念法与乐器名；决定世界 5 是否改名「看图打」",
       "lastUpdated": "2026-10-11",
       "version": "1.1"
+    },
+    "tahun2-bi-dressing": {
+      "title": "The Dressing Game",
+      "quality": "待评估",
+      "knownIssues": [
+        "未经老师真机点过（声音、实体键盘手感）；手机直立屏幕键盘键宽 34px；收集页深色模式未验；DSKP 4.3.2 未核对官方 PDF、课本页码待补"
+      ],
+      "nextStep": "老师本机试玩反馈；补课本页码；必要时重画穿长裤的卡比巴拉底图",
+      "lastUpdated": "2026-10-11",
+      "version": "1.0"
+    },
+    "tahun2-mz-irama": {
+      "title": "醒狮节奏瀑布",
+      "quality": "未完成",
+      "knownIssues": [
+        "只有世界 2 可玩",
+        "Hub 未登记",
+        "CPU 4× 效能未测"
+      ],
+      "nextStep": "老师手机试玩世界 2；C4 其余 5 首歌＋谱＋语音；听写／创作模式；Hub 上架",
+      "lastUpdated": "2026-10-11"
     }
   },
   "planned": [
