@@ -347,6 +347,18 @@
       "nextStep": "补 Hub 截图；语音；听写／创作模式",
       "lastUpdated": "2026-10-11",
       "version": "1.0"
+    },
+    "tahun2-bc-biaodian": {
+      "title": "标点小蛇闯关",
+      "quality": "待评估",
+      "knownIssues": [
+        "未用真实手指在 iPhone／平板实测触控与拖放",
+        "未在 Windows Chrome 听音效与朗读",
+        "蛇尾朝上／下转弯时的样子只看过静态帧"
+      ],
+      "nextStep": "请陈晓琪老师班上实测，收学生反馈；DSKP 二年级华文官方 PDF 到位后核对 5.5.1",
+      "lastUpdated": "2026-10-12",
+      "version": "1.0"
     }
   },
   "planned": [

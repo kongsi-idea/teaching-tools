@@ -25,6 +25,7 @@
 | `tahun1-mt-ruang` | 空间小天地 | `tahun1-mt-ruang/` | https://tahun1-mt-ruang.vercel.app |
 | `tahun1-mz-irama` | 软糖回声乐园 | `tahun1-mz-irama/` | https://tahun1-mz-irama.vercel.app |
 | `tahun1-pj-pergerakan` | 动物模仿秀 | `tahun1-pj-pergerakan/` | https://tahun1-pj-pergerakan.vercel.app |
+| `tahun2-bc-biaodian` | 标点小蛇闯关 | `tahun2-bc-biaodian/` | https://tahun2-bc-biaodian.vercel.app |
 | `tahun2-bc-bishun` | 二年级写字 | `tahun2-bc-bishun/` | https://tahun2-bc-bishun.vercel.app |
 | `tahun2-bc-zonghe` | 华文勇者大冒险 | `tahun2-bc-zonghe/` | https://tahun2-bc-zonghe.vercel.app |
 | `tahun2-bi-dressing` | The Dressing Game | `tahun2-bi-dressing/` | https://tahun2-bi-dressing.vercel.app |
