@@ -1,0 +1,17 @@
+[
+ {
+  "turns": 116,
+  "input": 242,
+  "output": 54659,
+  "cache_write": 1067198,
+  "cache_read": 17871151,
+  "date": "2026-10-11",
+  "slug": "tahun2-bi-dressing",
+  "what": "首次开发上线 v1.0（含 Sonnet 子代理、Hub 上架、封面等 cx 生图）",
+  "session": "783c7890-eb92-4378-9bb6-c2f7ff332a83",
+  "est_usd": 6.6,
+  "actual_usd": 8.24,
+  "cx_draws": 8,
+  "note": "实际数＝老师 10-11 23:07 状态栏截图（收工前后）；子代理记录不全，脚本估算偏低"
+ }
+]
