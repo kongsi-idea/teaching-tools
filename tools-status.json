@@ -337,15 +337,16 @@
     },
     "tahun2-mz-irama": {
       "title": "醒狮节奏瀑布",
-      "quality": "未完成",
+      "quality": "待评估",
       "knownIssues": [
-        "Hub 未登记",
         "听写／创作模式未做",
         "语音未录",
-        "世界 6 演出与 CPU 4× 未在浏览器验"
+        "世界 6 演出与 CPU 4× 未在浏览器验",
+        "Hub 只有封面，缺真实画面截图"
       ],
-      "nextStep": "Hub 上架（封面＋截图＋DSKP）；语音；听写／创作",
-      "lastUpdated": "2026-10-11"
+      "nextStep": "补 Hub 截图；语音；听写／创作模式",
+      "lastUpdated": "2026-10-11",
+      "version": "1.0"
     }
   },
   "planned": [
