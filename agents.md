@@ -57,7 +57,7 @@
 目标：许愿单进来，当天做出老师能用的第一版，缺的资料靠回信补，回信后再修订。顺序和并行点如下，下次照做，不重新讨论。
 
 1. **读单、判断够不够**（几分钟）：对照 `kongsi-idea/docs/idea-wish-pool-spec.md` 3.3 的标准——开发者读完能不能知道怎么设计。分三类写给老师：够的／缺的／可以先做的。用语是「卡点」：工具要对着老师写的那个卡点做。
-2. **查 DSKP**：`资料库/DSKP资料/KSSR2017/{科目}/SJKC/TAHUN{n}.md` 找对应学习标准（截取档，Hub 记 `reviewed:false`）；`kongsi-idea/docs/dskp/tahun{n}/` 有摘要。`dskp-index` 没有该年级就 `standards: []` 并在 `published-tools-coverage.md` 写依据。
+2. **DSKP 对照是必做项，不能留空**（2026-10-12 老师指出 tahun5-mt-data 第一次上架漏了）：从 `资料库/DSKP资料/KSSR2017/{科目}/SJKC/TAHUN{n}.md` 取中文、`SK/TAHUN{n}.md` 取马来文原文，在 `kongsi-idea/data/dskp-index.js` 加「年级＋科目」记录（只收工具实际覆盖的单元／目标，`reviewed: false`，`sourceUrl` 用 `docs/dskp/` 里已有的官方网址，不编），工具 `standards` 引用它。上架前在 Hub 详情页确认看得到「对应 DSKP」。BI／BM 工具用原文（见 Hub 决定 26、27）。
 3. **不为缺的资料停工**：先按已知做出可用的第一版（范围收窄，宁可少做一个概念也要能用）；每个错答案对应一种已知的错法；缺的资料同时发信问老师。
 4. **建工具**：`npm run new -- tahun{n}-{科}-{关键词} "名称"` → 单文件或按需 → 本机验收交给 `verify`（压测逻辑 + 玩一遍 + 手机宽度 + 版面，限时 10 分钟，只列 3–5 条）。验收员发现的版面问题改完再复验一次。
 5. **上线**（并行做）：`git init`＋`gh repo create kongsi-idea/{slug} --private --source=. --push` → `vercel deploy --prod --yes --scope kongsi-idea`（alias 自动带 `{slug}.vercel.app`）→ `python3 -I scripts/set-vercel-secret.py {slug}` → `zsh scripts/add-actions.sh {slug}`。缩略图交给 sonnet 子代理用 Playwright 对**正式网址**截 4 张，再跑 `kongsi-idea/scripts/build-thumbs.py`。
@@ -65,7 +65,9 @@
 7. **写信给老师**：用 Gmail 草稿（guard 不让自动寄出），由老师确认后自己按发送。信里必须有：已针对哪个卡点做了什么、工具链接、不超过 4 个具体问题（真实错例＞其他）、署名怎么写。**信在工具上线、Hub 能搜到之后才给草稿**，不要先寄再上线。
 8. **回信后修订**：BOARD 记一行「等 {学校} 回信」；早上简报扫 Gmail 时看有没有来自该老师邮箱的回信；回信后按答案改题库／干扰项，Hub 升版、写 changelog。
 9. **Hub 说明（desc）必须点出卡点**（2026-10-12）：开头一句「来自许愿池一位×年级老师的卡点：……」，说明这个工具是为了解决那个问题；工具首页的 lead 也写一句。**不写老师的名字和学校**（许愿默认不公开）。
-10. **署名**：许愿单没有姓名时，`creator` 暂用「卢老师」（默认），**不写学校名**；信里问老师想怎么署（真名／「一位五年级老师」／不署），回信后再改。工具页面内不写人名。
+10. **署名**：许愿表单现在有选填「想怎么署名」（存在 `classroom_context` 的 `署名：…` 一行，后台「班级情况」看得到）。有填就照填的写；**没填就写「一位×年级老师」（`initial: "师"`），不写「卢老师」、不写学校**（许愿默认不公开老师与学校）。「卢老师」只给卢老师自己主动做的工具。信里仍问一次署名，回信后再改。工具页面内不写人名。
+11. **给老师的信**：链接一律写成裸域名（`kongsi-idea.vercel.app`、`tahun5-mt-data.vercel.app`），用 `htmlBody` 建草稿、`<a href="https://域名">域名</a>`，不要让 Gmail 套 `google.com/url?q=…` 转址、不要在正文里贴一长串。信里不用「回访」这类词，直接说「想请教几个问题」。
+12. **发布前自查清单**（对照 Hub 上现有工具，不能比它们少）：缩略图 4 张＋label；DSKP 对照；`prep`／`teachingMode`／`practiceSummary`；`changelog`；`track-use.js`；`npm run check`；coverage 表一行＋矩阵；`tools-status.json`；说明开头有卡点；署名；版权／课本出处若没有资料就在 handoff 写「待补」，不假装有。
 
 时间参考（数据侦探局）：读单到本机原型约 40 分钟，验收两轮 10 分钟，部署＋上架＋信件约 30 分钟。
 
