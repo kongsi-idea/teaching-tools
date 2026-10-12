@@ -62,8 +62,8 @@
 4. **建工具**：`npm run new -- tahun{n}-{科}-{关键词} "名称"` → 单文件或按需 → 本机验收交给 `verify`（压测逻辑 + 玩一遍 + 手机宽度 + 版面，限时 10 分钟，只列 3–5 条）。验收员发现的版面问题改完再复验一次。
 5. **上线**（并行做）：`git init`＋`gh repo create kongsi-idea/{slug} --private --source=. --push` → `vercel deploy --prod --yes --scope kongsi-idea`（alias 自动带 `{slug}.vercel.app`）→ `python3 -I scripts/set-vercel-secret.py {slug}` → `zsh scripts/add-actions.sh {slug}`。缩略图交给 sonnet 子代理用 Playwright 对**正式网址**截 4 张，再跑 `kongsi-idea/scripts/build-thumbs.py`。
 6. **Hub 上架**：`TOOLS` 条目、`published-tools-coverage.md` 加行并更新矩阵、`tools-status.json` 改「待评估」后 `npm run status:sync`、Hub commit＋push 并确认线上 `app.js` 有新条目。
-7. **写信给老师**：用 Gmail 草稿（guard 不让自动寄出），由老师确认后自己按发送。信里必须有：已针对哪个卡点做了什么、工具链接、不超过 4 个具体问题（真实错例＞其他）、署名怎么写。**信在工具上线、Hub 能搜到之后才给草稿**，不要先寄再上线。
-8. **回信后修订**：BOARD 记一行「等 {学校} 回信」；早上简报扫 Gmail 时看有没有来自该老师邮箱的回信；回信后按答案改题库／干扰项，Hub 升版、写 changelog。
+7. **做好就写信通知许愿老师（2026-10-12 老师定，每个许愿工具都要）**：用 Gmail 草稿（guard 不让自动寄出），由老师确认后自己按发送。信里必须有：已针对哪个卡点做了什么、工具链接、**明确欢迎老师用了之后回信提出要调整的地方**、不超过 4 个具体问题（真实错例＞其他）、署名怎么写。**交付慢了（许愿多、老师自己要上课／网课）就在信里诚恳道歉一句**，不找借口。**信在工具上线、Hub 能搜到之后才给草稿**，不要先寄再上线。
+8. **回信后修订**：BOARD 记一行「等 {学校} 回信」；早上简报扫 Gmail 时看有没有来自该老师邮箱的回信；回信后按答案改题库／干扰项，Hub 升版、写 changelog。 老师用了之后回信要调整，也照这一条改，改完再回信告诉他改了什么。
 8b. **做完要回许愿池更新进度（2026-10-12 老师定）**：工具上线（或老师回信后修订完）就把对应那张许愿单的状态、备注、关联工具改掉：状态 `shipped`（做不了就 `declined` 并写原因）、`linked_tool_slug` 填 slug、备注写版本与日期＋还在等什么。方法：老师在 `kongsi-idea/admin.html` 后台改；agent 没有管理员登录，用 psycopg2 直连改（密码读 `supabase/.secrets.local.md`，不印出来；先 `select` 用老师邮箱找到 id，再 `update wishes set status, review_note, linked_tool_slug`；只改这三栏，不动 schema）。不做完这步不算收尾。
 9. **Hub 说明（desc）必须点出卡点**（2026-10-12）：开头一句「来自许愿池一位×年级老师的卡点：……」，说明这个工具是为了解决那个问题；工具首页的 lead 也写一句。**不写老师的名字和学校**（许愿默认不公开）。
 10. **署名**：许愿表单现在有选填「想怎么署名」（存在 `classroom_context` 的 `署名：…` 一行，后台「班级情况」看得到）。有填就照填的写；**没填就写「一位×年级老师」（`initial: "师"`），不写「卢老师」、不写学校**（许愿默认不公开老师与学校）。「卢老师」只给卢老师自己主动做的工具。信里仍问一次署名，回信后再改。工具页面内不写人名。
