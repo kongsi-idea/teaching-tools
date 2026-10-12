@@ -20,6 +20,7 @@
 | `tahun1-bm-kvkv` | Kebun Pintar KVKV | `tahun1-bm-kvkv/` | https://tahun1-bm-kvkv.vercel.app |
 | `tahun1-dst-magnet` | 磁力创造实验室 | `tahun1-dst-magnet/` | https://tahun1-dst-magnet.vercel.app |
 | `tahun1-mt-bundar` | 近似值特快车 | `tahun1-mt-bundar/` | https://tahun1-mt-bundar.vercel.app |
+| `tahun1-mt-latihan-oktober` | 一年级10月数学练习 | `tahun1-mt-latihan-oktober/` | https://tahun1-mt-latihan-oktober.vercel.app |
 | `tahun1-mt-masa` | 时刻大对决 | `tahun1-mt-masa/` | https://tahun1-mt-masa.vercel.app |
 | `tahun1-mt-pecahan` | 燕菜切切乐 | `tahun1-mt-pecahan/` | https://tahun1-mt-pecahan.vercel.app |
 | `tahun1-mt-ruang` | 空间小天地 | `tahun1-mt-ruang/` | https://tahun1-mt-ruang.vercel.app |
