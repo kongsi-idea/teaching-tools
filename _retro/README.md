@@ -34,3 +34,4 @@
 | 2026-10-11 | [tahun2 The Dressing Game](2026-10-11-tahun2-the-dressing-game.md) | 转盘／玩法被纠正、年级没问；候选：关口①问年级 |
 | 2026-10-11 | [tahun1 软糖回声乐园](2026-10-11-tahun1-mz-irama.md) | 预备/人声/扶梯被纠正；候选：跟拍不放人声、可换角色文案用「我」、署名只在 Hub |
 | 2026-10-11 | [tahun2 醒狮节奏瀑布](2026-10-11-tahun2-mz-irama.md) | 钹锣改录音、名称去掉 tarian singa、verify 太慢（已晋升 CLAUDE.md） |
+| 2026-10-12 | tahun2-bc-biaodian | 无纠正；cx-draw 并行会串图（候选，未回写） |
