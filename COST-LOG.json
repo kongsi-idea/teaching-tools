@@ -28,5 +28,20 @@
   "note": "含两次子代理",
   "actual_usd": null,
   "cx_draws": 11
+ },
+ {
+  "input": 276,
+  "output": 55364,
+  "cache_write": 916831,
+  "cache_read": 16100267,
+  "turns": 136,
+  "date": "2026-10-12",
+  "slug": "tahun1-mt-latihan-oktober",
+  "what": "首次开发上线：规划＋2 个 Sonnet 子代理（学生端／老师后台）、migration、cx 生图 2 张、Hub 上架",
+  "session": "f7c15c6f-0966-4ad3-9d5b-2d1e2d785986",
+  "est_usd": 5.8315,
+  "note": "状态栏数字取自 .ops/sessions，非老师读出",
+  "actual_usd": 7.13,
+  "cx_draws": 1
  }
 ]
