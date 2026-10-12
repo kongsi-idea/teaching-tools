@@ -52,6 +52,23 @@
   原文判断这课教哪个），做成 `js/pinyin-data.js`（`{字: {py, word}}`）；朗读改成读「字，词」而非孤字，
   词的上下文能强制引擎读对音。画面同步标注拼音有额外教学价值，不是只为了修 bug。
 
+## 从许愿池做工具的标准流程（2026-10-12 老师定，以「数据侦探局」tahun5-mt-data 为范本）
+
+目标：许愿单进来，当天做出老师能用的第一版，缺的资料靠回信补，回信后再修订。顺序和并行点如下，下次照做，不重新讨论。
+
+1. **读单、判断够不够**（几分钟）：对照 `kongsi-idea/docs/idea-wish-pool-spec.md` 3.3 的标准——开发者读完能不能知道怎么设计。分三类写给老师：够的／缺的／可以先做的。用语是「卡点」：工具要对着老师写的那个卡点做。
+2. **查 DSKP**：`资料库/DSKP资料/KSSR2017/{科目}/SJKC/TAHUN{n}.md` 找对应学习标准（截取档，Hub 记 `reviewed:false`）；`kongsi-idea/docs/dskp/tahun{n}/` 有摘要。`dskp-index` 没有该年级就 `standards: []` 并在 `published-tools-coverage.md` 写依据。
+3. **不为缺的资料停工**：先按已知做出可用的第一版（范围收窄，宁可少做一个概念也要能用）；每个错答案对应一种已知的错法；缺的资料同时发信问老师。
+4. **建工具**：`npm run new -- tahun{n}-{科}-{关键词} "名称"` → 单文件或按需 → 本机验收交给 `verify`（压测逻辑 + 玩一遍 + 手机宽度 + 版面，限时 10 分钟，只列 3–5 条）。验收员发现的版面问题改完再复验一次。
+5. **上线**（并行做）：`git init`＋`gh repo create kongsi-idea/{slug} --private --source=. --push` → `vercel deploy --prod --yes --scope kongsi-idea`（alias 自动带 `{slug}.vercel.app`）→ `python3 -I scripts/set-vercel-secret.py {slug}` → `zsh scripts/add-actions.sh {slug}`。缩略图交给 sonnet 子代理用 Playwright 对**正式网址**截 4 张，再跑 `kongsi-idea/scripts/build-thumbs.py`。
+6. **Hub 上架**：`TOOLS` 条目、`published-tools-coverage.md` 加行并更新矩阵、`tools-status.json` 改「待评估」后 `npm run status:sync`、Hub commit＋push 并确认线上 `app.js` 有新条目。
+7. **写信给老师**：用 Gmail 草稿（guard 不让自动寄出），由老师确认后自己按发送。信里必须有：已针对哪个卡点做了什么、工具链接、不超过 4 个具体问题（真实错例＞其他）、署名怎么写。**信在工具上线、Hub 能搜到之后才给草稿**，不要先寄再上线。
+8. **回信后修订**：BOARD 记一行「等 {学校} 回信」；早上简报扫 Gmail 时看有没有来自该老师邮箱的回信；回信后按答案改题库／干扰项，Hub 升版、写 changelog。
+9. **Hub 说明（desc）必须点出卡点**（2026-10-12）：开头一句「来自许愿池一位×年级老师的卡点：……」，说明这个工具是为了解决那个问题；工具首页的 lead 也写一句。**不写老师的名字和学校**（许愿默认不公开）。
+10. **署名**：许愿单没有姓名时，`creator` 暂用「卢老师」（默认），**不写学校名**；信里问老师想怎么署（真名／「一位五年级老师」／不署），回信后再改。工具页面内不写人名。
+
+时间参考（数据侦探局）：读单到本机原型约 40 分钟，验收两轮 10 分钟，部署＋上架＋信件约 30 分钟。
+
 ## 状态同步规则（每次 session 必做）
 
 - 开工先读 [`PROGRESS.md`](PROGRESS.md)；只有确定要继续某个工具后，才进入该目录读 `handoff.md` 与源码。
