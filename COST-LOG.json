@@ -13,5 +13,20 @@
   "actual_usd": 8.24,
   "cx_draws": 8,
   "note": "实际数＝老师 10-11 23:07 状态栏截图（收工前后）；子代理记录不全，脚本估算偏低"
+ },
+ {
+  "input": 238,
+  "output": 49460,
+  "cache_write": 403060,
+  "cache_read": 13794268,
+  "turns": 118,
+  "date": "2026-10-12",
+  "slug": "tahun2-bc-biaodian",
+  "what": "标点小蛇闯关 v1.0（主对话＋Sonnet 实作＋verify；生图用 cx）",
+  "session": "48a0d326-cfa2-4f7c-b5f6-d783095c1260",
+  "est_usd": 3.4867,
+  "note": "含两次子代理",
+  "actual_usd": null,
+  "cx_draws": 11
  }
 ]
