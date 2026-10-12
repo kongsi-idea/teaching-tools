@@ -43,5 +43,20 @@
   "note": "状态栏数字取自 .ops/sessions，非老师读出",
   "actual_usd": 7.13,
   "cx_draws": 1
+ },
+ {
+  "input": 120,
+  "output": 68864,
+  "cache_write": 194101,
+  "cache_read": 9656086,
+  "turns": 60,
+  "date": "2026-10-12",
+  "slug": "tahun1-bi-fruitveg",
+  "what": "许愿池 T1 英文拼写：开发、cx 生图 1 张素材图、上线上架、Hub、信稿",
+  "session": "d0d3d8ff-2797-4d7d-8344-d4a40f74d614",
+  "est_usd": 2.4309,
+  "note": "状态栏 session json cost_usd",
+  "actual_usd": 2.37,
+  "cx_draws": 1
  }
 ]
