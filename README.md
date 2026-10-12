@@ -16,6 +16,7 @@
 | `tahun1-bc-liangci1` | 量词南瓜丰收季 | `tahun1-bc-liangci1/` | https://tahun1-bc-liangci1.vercel.app |
 | `tahun1-bc-shizi` | 识字大对决 | `tahun1-bc-shizi/` | https://tahun1-bc-shizi.vercel.app |
 | `tahun1-bc-zaoju` | 神奇句子小火车 | `tahun1-bc-zaoju/` | https://tahun1-bc-zaoju.vercel.app |
+| `tahun1-bi-fruitveg` | 拼写小市场 Spelling Market | `tahun1-bi-fruitveg/` | https://tahun1-bi-fruitveg.vercel.app |
 | `tahun1-bm-huruf` | Huruf A–Z 写字母 | `tahun1-bm-huruf/` | https://tahun1-bm-huruf.vercel.app |
 | `tahun1-bm-kvkv` | Kebun Pintar KVKV | `tahun1-bm-kvkv/` | https://tahun1-bm-kvkv.vercel.app |
 | `tahun1-dst-magnet` | 磁力创造实验室 | `tahun1-dst-magnet/` | https://tahun1-dst-magnet.vercel.app |

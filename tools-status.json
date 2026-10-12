@@ -381,6 +381,17 @@
       "nextStep": "等许愿老师回信（真实错例／平均数极差是否有困难／课本数据形式），再按回信修订；象形图／条形图尚未做",
       "lastUpdated": "2026-10-12",
       "version": "1.0"
+    },
+    "tahun1-bi-fruitveg": {
+      "title": "拼写小市场 Spelling Market",
+      "quality": "待评估",
+      "knownIssues": [
+        "未经真机（iPhone／平板／学校 Windows Chrome）实测；课本页码待补；10 个听写词与学生真实错法待老师回信",
+        "缩图第 1 张是首页截图，未另做生图封面"
+      ],
+      "nextStep": "等老师回信（听写 10 词、错法、设备、署名）后修订词表／提示；老师本机试玩",
+      "lastUpdated": "2026-10-12",
+      "version": "1.0"
     }
   },
   "planned": [
