@@ -415,6 +415,18 @@
       "nextStep": "课堂试用后收集反馈；老师核对补题；视反馈调整提示光对比与 belakang 区域",
       "lastUpdated": "2026-10-13",
       "version": "1.0"
+    },
+    "tahun1-bm-kataarah": {
+      "title": "Kibarkan Bendera: Kata Arah",
+      "quality": "待评估",
+      "knownIssues": [
+        "课本第 2 句 Nani／Sin Ling 答案 belakang 是按图推断，待老师对原书核对",
+        "DSKP 5.1.4 (iii) 对照依资料库截取档（未审核），马来文用词待查证",
+        "触控拖拽、朗读音质只在模拟环境测过，未在一体机／iPad 实测"
+      ],
+      "nextStep": "老师对原书核对第 2 句；课堂试用后收集反馈",
+      "lastUpdated": "2026-10-14",
+      "version": "1.0"
     }
   },
   "planned": [
