@@ -88,5 +88,20 @@
   "note": "读 sessions json",
   "actual_usd": 9.77,
   "cx_draws": 6
+ },
+ {
+  "input": 498,
+  "output": 77897,
+  "cache_write": 997880,
+  "cache_read": 32137627,
+  "turns": 242,
+  "date": "2026-10-14",
+  "slug": "tahun1-bm-kataarah",
+  "what": "首次开发到上线上架：45度2.5D Q版卡通、Kenali/Jawab/Susun、竖屏改版；Sonnet 子代理 4 次＋verify 1 次＋cx 生图 16 次",
+  "session": "e7079712-cf32-475d-85cf-e917702c68be",
+  "est_usd": 7.9852,
+  "note": "状态栏数字取自 .ops/sessions 记录（cost_usd），非老师亲读",
+  "actual_usd": 9.96,
+  "cx_draws": 16
  }
 ]
