@@ -58,5 +58,20 @@
   "note": "状态栏 session json cost_usd",
   "actual_usd": 2.37,
   "cx_draws": 1
+ },
+ {
+  "input": 500,
+  "output": 79021,
+  "cache_write": 1568486,
+  "cache_read": 43169880,
+  "turns": 240,
+  "date": "2026-10-14",
+  "slug": "tahun1-bc-fuxi-oktober",
+  "what": "华文复习本首发＋手机版面修正＋后台重试后成绩",
+  "session": "b1140819-b526-4815-8f19-28a1747546a9",
+  "est_usd": 11.3821,
+  "note": "含子代理；actual取状态文件cost_usd",
+  "actual_usd": 14.2,
+  "cx_draws": 0
  }
 ]
