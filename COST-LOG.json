@@ -73,5 +73,20 @@
   "note": "含子代理；actual取状态文件cost_usd",
   "actual_usd": 14.2,
   "cx_draws": 0
+ },
+ {
+  "input": 460,
+  "output": 102189,
+  "cache_write": 695991,
+  "cache_read": 37919847,
+  "turns": 227,
+  "date": "2026-10-14",
+  "slug": "tahun2-bm-kataarah",
+  "what": "tahun2-bm-kataarah 开发到上线",
+  "session": "3c995cfa-7869-482b-8605-90a8536c9ed1",
+  "est_usd": 7.5988,
+  "note": "读 sessions json",
+  "actual_usd": 9.77,
+  "cx_draws": 6
  }
 ]
