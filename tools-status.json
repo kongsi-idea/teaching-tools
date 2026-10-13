@@ -403,6 +403,18 @@
       "nextStep": "老师本机试做一遍并看后台；用真实班级数据验证后台错误分类",
       "lastUpdated": "2026-10-13",
       "version": "1.0"
+    },
+    "tahun2-bm-kataarah": {
+      "title": "Di Mana Letaknya? Kata Arah",
+      "quality": "待评估",
+      "knownIssues": [
+        "补题措辞（体育室 2 题、前院 3 题）是子代理自拟，待老师核对课本",
+        "锥筒摆在左架最底层（课本在右架，右架底层被篮球占满）",
+        "触控拖拽、朗读音质、belakang 遮挡效果只在模拟环境测过，未在一体机／iPad 实测"
+      ],
+      "nextStep": "课堂试用后收集反馈；老师核对补题；视反馈调整提示光对比与 belakang 区域",
+      "lastUpdated": "2026-10-13",
+      "version": "1.0"
     }
   },
   "planned": [
