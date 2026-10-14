@@ -118,5 +118,20 @@
   "note": "💰取自 .ops/sessions json（非状态栏，约 ≤2 分钟前）",
   "actual_usd": 12.39,
   "cx_draws": 6
+ },
+ {
+  "input": 250,
+  "output": 97381,
+  "cache_write": 316380,
+  "cache_read": 15885878,
+  "turns": 123,
+  "date": "2026-10-15",
+  "slug": "tahun1-bc-xingsi",
+  "what": "首次开发+上线 v1.0、v1.1 加全屏（许愿池形似字；verify×2、截图子代理×1、cx 生图×1）",
+  "session": "f7c66197-c1aa-428e-b847-185fe5738106",
+  "est_usd": 3.8284,
+  "note": "关口①后一路做到上线、Hub 上架、许愿单 shipped、信件草稿",
+  "actual_usd": 3.81,
+  "cx_draws": 1
  }
 ]
