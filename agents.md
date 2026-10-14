@@ -45,6 +45,7 @@
   3. `kongsi-idea/docs/published-tools-coverage.md` 该行「优化备注」写上版本与日期，以及仍待改的点。
   4. `teaching-tools/tools-status.json` 更新 `version`／`lastUpdated`，跑 `npm run status:sync`。
   5. Hub commit＋push，按 `kongsi-idea/agents.md` 的部署三步（`vercel --prod` → `alias set kongsi-idea.vercel.app` → `curl` 线上 `app.js` 确认新版本号与新缩图路径真的在）。没做完第 5 步，只能回报「工具已上线，Hub 未更新」。
+- **有题库的练习／复习类工具，必须带「教师预览页」（2026-10-14 老师定）**：学生链接后面加 `?preview`，一页看全部题目（图、题干、选项并标出正确答案、解释、答错提示；有难度标记的可按大题／难度筛选）。只读，不选名字、不存档、不送出；普通网址不受影响。做法：抄 `tahun2-mt-fuxi-oktober/preview.js`（从 `window.__xxx` 取 `Bank`、`UI`，不改 `app.js`），`index.html` 在 `app.js` 后加 `<script src="preview.js"></script>`；Hub 条目的 `desc`／`prep` 提一句。上线前验：题卡数＝题数、360px 无横向滚动、图无破图、普通网址仍是封面。
 - 不要把 API key、学生资料、学校机密资料写进源码或 commit。
 - 工具若用 `speechSynthesis` 读汉字，**不要直接读孤立单字**——多音字（系/长/了/卷/省……）引擎会猜错读音，
   常常不是课本那一课教的。做法参考 `tahun1/2/3-bc-bishun`（2026-09-11）：`pypinyin` 解大多数字的默认读音，
