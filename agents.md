@@ -23,7 +23,7 @@
 ## 新建或修改工具的规则
 
 - **署名规则（2026-10-09 老师定，全局）**：老师说这个工具是某位老师的，Hub `creator.name` 就只写那位老师的名字（如「陈晓琪老师」），`initial` 取姓；**不加「卢老师」，也不加「构想」「改编」等字样**。**工具页面（app 内页）一律不写任何名字**（2026-10-11 老师定：署名只放 Hub；连「卢老师」也不放；**只管新工具，已经写了名字的旧工具不回头改**）。没特别说是别人的，才用默认的「卢老师」。
-- 新工具资料夹命名必须为 `tahun{年级}-{科目缩写}-{单元关键词}`，例如 `tahun2-mt-wang`。**slug 和展示名是两回事（2026-10-10 老师定）**：slug 只为分类，同系列各年级只差 `tahunN`（`tahun1-pj-pergerakan`、`tahun2-pj-pergerakan`）；展示名要吸引学生（动物模仿秀、蓝天操场），国文科目要带 DSKP 术语（pergerakan）才看得懂。从已上线工具派生新年级时，不改原工具的外观与展示名。
+- 新工具资料夹命名必须为 `tahun{年级}-{科目缩写}-{单元关键词}`，例如 `tahun2-mt-wang`。**slug 和展示名是两回事（2026-10-10 老师定）**：slug 只为分类，同系列各年级只差 `tahunN`（`tahun1-pj-pergerakan`、`tahun2-pj-pergerakan`）；展示名要吸引学生（动物模仿秀、蓝天操场），国文科目要带 DSKP 术语（pergerakan）才看得懂。**PJ 与 PK 是两个科目（2026-10-15 老师定）**：`pj`＝Pendidikan Jasmani 体育，`pk`＝Pendidikan Kesihatan 健康教育；两科共用同一份 DSKP（`资料库/DSKP资料/KSSR2017/Pendidikan-Jasmani-Kesihatan/`）和课本，但课时、老师与 Hub 科目各自独立。做健康教育的工具（急救、自身安全、饮食卫生等）slug 用 `pk`，例如 `tahun1-pk-kecemasan`，不要归进 `pj`／`pjpk`；DSKP 对照要取「Kesihatan」部分。Hub `SUBJECTS` 现只有 `pjpk`，上架第一个 `pk` 工具时要先拆出 `pk` 科目（改 Hub 代码，先说一声）。从已上线工具派生新年级时，不改原工具的外观与展示名。
 - **做工具的磨合记录在 `_retro/`**（收工时由 `shutdown` 写）。平时不用读，要追某条规则的来历、或累计够了做合订时才翻。
 - **一开始动工（哪怕只是先生成一个原型 index.html）就要做两件事**：① 在工具自己的资料夹建一份最简 `handoff.md`（状态／已知问题／下一步／最后更新时间）；② 在本目录运行 `npm run status:sync`。同步脚本会自动发现新的 `tahun*` 目录，并把它列入 [`PROGRESS.md`](PROGRESS.md)；不要直接手改生成表格。
 - **两个脚本（2026-10-02）**：开工用 `npm run new -- {slug} "中文名"`（建目录＋`.gitignore`＋`handoff.md`＋`tools-status.json` 登记＋同步）；上线后用 `npm run check -- {slug}` 从学生那端验收（工具网址与资源 200、线上 Hub 版本、缩图、本机登记），`npm run check -- --all` 扫全部 Hub 工具网址。没通过 check 不说「已上线」。
@@ -46,6 +46,7 @@
   4. `teaching-tools/tools-status.json` 更新 `version`／`lastUpdated`，跑 `npm run status:sync`。
   5. Hub commit＋push，按 `kongsi-idea/agents.md` 的部署三步（`vercel --prod` → `alias set kongsi-idea.vercel.app` → `curl` 线上 `app.js` 确认新版本号与新缩图路径真的在）。没做完第 5 步，只能回报「工具已上线，Hub 未更新」。
 - 不要把 API key、学生资料、学校机密资料写进源码或 commit。
+- **预录语音要尽量多种人声（2026-10-15 老师定）**：学生在不同工具里听到的声音要有差别，不要全都是同一个晓晓（盘点：现有 16 份 `gen-voice.py` 用 `zh-CN-XiaoxiaoNeural`，只有 2 份用 Yunxia、2 份用 Xiaoyi，马来文几乎全是 Yasmin）。做法：① **一个工具里每个角色／NPC 各配一个声音**（男、女、童声分开），旁白用另一个；角色→声音映射写在该工具 `gen-voice.py` 顶部，并记进该工具 `handoff.md`。② **新工具的旁白声先看上面的盘点，挑最近没用过的**。**可用声音以 2026-10-15 老师逐个试听的结论为准**：普通话 6 个按角色派——Xiaoxiao（温柔老师／旁白）、Xiaoyi（活泼女孩角色）、Yunxi（阳光男孩同学）、Yunxia（可爱小动物／小不点）、Yunjian（热血教练／大反派）、Yunyang（正式播报／规则说明）；台湾腔只有 `zh-TW-YunJheNeural` 原速可用（男老师／大人、正式）；马来文只有 Yasmin／Osman 原声（edge-tts 没有儿童声）；英文有多个 en-* 口音。③ **不要用 `--rate`／`--pitch` 把成人声改成「童声」**：老师试听过马来文调音版，说「都很奇怪」；要有老少区别就换声音或角色分配。④ **黑名单（老师试听否决）**：`zh-CN-liaoning-XiaobeiNeural`（强调绝不用）、`zh-CN-shaanxi-XiaoniNeural`、粤语 `zh-HK-*` 全部、`zh-TW-HsiaoChenNeural`、`zh-TW-HsiaoYuNeural`。⑤ 音档文件名规则不变，将来换成真人录音可直接替换。
 - 工具若用 `speechSynthesis` 读汉字，**不要直接读孤立单字**——多音字（系/长/了/卷/省……）引擎会猜错读音，
   常常不是课本那一课教的。做法参考 `tahun1/2/3-bc-bishun`（2026-09-11）：`pypinyin` 解大多数字的默认读音，
   用 `jieba` 切该年级课本原文语料抓真实词语核对多音字（哪个字真的在课本里出现过不同读音，就要逐句对照课本
