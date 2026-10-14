@@ -427,6 +427,25 @@
       "nextStep": "老师对原书核对第 2 句；课堂试用后收集反馈",
       "lastUpdated": "2026-10-14",
       "version": "1.0"
+    },
+    "tahun3-mt-koordinat": {
+      "title": "座位小侦探",
+      "quality": "待评估",
+      "knownIssues": [
+        "许愿老师未提供真实错例",
+        "「行」语音用「航」替代，老师听过",
+        "竖屏 8×4 座位 44px"
+      ],
+      "nextStep": "等许愿老师回信补真实错例与其他卡点；课堂试用后收集反馈",
+      "lastUpdated": "2026-10-15",
+      "version": "1.0"
+    },
+    "tahun1-pk-kecemasan": {
+      "title": "找谁来帮忙",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-15"
     }
   },
   "planned": [
