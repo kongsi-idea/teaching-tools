@@ -438,6 +438,18 @@
       "nextStep": "老师用二年级班级代码点一遍学生链接，登录 latihan2-admin 看后台是否出数字",
       "lastUpdated": "2026-10-14",
       "version": "1.0"
+    },
+    "tahun2-mt-fuxi-oktober": {
+      "title": "二年级数学复习本",
+      "quality": "待评估",
+      "knownIssues": [
+        "手机／平板真机未实测，朗读音质只核对文字与文件",
+        "DSKP 3.x、5.x–8.x 尚未收入索引，未核原页",
+        "「正」字记数符号画得对不对，等老师看过"
+      ],
+      "nextStep": "老师用 ?preview 看全部题目，再用二年级班级代码点一遍学生链接，登录 mtfuxi-admin 看后台是否出数字",
+      "lastUpdated": "2026-10-14",
+      "version": "1.0"
     }
   },
   "planned": [
