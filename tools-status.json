@@ -446,6 +446,13 @@
       "knownIssues": [],
       "nextStep": "等老师确认方案",
       "lastUpdated": "2026-10-15"
+    },
+    "tahun1-bc-xingsi": {
+      "title": "找对小帮手",
+      "quality": "待评估",
+      "knownIssues": ["尚未用一体机真实触控与学校 Windows Chrome 听过语音；字形对比便条只收有把握的字，其余字只显示偏旁提示"],
+      "nextStep": "等许愿老师试用回信（真实容易混的字组、署名）；卢老师本机点过再说",
+      "lastUpdated": "2026-10-15"
     }
   },
   "planned": [
