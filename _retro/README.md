@@ -40,3 +40,7 @@
 | 2026-10-12 | [tahun5 数据侦探局](2026-10-12-tahun5-mt-data.md) | 许愿池第一个走完整流程：DSKP 漏补、署名、信件链接被纠正；已晋升 agents.md 第 2、10–12 条 |
 | 2026-10-13 | tahun1-bc-fuxi-oktober | 手机窄屏版面返工 4 轮；候选规则：窄屏逐题溢出检查 |
 | 2026-10-13 | tahun2-bm-kataarah | Hub 部署覆盖事故（候选晋升） |
+| 2026-10-13 | [tahun2 Dressing v2](2026-10-13-tahun2-dressing-v2.md) | 没先读聊天记录就重写被打断；放弃真穿搭改 3 张整图；候选：「先对照原版再动手」第二次出现 |
+| 2026-10-14 | [tahun1 网课同步作答](2026-10-14-tahun1-all-online.md) | 名单隐私不写死、墙只显示10人、emoji、时≠点；已晋升 newtool §2/§3 |
+| 2026-10-14 | [tahun1 Kata Arah](2026-10-14-tahun1-bm-kataarah.md) | 视觉连否三轮才定 Q 版＋45 度 2.5D；已晋升 newtool §3；竖屏返工两轮 |
+| 2026-10-15 | [tahun3 座位小侦探](2026-10-15-tahun3-mt-koordinat.md) | 许愿池 Tahun 3 数学；为什么不要名字、UI 太平／太满／字体、「行」读 háng、黑板折行；候选：「行」读音、首版 brief 带执行品质层 |

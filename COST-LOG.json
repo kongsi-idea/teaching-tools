@@ -103,5 +103,20 @@
   "note": "状态栏数字取自 .ops/sessions 记录（cost_usd），非老师亲读",
   "actual_usd": 9.96,
   "cx_draws": 16
+ },
+ {
+  "input": 482,
+  "output": 68876,
+  "cache_write": 1011538,
+  "cache_read": 43662982,
+  "turns": 231,
+  "date": "2026-10-15",
+  "slug": "tahun3-mt-koordinat",
+  "what": "许愿「位置」到上线上架：Sonnet 实作 2 轮改版＋Hub 上架＋verify 各 1、cx 生图 6 张",
+  "session": "f35c8a1e-fcdf-464e-955f-bbb637a17aba",
+  "est_usd": 9.1022,
+  "note": "💰取自 .ops/sessions json（非状态栏，约 ≤2 分钟前）",
+  "actual_usd": 12.39,
+  "cx_draws": 6
  }
 ]
