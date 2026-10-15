@@ -442,9 +442,9 @@
     },
     "tahun1-pk-kecemasan": {
       "title": "找谁来帮忙",
-      "quality": "未完成",
-      "knownIssues": [],
-      "nextStep": "等老师确认方案",
+      "quality": "待评估",
+      "knownIssues": ["第一期只有 3 个地点＋2 个假警报，停电／有人敲门／车祸／溺水／我的求助卡／拼音在第二期", "课本页码待补；DSKP 对照来自截取档，未逐字核对", "没有 iOS 真机测过延迟语音；旁白与阿姨、老师同为晓晓（只靠音调区分）"],
+      "nextStep": "老师和黄友霞老师试玩后收集反馈，再做第二期",
       "lastUpdated": "2026-10-15"
     },
     "tahun1-bc-xingsi": {

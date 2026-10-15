@@ -133,5 +133,20 @@
   "note": "关口①后一路做到上线、Hub 上架、许愿单 shipped、信件草稿",
   "actual_usd": 3.81,
   "cx_draws": 1
+ },
+ {
+  "input": 668,
+  "output": 132540,
+  "cache_write": 3479135,
+  "cache_read": 61921535,
+  "turns": 319,
+  "date": "2026-10-15",
+  "slug": "tahun1-pk-kecemasan",
+  "what": "原稿审查→照规则重做为小镇探索第一期并上线上架（Hub 加 pk 科目）",
+  "session": "f8b9884e-8e8c-4b8d-80dd-5936087b6177",
+  "est_usd": 21.4354,
+  "note": "含 cx 生图约 9 轮、Sonnet 子代理实作＋缩略图、verify 两轮；同会话另记语音多样性与 PJ/PK 规则",
+  "actual_usd": 22.81,
+  "cx_draws": 0
  }
 ]

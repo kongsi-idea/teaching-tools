@@ -47,3 +47,4 @@
 | 2026-10-15 | [tahun1 找对小帮手](2026-10-15-tahun1-bc-xingsi.md) | 许愿池形似字；漏课本字族文、可点提示、定位说明被追问；候选：投影工具标配全屏 |
 | 2026-10-14 | [英文封面 Year](2026-10-14-英文封面Year.md) | 英文科缩图写 Year N 不写 Tahun；iCloud 重复 ref 卡 push；候选：newtool 封面提示词分语言 |
 | 2026-10-14 | [tahun2 dressing v2.1 修图](2026-10-14-tahun2-dressing-v2.1-修图.md) | Tahun→Year 漏了 Hub 旧缩图；「已上线」回报前要对线上 md5；候选未晋升 |
+| 2026-10-15 | [tahun1 找谁来帮忙（pk-kecemasan）](2026-10-15-tahun1-pk-kecemasan.md) | 原稿「搬家」被纠正（已晋升 newtool §1）；PJ／PK 分科、晓伊淘汰与负语速、音档缓存陷阱；小镇探索第一期上线 |
