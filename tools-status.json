@@ -529,10 +529,13 @@
     },
     "tahun2-bc-xingsi": {
       "title": "拼字魔法锅",
-      "quality": "未完成",
-      "knownIssues": [],
-      "nextStep": "等老师确认方案",
-      "lastUpdated": "2026-10-17"
+      "quality": "待评估",
+      "knownIssues": [
+        "五个字是自选（课本识字二），许愿老师没写是哪五个字；真机触控拖曳、小朋友真实描字手感、Windows Chrome 语音未实测"
+      ],
+      "nextStep": "等许愿老师回信（真实的五个字、署名）；回信后改 build_bank.py 并升版",
+      "lastUpdated": "2026-10-17",
+      "version": "1.0"
     },
     "tahun6-mt-pecahan": {
       "title": "分数乘法格子板",
