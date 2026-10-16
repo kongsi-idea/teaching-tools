@@ -49,3 +49,4 @@
 | 2026-10-14 | [tahun2 dressing v2.1 修图](2026-10-14-tahun2-dressing-v2.1-修图.md) | Tahun→Year 漏了 Hub 旧缩图；「已上线」回报前要对线上 md5；候选未晋升 |
 | 2026-10-15 | [tahun1 找谁来帮忙（pk-kecemasan）](2026-10-15-tahun1-pk-kecemasan.md) | 原稿「搬家」被纠正（已晋升 newtool §1）；PJ／PK 分科、晓伊淘汰与负语速、音档缓存陷阱；小镇探索第一期上线 |
 | 2026-10-15 | tahun1-bc-fuxi-oktober-2 华文复习本（二） | 第二套换题；暴露：源码遗失、旧词残留、预览页规则晚发现；引擎化待决 |
+| 2026-10-16 | [tahun2/tahun1 数学复习本](2026-10-16-tahun2-tahun1-mt-fuxi.md) | 乘法组×个、必须答完、?preview、测试过多 |
