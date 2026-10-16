@@ -50,3 +50,4 @@
 | 2026-10-15 | [tahun1 找谁来帮忙（pk-kecemasan）](2026-10-15-tahun1-pk-kecemasan.md) | 原稿「搬家」被纠正（已晋升 newtool §1）；PJ／PK 分科、晓伊淘汰与负语速、音档缓存陷阱；小镇探索第一期上线 |
 | 2026-10-15 | tahun1-bc-fuxi-oktober-2 华文复习本（二） | 第二套换题；暴露：源码遗失、旧词残留、预览页规则晚发现；引擎化待决 |
 | 2026-10-16 | [tahun2/tahun1 数学复习本](2026-10-16-tahun2-tahun1-mt-fuxi.md) | 乘法组×个、必须答完、?preview、测试过多 |
+| 2026-10-17 | [tahun3 换算工坊](2026-10-17-tahun3-mt-sukatan.md) | 许愿池；兑换台左右、数位对齐、首次打开机械声被纠正；机械声已晋升 newtool＋agents.md |

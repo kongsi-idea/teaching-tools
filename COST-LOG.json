@@ -148,5 +148,20 @@
   "note": "含 cx 生图约 9 轮、Sonnet 子代理实作＋缩略图、verify 两轮；同会话另记语音多样性与 PJ/PK 规则",
   "actual_usd": 22.81,
   "cx_draws": 0
+ },
+ {
+  "input": 112,
+  "output": 37287,
+  "cache_write": 111029,
+  "cache_read": 5819550,
+  "turns": 55,
+  "date": "2026-10-17",
+  "slug": "tahun3-mt-sukatan",
+  "what": "v1.0→v1.2：许愿池「度量衡竖式」开发上线上架、兑换台左右与数位对齐、首次打开机械声修正",
+  "session": "611ee9fc-4740-42eb-a546-45f85286f25c",
+  "est_usd": 0.0,
+  "note": "Sonnet 实作子代理＋verify＋cx 生图 2 次（吉祥物 3 张、封面 2 张）；有模型缺单价：claude-opus-5-5",
+  "actual_usd": 19.49,
+  "cx_draws": 0
  }
 ]
