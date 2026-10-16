@@ -59,7 +59,7 @@ function hubBlock(source, slug) {
   return source.slice(start, end < 0 ? undefined : end);
 }
 
-const localApp = fs.readFileSync(path.join(hubRoot, "app.js"), "utf8");
+const localApp = fs.readFileSync(path.join(hubRoot, "data/tools.js"), "utf8");
 const problems = [];
 
 if (arg === "--all") {
@@ -72,13 +72,15 @@ if (arg === "--all") {
 } else {
   const slug = arg;
   const local = hubBlock(localApp, slug);
-  if (!local) problems.push(`本机 kongsi-idea/app.js 没有 ${slug} 的 TOOLS 登记`);
+  if (!local) problems.push(`本机 kongsi-idea/data/tools.js 没有 ${slug} 的 TOOLS 登记`);
   const url = local?.match(/url: "([^"]+)"/)?.[1] || `https://${slug}.vercel.app`;
   const version = local?.match(/version: "([^"]+)"/)?.[1];
 
   problems.push(...(await checkPage(url)));
 
-  const liveApp = (await fetchStatus(`${HUB}/app.js`)).text;
+  // 优先抓 data/tools.js；线上还没部署新档（404）时退回抓 app.js（TOOLS 搬出前的位置）
+  let liveApp = (await fetchStatus(`${HUB}/data/tools.js`)).text;
+  if (!liveApp) liveApp = (await fetchStatus(`${HUB}/app.js`)).text;
   const live = hubBlock(liveApp, slug);
   if (!live) problems.push(`线上 Hub 还没有 ${slug}（Hub 没部署或 alias 没切）`);
   else if (version && !live.includes(`version: "${version}"`)) problems.push(`线上 Hub 版本不是本机的 ${version}`);

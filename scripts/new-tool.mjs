@@ -10,7 +10,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const [slug, title] = process.argv.slice(2);
 
 if (!slug || !/^tahun[1-6]-[a-z]+-[a-z0-9-]+$/.test(slug) || !title) {
-  console.error('用法：npm run new -- tahun{年级}-{科目}-{单元} "工具中文名"');
+  console.error('用法：npm run new -- tahun{年级}-{科目}-{单元关键词}[-{玩法词}] "工具中文名"');
+  console.error("slug 规则（2026-10-17，只管新工具）：单元关键词取 DSKP 用词；同单元已有工具才加玩法词 practice/quiz/duel/explore/build/lab/write；不放月份，不用数字后缀；详见 agents.md「新工具资料夹（slug）命名」。");
   process.exit(1);
 }
 
@@ -40,6 +41,14 @@ fs.writeFileSync(
 
 ## ➡️ 下一步
 1. 老师确认方案后动工。
+
+## 📋 上架前要备齐（Hub 登记在 kongsi-idea/data/tools.js，规则见 teaching-tools/agents.md）
+- [ ] \`standards\` 能解析出主题（主题标在 dskp-index.js 节点上，同一内容跨年级同一个词；综合复习等例外才用 \`topicOverride\`）
+- [ ] \`modes\`（全班投影／上台对战／各自练习／回家练习，1–3 个，第一个是主要方式）
+- [ ] 缩略图 4 张：封面（看得到教的内容）→ 玩法 → 答对／答错反馈 → 老师端；按 4:3 截
+- [ ] 展示名带内容词，同年级套路词不重复；slug／展示名不放月份
+- [ ] 复习卷：\`collection\`／\`setLabel\` 并登记 TOOL_COLLECTIONS
+- [ ] 要老师后台：data/teacher/{slug}.js ＋ TEACHER_TOOLS（不再复制 *-admin.html）
 
 ## ⚠️ 注意事项
 - 本机测试：\`python3 -m http.server 8791 --bind 127.0.0.1\`，开 http://127.0.0.1:8791（8765 常被 Hub 本机服务占用）

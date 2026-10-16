@@ -8,6 +8,7 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const teachingRoot = path.resolve(scriptDir, "..");
 const hubRoot = path.resolve(teachingRoot, "../kongsi-idea");
 const appPath = path.join(hubRoot, "app.js");
+const toolsPath = path.join(hubRoot, "data/tools.js");
 const dskpPath = path.join(hubRoot, "data/dskp-index.js");
 const coveragePath = path.join(hubRoot, "docs/published-tools-coverage.md");
 const overridesPath = path.join(teachingRoot, "tools-status.json");
@@ -143,6 +144,63 @@ function resolveDskp(tool, dskpIndex) {
   return { label: labels.join("；"), valid: true, reason: null };
 }
 
+// 主题解析规则（与 Hub 的 toolTopic 一致，见 kongsi-idea/docs/hub-reorg-2026-10.md 第 2 节）：
+// tool.topicOverride ‖ 第一条 standards 对应的 objective.topic ‖ 该 unit.topic ‖ null
+function resolveToolTopic(tool, dskpIndex) {
+  if (!tool) return null;
+  if (tool.topicOverride?.zh) return tool.topicOverride;
+  const first = tool.standards?.[0];
+  if (!first) return null;
+  const record = dskpIndex.find(
+    (item) =>
+      item.curriculum === first.curriculum &&
+      item.tahun === tool.tahun &&
+      item.subjek === tool.subjek,
+  );
+  const unit = record?.units.find((item) => item.code === first.unitCode);
+  if (!unit) return null;
+  const objective = unit.objectives.find((item) => item.code === first.objectiveCodes?.[0]);
+  return objective?.topic || unit.topic || null;
+}
+
+function renderTopicBrowse(records, subjects) {
+  const UNSORTED = "未分主题";
+  const blocks = [];
+  for (const tahun of [1, 2, 3, 4, 5, 6]) {
+    const inYear = records.filter((record) => record.tahun === tahun);
+    if (!inYear.length) continue;
+    const lines = [`### Tahun ${tahun}`, ""];
+    const subjectCodes = [
+      ...subjects.map((subject) => subject.code),
+      ...new Set(inYear.map((record) => record.subjek).filter((code) => !subjects.some((subject) => subject.code === code))),
+    ];
+    for (const code of subjectCodes) {
+      const inSubject = inYear.filter((record) => record.subjek === code);
+      if (!inSubject.length) continue;
+      const title = subjects.find((subject) => subject.code === code)?.title_zh || code || "待补";
+      lines.push(`#### ${title}（${inSubject.length}）`, "");
+      const byTopic = new Map();
+      for (const record of inSubject) {
+        const key = record.topic ? `${record.topic.zh} / ${record.topic.bm}` : UNSORTED;
+        if (!byTopic.has(key)) byTopic.set(key, []);
+        byTopic.get(key).push(record);
+      }
+      const keys = [...byTopic.keys()].sort((a, b) =>
+        a === UNSORTED ? 1 : b === UNSORTED ? -1 : a.localeCompare(b, "zh"),
+      );
+      for (const key of keys) {
+        lines.push(`- **${key}**`);
+        for (const record of byTopic.get(key).sort((a, b) => a.slug.localeCompare(b.slug))) {
+          lines.push(`  - \`${record.slug}\` ${safeCell(record.title)}｜${record.lifecycle}`);
+        }
+      }
+      lines.push("");
+    }
+    blocks.push(lines.join("\n"));
+  }
+  return blocks.join("\n");
+}
+
 function renderReadme(publishedTools) {
   const rows = publishedTools
     .map(
@@ -165,6 +223,18 @@ ${rows}
 }
 
 function renderProgress(records, subjects, coverageText, generatedAt) {
+  // 浏览视图要涵盖 Hub 全部登记：Hub 有登记但本机没有目录的工具（例如跨年级的 drone）也列进来
+  const hubOnly = hubTools
+    .filter((tool) => !records.some((record) => record.slug === tool.slug))
+    .map((tool) => ({
+      slug: tool.slug,
+      title: tool.title_zh || tool.slug,
+      tahun: tool.tahun ?? null,
+      subjek: tool.subjek ?? null,
+      lifecycle: tool.status === "published" && tool.url ? "已上架（本机无目录）" : "开发中",
+      topic: resolveToolTopic(tool, dskpIndex),
+    }));
+  const topicBrowse = renderTopicBrowse([...records, ...hubOnly], subjects);
   const plannedRows =
     planned
       .map((p) =>
@@ -290,6 +360,12 @@ ${rows}
 |---|---|
 ${coverageRows}
 
+## 按年级／科目／主题浏览
+
+> 主题来自 DSKP 索引（\`topic\`）或工具的 \`topicOverride\`；解析不到的归“未分主题”。跨年级工具（如 \`tahun1to6-drone\`）这里只按登记的年级／科目出现一次。每个工具后面是开发状态。
+
+${topicBrowse}
+
 ## 快速查询方法
 
 - 问“现在该继续哪个工具”：先看“下一步从哪里开始”。
@@ -317,7 +393,7 @@ ${coverageRows}
 ## 资料职责
 
 - \`tools-status.json\`：满意度、已知问题、下一步等人工判断。
-- \`kongsi-idea/app.js\` 的 \`TOOLS\`：Hub 实际发布资料。
+- \`kongsi-idea/data/tools.js\` 的 \`TOOLS\`：Hub 实际发布资料。
 - \`kongsi-idea/data/dskp-index.js\`：DSKP 正式索引。
 - \`kongsi-idea/docs/published-tools-coverage.md\`：已上架覆盖分析；当前脚本只检查是否有登记，不覆盖其中的人工分析文字。
 - 单个工具的 \`handoff.md\`：正在开发或需要继续处理时的详细交接。
@@ -348,7 +424,7 @@ function renderHubMirror(progressContent) {
 const statusConfig = readJson(overridesPath);
 const overrides = statusConfig.tools || {};
 const planned = statusConfig.planned || [];
-const hubTools = extractArrayConstant(appPath, "TOOLS");
+const hubTools = extractArrayConstant(toolsPath, "TOOLS");
 const subjects = extractArrayConstant(appPath, "SUBJECTS");
 const dskpIndex = extractArrayConstant(dskpPath, "DSKP_INDEX");
 const coverageText = fs.existsSync(coveragePath)
@@ -399,6 +475,7 @@ const records = directories.map((slug) => {
     hasGit: fs.existsSync(path.join(directory, ".git")),
     inCoverage: coverageText.includes(`\`${slug}\``),
     dskp: resolveDskp(hubTool, dskpIndex),
+    topic: resolveToolTopic(hubTool, dskpIndex),
   };
 });
 

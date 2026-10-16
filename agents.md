@@ -23,7 +23,7 @@
 ## 新建或修改工具的规则
 
 - **署名规则（2026-10-09 老师定，全局）**：老师说这个工具是某位老师的，Hub `creator.name` 就只写那位老师的名字（如「陈晓琪老师」），`initial` 取姓；**不加「卢老师」，也不加「构想」「改编」等字样**。**工具页面（app 内页）一律不写任何名字**（2026-10-11 老师定：署名只放 Hub；连「卢老师」也不放；**只管新工具，已经写了名字的旧工具不回头改**）。没特别说是别人的，才用默认的「卢老师」。
-- 新工具资料夹命名必须为 `tahun{年级}-{科目缩写}-{单元关键词}`，例如 `tahun2-mt-wang`。**slug 和展示名是两回事（2026-10-10 老师定）**：slug 只为分类，同系列各年级只差 `tahunN`（`tahun1-pj-pergerakan`、`tahun2-pj-pergerakan`）；展示名要吸引学生（动物模仿秀、蓝天操场），国文科目要带 DSKP 术语（pergerakan）才看得懂。**PJ 与 PK 是两个科目（2026-10-15 老师定）**：`pj`＝Pendidikan Jasmani 体育，`pk`＝Pendidikan Kesihatan 健康教育；两科共用同一份 DSKP（`资料库/DSKP资料/KSSR2017/Pendidikan-Jasmani-Kesihatan/`）和课本，但课时、老师与 Hub 科目各自独立。做健康教育的工具（急救、自身安全、饮食卫生等）slug 用 `pk`，例如 `tahun1-pk-kecemasan`，不要归进 `pj`／`pjpk`；DSKP 对照要取「Kesihatan」部分。Hub `SUBJECTS` 现只有 `pjpk`，上架第一个 `pk` 工具时要先拆出 `pk` 科目（改 Hub 代码，先说一声）。从已上线工具派生新年级时，不改原工具的外观与展示名。
+- 新工具资料夹（slug）命名（2026-10-17 老师定，规格 `../kongsi-idea/docs/hub-reorg-2026-10.md` 第 1 节）：**只管新工具，已上线的 slug 不改**——Hub 网址、使用次数、喜欢数、转发出去的链接都绑 slug。标准三层 `tahun{年级}-{科目缩写}-{单元关键词}`，例如 `tahun2-mt-wang`。① 单元关键词取 DSKP 用词，语言跟该科 DSKP：华文用拼音，数学／科学／马来文等用马来文 DSKP 词，英文用英文。② **同单元已经有工具，新工具才加第四层「玩法词」**，只能从这张表选：`practice` 学生自己练习、闯关；`quiz` 全班抢答、测验；`duel` 两人／两组对战；`explore` 老师带着演示、探索；`build` 拼组、造句、动手做；`lab` 实验模拟；`write` 书写。③ 同单元同玩法又来一个：第四层改用更细的 DSKP 子项词或课本范围（如 `12to22`），**不用数字后缀（`-2`、`1`）**。④ **slug 与展示名都不放月份、学期等会过期的词**（如 `oktober`）。⑤ 跨年级写范围 `tahun4to6-…`；跨科目写 `all`（`tahun1-all-…`）。⑥ 科目缩写对照：slug `mz` ＝ Hub 科目码 `muzik`；`pj`、`pk` ＝ `pjpk`（`pk` 待拆）；其余同码。⑦ 展示名必须带内容词（「时刻大对决」的「时刻」），同一年级里同一个套路词（对决、侦探、探险……）不重复用。**slug 和展示名是两回事（2026-10-10 老师定）**：slug 只为分类，同系列各年级只差 `tahunN`（`tahun1-pj-pergerakan`、`tahun2-pj-pergerakan`）；展示名要吸引学生（动物模仿秀、蓝天操场），国文科目要带 DSKP 术语（pergerakan）才看得懂。**PJ 与 PK 是两个科目（2026-10-15 老师定）**：`pj`＝Pendidikan Jasmani 体育，`pk`＝Pendidikan Kesihatan 健康教育；两科共用同一份 DSKP（`资料库/DSKP资料/KSSR2017/Pendidikan-Jasmani-Kesihatan/`）和课本，但课时、老师与 Hub 科目各自独立。做健康教育的工具（急救、自身安全、饮食卫生等）slug 用 `pk`，例如 `tahun1-pk-kecemasan`，不要归进 `pj`／`pjpk`；DSKP 对照要取「Kesihatan」部分。Hub `SUBJECTS` 现只有 `pjpk`，上架第一个 `pk` 工具时要先拆出 `pk` 科目（改 Hub 代码，先说一声）。从已上线工具派生新年级时，不改原工具的外观与展示名。
 - **做工具的磨合记录在 `_retro/`**（收工时由 `shutdown` 写）。平时不用读，要追某条规则的来历、或累计够了做合订时才翻。
 - **一开始动工（哪怕只是先生成一个原型 index.html）就要做两件事**：① 在工具自己的资料夹建一份最简 `handoff.md`（状态／已知问题／下一步／最后更新时间）；② 在本目录运行 `npm run status:sync`。同步脚本会自动发现新的 `tahun*` 目录，并把它列入 [`PROGRESS.md`](PROGRESS.md)；不要直接手改生成表格。
 - **两个脚本（2026-10-02）**：开工用 `npm run new -- {slug} "中文名"`（建目录＋`.gitignore`＋`handoff.md`＋`tools-status.json` 登记＋同步）；上线后用 `npm run check -- {slug}` 从学生那端验收（工具网址与资源 200、线上 Hub 版本、缩图、本机登记），`npm run check -- --all` 扫全部 Hub 工具网址。没通过 check 不说「已上线」。
@@ -40,11 +40,11 @@
 - 完成后：测试工具 → commit/push 自己的 Git 仓库 → 独立部署到 Vercel → 截图 → 回到 Hub 登记工具资料。
 - **单个 `tahunN-*` 工具的 `vercel --prod`／alias 已在 guard 授权名单内**（2026-10-09 老师定：`guard-policy.json` 的 `deploy_allowlist` 用通配符 `tahun[1-6]-*`；此前 2026-09-17 磁力创造实验室发布时被挡，需老师本人跑）。老师在关口②说「可以发布」后，agent 自己部署到底，不再请老师跑命令。部署仍须带 `--scope kongsi-idea`，完成后跑 `npm run check -- {slug}`。
 - **已上架工具每次上线新版本，Hub 必须同步更新，这是完成的一部分，不是可选收尾**（2026-09-17 老师定：浮沉实验室 v2.0 上线了 Hub 却还是 v1，被点名）。工具部署后、回报「已上线」之前，逐项做完：
-  1. `kongsi-idea/app.js` 该工具的 `version` 升版，`changelog` 在最前面加一条 `{ version, date: 上线当天日期, note: 这次改了什么 }`；`desc`／`keywords`／`teachingMode`／`prep` 若因改版失效，一并改写。
-  2. 用 Playwright 操作**正式网址**重新截真实画面，放进 `kongsi-idea/assets/thumbs/{slug}/`（新档名带版本，如 `v2-1-xxx.png`），`thumbnails` 换成新图并写 label；旧图搬 `~/Documents/待删除/`，不留失效引用。
+  1. `kongsi-idea/data/tools.js` 该工具的 `version` 升版（2026-10-17 起登记在 `data/tools.js`，不在 `app.js`），`changelog` 在最前面加一条 `{ version, date: 上线当天日期, note: 这次改了什么 }`；`desc`／`keywords`／`teachingMode`／`prep` 若因改版失效，一并改写。
+  2. 用 Playwright 操作**正式网址**重新截真实画面，放进 `kongsi-idea/assets/thumbs/{slug}/`（新档名带版本，如 `v2-1-xxx.png`），`thumbnails` 换成新图并写 label（新截的图照「上线」那步的缩略图规则：内容可见、顺序固定、4:3）；旧图搬 `~/Documents/待删除/`，不留失效引用。**Hub 自己的整理改版（首页、详情页、后台、登记搬位置）学生端没变，不升版、不写 changelog**（2026-10-17 老师定，记在 Hub commit 与 `kongsi-idea/agents.md`）。
   3. `kongsi-idea/docs/published-tools-coverage.md` 该行「优化备注」写上版本与日期，以及仍待改的点。
   4. `teaching-tools/tools-status.json` 更新 `version`／`lastUpdated`，跑 `npm run status:sync`。
-  5. Hub commit＋push，按 `kongsi-idea/agents.md` 的部署三步（`vercel --prod` → `alias set kongsi-idea.vercel.app` → `curl` 线上 `app.js` 确认新版本号与新缩图路径真的在）。没做完第 5 步，只能回报「工具已上线，Hub 未更新」。
+  5. Hub commit＋push，按 `kongsi-idea/agents.md` 的部署三步（`vercel --prod` → `alias set kongsi-idea.vercel.app` → `curl` 线上 `data/tools.js` 确认新版本号与新缩图路径真的在）。没做完第 5 步，只能回报「工具已上线，Hub 未更新」。
 - 不要把 API key、学生资料、学校机密资料写进源码或 commit。
 - **预录语音要尽量多种人声（2026-10-15 老师定）**：学生在不同工具里听到的声音要有差别，不要全都是同一个晓晓（盘点：现有 16 份 `gen-voice.py` 用 `zh-CN-XiaoxiaoNeural`，只有 2 份用 Yunxia、2 份用 Xiaoyi，马来文几乎全是 Yasmin）。做法：① **一个工具里每个角色／NPC 各配一个声音**（男、女、童声分开），旁白用另一个；角色→声音映射写在该工具 `gen-voice.py` 顶部，并记进该工具 `handoff.md`。② **新工具的旁白声先看上面的盘点，挑最近没用过的**。**可用声音以 2026-10-15 老师逐个试听的结论为准**：普通话 6 个按角色派——Xiaoxiao（温柔老师／旁白）、Xiaoyi（活泼女孩角色；⚠️ 2026-10-15 老师听过「找谁来帮忙」里放慢 -10% 的晓伊说声音机械、淘汰；放慢语速本身会更机械，所有声音不要低于 0%，旁白一律改用 Xiaoxiao）、Yunxi（阳光男孩同学）、Yunxia（可爱小动物／小不点）、Yunjian（热血教练／大反派）、Yunyang（正式播报／规则说明）；台湾腔只有 `zh-TW-YunJheNeural` 原速可用（男老师／大人、正式）；马来文只有 Yasmin／Osman 原声（edge-tts 没有儿童声）；英文有多个 en-* 口音。③ **不要用 `--rate`／`--pitch` 把成人声改成「童声」**：老师试听过马来文调音版，说「都很奇怪」；要有老少区别就换声音或角色分配。④ **黑名单（老师试听否决）**：`zh-CN-liaoning-XiaobeiNeural`（强调绝不用）、`zh-CN-shaanxi-XiaoniNeural`、粤语 `zh-HK-*` 全部、`zh-TW-HsiaoChenNeural`、`zh-TW-HsiaoYuNeural`。⑤ 音档文件名规则不变，将来换成真人录音可直接替换。
 - 工具若用 `speechSynthesis` 读汉字，**不要直接读孤立单字**——多音字（系/长/了/卷/省……）引擎会猜错读音，
@@ -58,18 +58,18 @@
 目标：许愿单进来，当天做出老师能用的第一版，缺的资料靠回信补，回信后再修订。顺序和并行点如下，下次照做，不重新讨论。
 
 1. **读单、判断够不够**（几分钟）：对照 `kongsi-idea/docs/idea-wish-pool-spec.md` 3.3 的标准——开发者读完能不能知道怎么设计。分三类写给老师：够的／缺的／可以先做的。用语是「卡点」：工具要对着老师写的那个卡点做。
-2. **DSKP 对照是必做项，不能留空**（2026-10-12 老师指出 tahun5-mt-data 第一次上架漏了）：从 `资料库/DSKP资料/KSSR2017/{科目}/SJKC/TAHUN{n}.md` 取中文、`SK/TAHUN{n}.md` 取马来文原文，在 `kongsi-idea/data/dskp-index.js` 加「年级＋科目」记录（只收工具实际覆盖的单元／目标，`reviewed: false`，`sourceUrl` 用 `docs/dskp/` 里已有的官方网址，不编），工具 `standards` 引用它。上架前在 Hub 详情页确认看得到「对应 DSKP」。BI／BM 工具用原文（见 Hub 决定 26、27）。
+2. **DSKP 对照是必做项，不能留空**（2026-10-12 老师指出 tahun5-mt-data 第一次上架漏了）：从 `资料库/DSKP资料/KSSR2017/{科目}/SJKC/TAHUN{n}.md` 取中文、`SK/TAHUN{n}.md` 取马来文原文，在 `kongsi-idea/data/dskp-index.js` 加「年级＋科目」记录（只收工具实际覆盖的单元／目标，`reviewed: false`，`sourceUrl` 用 `docs/dskp/` 里已有的官方网址，不编），工具 `standards` 引用它。上架前在 Hub 详情页确认看得到「对应 DSKP」。BI／BM 工具用原文（见 Hub 决定 26、27）。**同时要有主题（2026-10-17 老师定，Hub 决定 35）**：`standards` 必须能解析出主题——主题 `topic: { zh, bm }` 标在 `dskp-index.js` 的节点上（数学、科学、AM 等标在单元层；语文 bc／bm／bi 标在内容标准层），工具本身不手填；**同一内容跨年级必须用同一个 `zh` 词，加新词前先查索引里现有的主题词**；只有综合复习、跨科等跨很多单元的工具才例外，在工具上写 `topicOverride: { zh, bm }`。
 3. **不为缺的资料停工**：先按已知做出可用的第一版（范围收窄，宁可少做一个概念也要能用）；每个错答案对应一种已知的错法；缺的资料同时发信问老师。
 4. **建工具**：`npm run new -- tahun{n}-{科}-{关键词} "名称"` → 单文件或按需 → 本机验收交给 `verify`（压测逻辑 + 玩一遍 + 手机宽度 + 版面，限时 10 分钟，只列 3–5 条）。验收员发现的版面问题改完再复验一次。
-5. **上线**（并行做）：`git init`＋`gh repo create kongsi-idea/{slug} --private --source=. --push` → `vercel deploy --prod --yes --scope kongsi-idea`（alias 自动带 `{slug}.vercel.app`）→ `python3 -I scripts/set-vercel-secret.py {slug}` → `zsh scripts/add-actions.sh {slug}`。缩略图交给 sonnet 子代理用 Playwright 对**正式网址**截 4 张，再跑 `kongsi-idea/scripts/build-thumbs.py`。
-6. **Hub 上架**：`TOOLS` 条目、`published-tools-coverage.md` 加行并更新矩阵、`tools-status.json` 改「待评估」后 `npm run status:sync`、Hub commit＋push 并确认线上 `app.js` 有新条目。
+5. **上线**（并行做）：`git init`＋`gh repo create kongsi-idea/{slug} --private --source=. --push` → `vercel deploy --prod --yes --scope kongsi-idea`（alias 自动带 `{slug}.vercel.app`）→ `python3 -I scripts/set-vercel-secret.py {slug}` → `zsh scripts/add-actions.sh {slug}`。缩略图交给 sonnet 子代理用 Playwright 对**正式网址**截，再跑 `kongsi-idea/scripts/build-thumbs.py`。**缩略图规则（2026-10-17 老师定，只管新工具，旧的不补）**：固定 4 张，顺序＝封面 → 核心玩法进行中 → 答对／答错的反馈 → 老师端（排行榜、`?preview` 预览页或后台）；**第 1 张必须看得到「教的内容」**——题目、字、图形实际出现在画面上，或用设计过的封面图并带主题词，**不能**用设定、选名字、登录、规则说明这类画面；按 4:3 截（如 1200×900），工具只适合宽画面时，重要内容放在中间 4:3 范围。
+6. **Hub 上架**：`data/tools.js` 的 `TOOLS` 条目（必须有能解析出主题的 `standards`，例外才写 `topicOverride`，见第 2 步；**必须填 `modes`**，值只能是 `全班投影`／`上台对战`／`各自练习`／`回家练习`，1–3 个，第一个是卡片主要方式，依 `teachingMode` 判断）、`published-tools-coverage.md` 加行并更新矩阵、`tools-status.json` 改「待评估」后 `npm run status:sync`、Hub commit＋push 并确认线上 `data/tools.js` 有新条目。复习卷另要加 `collection`／`setLabel` 并登记 `TOOL_COLLECTIONS`；要老师后台的加 `data/teacher/{slug}.js`＋`TEACHER_TOOLS`（见下面「上架到课堂点子铺的回连清单」第 1 点）。
 7. **做好就写信通知许愿老师（2026-10-12 老师定，每个许愿工具都要）**：用 Gmail 草稿（guard 不让自动寄出），由老师确认后自己按发送。信里必须有：已针对哪个卡点做了什么、工具链接、**明确欢迎老师用了之后回信提出要调整的地方**、不超过 4 个具体问题（真实错例＞其他）、署名怎么写。**交付慢了（许愿多、老师自己要上课／网课）就在信里诚恳道歉一句**，不找借口。**信在工具上线、Hub 能搜到之后才给草稿**，不要先寄再上线。
 8. **回信后修订**：BOARD 记一行「等 {学校} 回信」；早上简报扫 Gmail 时看有没有来自该老师邮箱的回信；回信后按答案改题库／干扰项，Hub 升版、写 changelog。 老师用了之后回信要调整，也照这一条改，改完再回信告诉他改了什么。
 8b. **做完要回许愿池更新进度（2026-10-12 老师定）**：工具上线（或老师回信后修订完）就把对应那张许愿单的状态、备注、关联工具改掉：状态 `shipped`（做不了就 `declined` 并写原因）、`linked_tool_slug` 填 slug、备注写版本与日期＋还在等什么。方法：老师在 `kongsi-idea/admin.html` 后台改；agent 没有管理员登录，用 psycopg2 直连改（密码读 `supabase/.secrets.local.md`，不印出来；先 `select` 用老师邮箱找到 id，再 `update wishes set status, review_note, linked_tool_slug`；只改这三栏，不动 schema）。不做完这步不算收尾。
 9. **Hub 说明（desc）必须点出卡点**（2026-10-12）：开头一句「来自许愿池一位×年级老师的卡点：……」，说明这个工具是为了解决那个问题；工具首页的 lead 也写一句。**不写老师的名字和学校**（许愿默认不公开）。
 10. **署名**：许愿表单现在有选填「想怎么署名」（存在 `classroom_context` 的 `署名：…` 一行，后台「班级情况」看得到）。有填就照填的写；**没填就写「一位×年级老师」（`initial: "师"`），不写「卢老师」、不写学校**（许愿默认不公开老师与学校）。「卢老师」只给卢老师自己主动做的工具。信里仍问一次署名，回信后再改。工具页面内不写人名。
 11. **给老师的信**：链接一律写成裸域名（`kongsi-idea.vercel.app`、`tahun5-mt-data.vercel.app`），用 `htmlBody` 建草稿、`<a href="https://域名">域名</a>`，不要让 Gmail 套 `google.com/url?q=…` 转址、不要在正文里贴一长串。信里不用「回访」这类词，直接说「想请教几个问题」。
-12. **发布前自查清单**（对照 Hub 上现有工具，不能比它们少）：缩略图 4 张＋label；DSKP 对照；`prep`／`teachingMode`／`practiceSummary`；`changelog`；`track-use.js`；`npm run check`；coverage 表一行＋矩阵；`tools-status.json`；说明开头有卡点；署名；版权／课本出处若没有资料就在 handoff 写「待补」，不假装有。
+12. **发布前自查清单**（对照 Hub 上现有工具，不能比它们少）：缩略图 4 张＋label（顺序固定：封面／玩法／反馈／老师端；第 1 张看得到教的内容；4:3）；展示名带内容词、同年级套路词不重复；DSKP 对照＋能解析出主题的 `standards`（或 `topicOverride`）；`modes`；`prep`／`teachingMode`／`practiceSummary`；复习卷的 `collection`／`setLabel`；`changelog`；`track-use.js`；`npm run check`；coverage 表一行＋矩阵；`tools-status.json`；说明开头有卡点；署名；版权／课本出处若没有资料就在 handoff 写「待补」，不假装有。
 
 时间参考（数据侦探局）：读单到本机原型约 40 分钟，验收两轮 10 分钟，部署＋上架＋信件约 30 分钟。
 
@@ -90,8 +90,9 @@
 
 新工具上线后，必须回到 `../kongsi-idea/`：
 
-1. 在 `app.js` 的 `TOOLS` 加入真实 `url`、标题、关键词、教学标签、作者、版本和 changelog。
-2. 将截图放到 `kongsi-idea/assets/thumbs/{slug}/`，并为每张图写替代文字。
+1. 在 `data/tools.js` 的 `TOOLS` 加入真实 `url`、标题、关键词、教学标签、作者、版本和 changelog（2026-10-17 起登记在 `data/tools.js`，不在 `app.js`）。另外必填三件事（Hub 决定 35—37）：① **`modes`**（四个固定值：`全班投影`／`上台对战`／`各自练习`／`回家练习`，1–3 个，第一个是卡片主要方式）；② **能解析出主题的 `standards`**，例外才用 `topicOverride`，主题词标在 `dskp-index.js` 节点上、跨年级同一内容同一个词；③ 若是复习卷，加 `collection`／`setLabel` 并登记 `TOOL_COLLECTIONS`，同年级同科目不要再各开一张卡。
+   - **要老师后台**（成绩表、CSV）：加 `kongsi-idea/data/teacher/{slug}.js` 设定（成绩表名、栏位、题库网址、特殊显示），再在 `data/teacher/index.js` 的 `TEACHER_TOOLS` 加 slug；网址 `kongsi-idea.vercel.app/teacher.html?tool={slug}`。**不再复制整页 `*-admin.html`**，题库从工具线上网址读（2026-10-17 老师定）。
+2. 将截图放到 `kongsi-idea/assets/thumbs/{slug}/`（4 张、顺序与 4:3 规则见上面「上线」那步），并为每张图写替代文字。
 3. 只有实际核对过 DSKP，才在 `data/dskp-index.js` 与工具资料中加入目标引用；不能编造课程对照。
 4. **更新 `docs/published-tools-coverage.md`**，加入 slug、年级、科目、名称、DSKP 对照、网址与本机源码路径这一整行，「优化备注」栏先填 `—`；这一步是强制的，不是可选——每个新工具都必须在这里留一行记录，之后才有单一入口可以查全部工具状态。
 5. 部署 Hub 后，确认 Hub 卡片、详情页、外部网址和缩略图均正常。
