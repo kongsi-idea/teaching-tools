@@ -113,10 +113,11 @@ function resolveDskp(tool, dskpIndex) {
 
   const labels = [];
   for (const standard of tool.standards) {
+    // standard.tahun：复习低年级内容的工具可指到别的年级的 DSKP（与 Hub resolveToolStandards 一致）
     const record = dskpIndex.find(
       (item) =>
         item.curriculum === standard.curriculum &&
-        item.tahun === tool.tahun &&
+        item.tahun === (standard.tahun || tool.tahun) &&
         item.subjek === tool.subjek,
     );
     const unit = record?.units.find((item) => item.code === standard.unitCode);
@@ -154,7 +155,7 @@ function resolveToolTopic(tool, dskpIndex) {
   const record = dskpIndex.find(
     (item) =>
       item.curriculum === first.curriculum &&
-      item.tahun === tool.tahun &&
+      item.tahun === (first.tahun || tool.tahun) &&
       item.subjek === tool.subjek,
   );
   const unit = record?.units.find((item) => item.code === first.unitCode);

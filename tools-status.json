@@ -535,10 +535,14 @@
     },
     "tahun6-mt-pecahan": {
       "title": "分数乘法格子板",
-      "quality": "未完成",
-      "knownIssues": [],
-      "nextStep": "等老师确认方案",
-      "lastUpdated": "2026-10-17"
+      "quality": "待评估",
+      "knownIssues": [
+        "未在学校 Windows Chrome 投影与一体机触控上实测",
+        "课本页码待补（DSKP 对照为 Tahun 5 2.1.1，六年级复习用）"
+      ],
+      "nextStep": "等许愿老师回信（是否其实要 Tahun 6 分数除法／混合运算、学生真实错例、程度怎么分层、署名）",
+      "lastUpdated": "2026-10-17",
+      "version": "1.0"
     },
     "tahun1-bc-shizi-explore": {
       "title": "撕日历：昨天今天明天",
