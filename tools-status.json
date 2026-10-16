@@ -521,10 +521,11 @@
     },
     "tahun5-mt-wang": {
       "title": "钱币小掌柜",
-      "quality": "未完成",
+      "quality": "待评估",
       "knownIssues": [],
-      "nextStep": "等老师确认方案",
-      "lastUpdated": "2026-10-17"
+      "nextStep": "等许愿老师回信（真实错例／要不要保留乘除／署名），再按回信改 bank.js 并升版",
+      "lastUpdated": "2026-10-17",
+      "version": "1.0"
     },
     "tahun2-bc-xingsi": {
       "title": "拼字魔法锅",

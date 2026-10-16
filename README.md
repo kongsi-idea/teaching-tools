@@ -16,6 +16,7 @@
 | `tahun1-bc-liangci` | 量词大冒险 | `tahun1-bc-liangci/` | https://tahun1-bc-liangci.vercel.app |
 | `tahun1-bc-liangci1` | 量词南瓜丰收季 | `tahun1-bc-liangci1/` | https://tahun1-bc-liangci1.vercel.app |
 | `tahun1-bc-shizi` | 识字大对决 | `tahun1-bc-shizi/` | https://tahun1-bc-shizi.vercel.app |
+| `tahun1-bc-shizi-explore` | 撕日历：昨天今天明天 | `tahun1-bc-shizi-explore/` | https://tahun1-bc-shizi-explore.vercel.app |
 | `tahun1-bc-xingsi` | 找对小帮手 | `tahun1-bc-xingsi/` | https://tahun1-bc-xingsi.vercel.app |
 | `tahun1-bc-zaoju` | 神奇句子小火车 | `tahun1-bc-zaoju/` | https://tahun1-bc-zaoju.vercel.app |
 | `tahun1-bi-fruitveg` | 拼写小市场 Spelling Market | `tahun1-bi-fruitveg/` | https://tahun1-bi-fruitveg.vercel.app |
@@ -55,4 +56,6 @@
 | `tahun4-bi-writing` | Story Quest · Sentence Workshop | `tahun4-bi-writing/` | https://tahun4-bi-writing.vercel.app |
 | `tahun4-mt-nombor` | 数学知识大比拼 | `tahun4-mt-nombor/` | https://tahun4-mt-nombor.vercel.app |
 | `tahun5-mt-data` | 数据侦探局 | `tahun5-mt-data/` | https://tahun5-mt-data.vercel.app |
+| `tahun5-mt-wang` | 钱币小掌柜 | `tahun5-mt-wang/` | https://tahun5-mt-wang.vercel.app |
 | `tahun6-bi-questiontags` | 侦探语法局 Question Tags | `tahun6-bi-questiontags/` | https://tahun6-bi-questiontags.vercel.app |
+| `tahun6-mt-pecahan` | 分数乘法格子板 | `tahun6-mt-pecahan/` | https://tahun6-mt-pecahan.vercel.app |
