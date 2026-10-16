@@ -546,10 +546,14 @@
     },
     "tahun1-bc-shizi-explore": {
       "title": "撕日历：昨天今天明天",
-      "quality": "未完成",
-      "knownIssues": [],
-      "nextStep": "等老师确认方案",
-      "lastUpdated": "2026-10-17"
+      "quality": "待评估",
+      "knownIssues": [
+        "尚未在一体机真实触控上描字、也未在学校 Windows Chrome 听过语音；手机直立画面很小（定位是投影用）",
+        "「眀」（目旁）与「明」在小屏上差别细，字卡已放大到 180px"
+      ],
+      "nextStep": "等许愿老师回信（一年级还是幼儿园大班、真实错例、署名）；卢老师可在 1I 试用",
+      "lastUpdated": "2026-10-17",
+      "version": "1.0"
     }
   },
   "planned": [
