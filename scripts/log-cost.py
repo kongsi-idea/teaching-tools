@@ -17,7 +17,9 @@
 import argparse, collections, datetime, glob, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-PROJ = os.path.expanduser('~/.claude/projects/-Users-yquanloo-Documents-my-agent')
+PROJS = [os.path.expanduser('~/.claude/projects/-Users-yquanloo-Documents-my-agent'),
+         os.path.expanduser('~/.claude/projects/-Users-yquanloo-Documents-my-projects-teaching-tools')]
+PROJ = PROJS[0]  # 会话可能从 my-agent 或 teaching-tools 开，scan() 会找存在的那个
 DATA = os.path.join(HERE, '..', 'COST-LOG.json')
 MD = os.path.join(HERE, '..', 'COST-LOG.md')
 CX_LOG = os.path.expanduser('~/Documents/my-agent/.ops/cx-usage.log')
@@ -32,7 +34,8 @@ KEYS = ('input', 'output', 'cache_write', 'cache_read', 'turns')
 
 
 def scan(sid):
-    files = [f'{PROJ}/{sid}.jsonl'] + glob.glob(f'{PROJ}/{sid}/subagents/*.jsonl')
+    proj = next((d for d in PROJS if os.path.exists(f'{d}/{sid}.jsonl')), PROJ)
+    files = [f'{proj}/{sid}.jsonl'] + glob.glob(f'{proj}/{sid}/subagents/*.jsonl')
     tot = collections.defaultdict(collections.Counter)
     seen = set()
     for f in files:
@@ -106,7 +109,7 @@ def main():
     ap.add_argument('--actual', type=float, help='状态栏💰数字（本会话累计）')
     ap.add_argument('--note', default=''); ap.add_argument('--session'); ap.add_argument('--dry', action='store_true')
     a = ap.parse_args()
-    sid = a.session or os.path.basename(max(glob.glob(PROJ + '/*.jsonl'), key=os.path.getmtime))[:-6]
+    sid = a.session or os.path.basename(max([f for d in PROJS for f in glob.glob(d + '/*.jsonl')], key=os.path.getmtime))[:-6]
     cum, est_cum, unknown = scan(sid)
     entries = load()
     prev = [e for e in entries if e.get('session') == sid]

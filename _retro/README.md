@@ -53,3 +53,4 @@
 | 2026-10-17 | [tahun3 换算工坊](2026-10-17-tahun3-mt-sukatan.md) | 许愿池；兑换台左右、数位对齐、首次打开机械声被纠正；机械声已晋升 newtool＋agents.md |
 | 2026-10-17 | [tahun1 撕日历：昨天今天明天](2026-10-17-tahun1-bc-shizi-explore.md) | 许愿池 #15；CSS 示意「都不好看」→ cx 概念图（已晋升 newtool 关口①）、屏幕大小（已晋升 §3 固定舞台）；「不需要和我讨论吗」候选 |
 | 2026-10-17 | [tahun6 分数乘法格子板](2026-10-17-tahun6-mt-pecahan.md) | 许愿池 #6；「不需要和我讨论吗」第二次（已晋升 agents.md 许愿流程第 1 步）；分数要上下写（候选）；Hub 部署被别的会话覆盖 |
+| 2026-10-17 | [tahun5 钱币小掌柜](2026-10-17-tahun5-mt-wang.md) | 许愿池 #16；「不需要和我讨论吗」第三次（规则已在）；Hub 干净 worktree 部署已晋升 agents.md 第 6 步；log-cost 找不到 teaching-tools 会话已修 |

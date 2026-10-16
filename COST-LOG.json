@@ -193,5 +193,20 @@
   "note": "含 Sonnet 子代理 3 个（verify×2 轮、缩图）；无生图；有模型缺单价：claude-opus-5-5",
   "actual_usd": -3.09,
   "cx_draws": 0
+ },
+ {
+  "input": 288,
+  "output": 89628,
+  "cache_write": 547260,
+  "cache_read": 23224557,
+  "turns": 142,
+  "date": "2026-10-17",
+  "slug": "tahun5-mt-wang",
+  "what": "v1.0 首次开发上线（许愿池 #16）：3 张示意、题库 24 题、Sonnet 实作、verify 验收、上线、Hub 上架、许愿单、信件草稿",
+  "session": "520e0e34-98ae-48f9-9004-03d78b2bfa65",
+  "est_usd": 1.5861,
+  "note": "Sonnet 子代理 2 个（实作、验收）＋cx 生图 1 张；采用＄取自状态列会话档；有模型缺单价：claude-opus-5-5",
+  "actual_usd": 9.75,
+  "cx_draws": 1
  }
 ]
