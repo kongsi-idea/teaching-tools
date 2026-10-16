@@ -8,5 +8,6 @@
 | slug | 工具 | 本机路径 | 网址 |
 |---|---|---|---|
 | `tahun1-bc-fuxi-oktober` | 一年级华文复习本 | `tahun1-bc-fuxi-oktober/` | https://tahun1-bc-fuxi-oktober.vercel.app |
+| `tahun1-mt-fuxi-oktober` | 一年级数学复习本 | `tahun1-mt-fuxi-oktober/` | https://tahun1-mt-fuxi-oktober.vercel.app |
 | `tahun2-mt-fuxi-oktober` | 二年级数学复习本 | `tahun2-mt-fuxi-oktober/` | https://tahun2-mt-fuxi-oktober.vercel.app |
 | `tahun2-mt-latihan-oktober` | 二年级10月数学练习 | `tahun2-mt-latihan-oktober/` | https://tahun2-mt-latihan-oktober.vercel.app |
