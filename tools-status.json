@@ -472,6 +472,17 @@
       "nextStep": "老师本机试做并看后台 fuxi2-admin.html",
       "lastUpdated": "2026-10-15",
       "version": "1.0"
+    },
+    "tahun3-mt-sukatan": {
+      "title": "换算工坊",
+      "quality": "待评估",
+      "knownIssues": [
+        "许愿老师未提供真实竖式错例（干扰项按推断的错法设计）",
+        "兑换台大单位物件超过 12 个才收成 ×N"
+      ],
+      "nextStep": "等许愿老师回信补真实错例、哪种运算错最多；课堂试用后收集反馈",
+      "lastUpdated": "2026-10-17",
+      "version": "1.0"
     }
   },
   "planned": [

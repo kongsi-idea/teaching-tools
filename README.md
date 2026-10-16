@@ -10,6 +10,7 @@
 | `tahun1-am-cahaya` | 光的小探险 | `tahun1-am-cahaya/` | https://tahun1-am-cahaya.vercel.app |
 | `tahun1-bc-bishun` | 一年级写字 | `tahun1-bc-bishun/` | https://tahun1-bc-bishun.vercel.app |
 | `tahun1-bc-bushou` | 部首大对垒 | `tahun1-bc-bushou/` | https://tahun1-bc-bushou.vercel.app |
+| `tahun1-bc-fuxi-oktober-2` | 一年级华文复习本（二） | `tahun1-bc-fuxi-oktober-2/` | https://tahun1-bc-fuxi-oktober-2.vercel.app |
 | `tahun1-bc-juxing` | 句型跳跳队 | `tahun1-bc-juxing/` | https://tahun1-bc-juxing.vercel.app |
 | `tahun1-bc-kantu` | 看图小侦探 | `tahun1-bc-kantu/` | https://tahun1-bc-kantu.vercel.app |
 | `tahun1-bc-liangci` | 量词大冒险 | `tahun1-bc-liangci/` | https://tahun1-bc-liangci.vercel.app |
@@ -49,6 +50,7 @@
 | `tahun3-bc-kewen` | 语文课文大PK | `tahun3-bc-kewen/` | https://tahun3-bc-kewen.vercel.app |
 | `tahun3-dst-density` | 浮沉实验室：密度大发现 | `tahun3-dst-density/` | https://tahun3-dst-density.vercel.app |
 | `tahun3-mt-koordinat` | 座位小侦探 | `tahun3-mt-koordinat/` | https://tahun3-mt-koordinat.vercel.app |
+| `tahun3-mt-sukatan` | 换算工坊 | `tahun3-mt-sukatan/` | https://tahun3-mt-sukatan.vercel.app |
 | `tahun4-bc-bishun` | 四年级写字 | `tahun4-bc-bishun/` | https://tahun4-bc-bishun.vercel.app |
 | `tahun4-bi-writing` | Story Quest · Sentence Workshop | `tahun4-bi-writing/` | https://tahun4-bi-writing.vercel.app |
 | `tahun4-mt-nombor` | 数学知识大比拼 | `tahun4-mt-nombor/` | https://tahun4-mt-nombor.vercel.app |
