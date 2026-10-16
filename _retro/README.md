@@ -40,3 +40,4 @@
 | 2026-10-12 | [tahun5 数据侦探局](2026-10-12-tahun5-mt-data.md) | 许愿池第一个走完整流程：DSKP 漏补、署名、信件链接被纠正；已晋升 agents.md 第 2、10–12 条 |
 | 2026-10-13 | tahun1-bc-fuxi-oktober | 手机窄屏版面返工 4 轮；候选规则：窄屏逐题溢出检查 |
 | 2026-10-13 | tahun2-bm-kataarah | Hub 部署覆盖事故（候选晋升） |
+| 2026-10-16 | [tahun2/tahun1 数学复习本](2026-10-16-tahun2-tahun1-mt-fuxi.md) | 乘法组×个、必须答完、?preview、测试过多 |
