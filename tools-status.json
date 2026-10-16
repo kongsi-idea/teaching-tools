@@ -482,7 +482,7 @@
       ],
       "nextStep": "等许愿老师回信补真实错例、哪种运算错最多；课堂试用后收集反馈",
       "lastUpdated": "2026-10-17",
-      "version": "1.1"
+      "version": "1.2"
     },
     "tahun2-mt-latihan-oktober": {
       "title": "二年级10月数学练习",
@@ -518,6 +518,34 @@
       "nextStep": "老师用 ?preview 看全部题目，再用一年级班级代码点一遍学生链接，登录 mt1fuxi-admin 看后台是否出数字",
       "lastUpdated": "2026-10-16",
       "version": "1.0"
+    },
+    "tahun5-mt-wang": {
+      "title": "钱币小掌柜",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-17"
+    },
+    "tahun2-bc-xingsi": {
+      "title": "拼字魔法锅",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-17"
+    },
+    "tahun6-mt-pecahan": {
+      "title": "分数乘法格子板",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-17"
+    },
+    "tahun1-bc-shizi-explore": {
+      "title": "撕日历：昨天今天明天",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-17"
     }
   },
   "planned": [

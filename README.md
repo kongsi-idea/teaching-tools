@@ -10,7 +10,6 @@
 | `tahun1-am-cahaya` | 光的小探险 | `tahun1-am-cahaya/` | https://tahun1-am-cahaya.vercel.app |
 | `tahun1-bc-bishun` | 一年级写字 | `tahun1-bc-bishun/` | https://tahun1-bc-bishun.vercel.app |
 | `tahun1-bc-bushou` | 部首大对垒 | `tahun1-bc-bushou/` | https://tahun1-bc-bushou.vercel.app |
-| `tahun1-bc-fuxi-oktober` | 一年级华文复习本 | `tahun1-bc-fuxi-oktober/` | https://tahun1-bc-fuxi-oktober.vercel.app |
 | `tahun1-bc-fuxi-oktober-2` | 一年级华文复习本（二） | `tahun1-bc-fuxi-oktober-2/` | https://tahun1-bc-fuxi-oktober-2.vercel.app |
 | `tahun1-bc-juxing` | 句型跳跳队 | `tahun1-bc-juxing/` | https://tahun1-bc-juxing.vercel.app |
 | `tahun1-bc-kantu` | 看图小侦探 | `tahun1-bc-kantu/` | https://tahun1-bc-kantu.vercel.app |
@@ -25,7 +24,6 @@
 | `tahun1-bm-kvkv` | Kebun Pintar KVKV | `tahun1-bm-kvkv/` | https://tahun1-bm-kvkv.vercel.app |
 | `tahun1-dst-magnet` | 磁力创造实验室 | `tahun1-dst-magnet/` | https://tahun1-dst-magnet.vercel.app |
 | `tahun1-mt-bundar` | 近似值特快车 | `tahun1-mt-bundar/` | https://tahun1-mt-bundar.vercel.app |
-| `tahun1-mt-fuxi-oktober` | 一年级数学复习本 | `tahun1-mt-fuxi-oktober/` | https://tahun1-mt-fuxi-oktober.vercel.app |
 | `tahun1-mt-latihan-oktober` | 一年级10月数学练习 | `tahun1-mt-latihan-oktober/` | https://tahun1-mt-latihan-oktober.vercel.app |
 | `tahun1-mt-masa` | 时刻大对决 | `tahun1-mt-masa/` | https://tahun1-mt-masa.vercel.app |
 | `tahun1-mt-pecahan` | 燕菜切切乐 | `tahun1-mt-pecahan/` | https://tahun1-mt-pecahan.vercel.app |
@@ -41,8 +39,6 @@
 | `tahun2-bm-kataarah` | Di Mana Letaknya? Kata Arah | `tahun2-bm-kataarah/` | https://tahun2-bm-kataarah.vercel.app |
 | `tahun2-dst-tower` | 科学叠叠塔 | `tahun2-dst-tower/` | https://tahun2-dst-tower.vercel.app |
 | `tahun2-mt-baigetu` | 百格图乘法表动画 | `tahun2-mt-baigetu/` | https://tahun2-mt-baigetu.vercel.app |
-| `tahun2-mt-fuxi-oktober` | 二年级数学复习本 | `tahun2-mt-fuxi-oktober/` | https://tahun2-mt-fuxi-oktober.vercel.app |
-| `tahun2-mt-latihan-oktober` | 二年级10月数学练习 | `tahun2-mt-latihan-oktober/` | https://tahun2-mt-latihan-oktober.vercel.app |
 | `tahun2-mt-shulie-boss` | 数字数列大对决 | `tahun2-mt-shulie-boss/` | https://tahun2-mt-shulie-boss.vercel.app |
 | `tahun2-mt-shulie-duel` | 双人数字对决 | `tahun2-mt-shulie-duel/` | https://tahun2-mt-shulie-duel.vercel.app |
 | `tahun2-mt-shulie-explore` | 数序列小探险 | `tahun2-mt-shulie-explore/` | https://tahun2-mt-shulie-explore.vercel.app |
