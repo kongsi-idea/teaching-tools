@@ -37,6 +37,7 @@
 | `tahun2-bc-xingsi` | 拼字魔法锅 | `tahun2-bc-xingsi/` | https://tahun2-bc-xingsi.vercel.app |
 | `tahun2-bc-zonghe` | 华文勇者大冒险 | `tahun2-bc-zonghe/` | https://tahun2-bc-zonghe.vercel.app |
 | `tahun2-bi-dressing` | The Dressing Game | `tahun2-bi-dressing/` | https://tahun2-bi-dressing.vercel.app |
+| `tahun2-bi-plural` | One or Many? Fruit Garden（水果单复数花园） | `tahun2-bi-plural/` | https://tahun2-bi-plural.vercel.app |
 | `tahun2-bi-punctuation` | 句子小火车 Sentence Train | `tahun2-bi-punctuation/` | https://tahun2-bi-punctuation.vercel.app |
 | `tahun2-bm-kataarah` | Di Mana Letaknya? Kata Arah | `tahun2-bm-kataarah/` | https://tahun2-bm-kataarah.vercel.app |
 | `tahun2-dst-tower` | 科学叠叠塔 | `tahun2-dst-tower/` | https://tahun2-dst-tower.vercel.app |
@@ -54,6 +55,7 @@
 | `tahun3-mt-koordinat` | 座位小侦探 | `tahun3-mt-koordinat/` | https://tahun3-mt-koordinat.vercel.app |
 | `tahun3-mt-sukatan` | 换算工坊 | `tahun3-mt-sukatan/` | https://tahun3-mt-sukatan.vercel.app |
 | `tahun4-bc-bishun` | 四年级写字 | `tahun4-bc-bishun/` | https://tahun4-bc-bishun.vercel.app |
+| `tahun4-bi-sports` | Syllable Sports Relay（音节运动接力） | `tahun4-bi-sports/` | https://tahun4-bi-sports.vercel.app |
 | `tahun4-bi-writing` | Story Quest · Sentence Workshop | `tahun4-bi-writing/` | https://tahun4-bi-writing.vercel.app |
 | `tahun4-mt-nombor` | 数学知识大比拼 | `tahun4-mt-nombor/` | https://tahun4-mt-nombor.vercel.app |
 | `tahun5-mt-data` | 数据侦探局 | `tahun5-mt-data/` | https://tahun5-mt-data.vercel.app |

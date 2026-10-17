@@ -560,11 +560,14 @@
       "version": "1.0"
     },
     "tahun4-bi-sports": {
-      "title": "Syllable Sports Relay",
-      "quality": "未完成",
-      "knownIssues": [],
-      "nextStep": "等老师确认方案",
-      "lastUpdated": "2026-10-17"
+      "title": "Syllable Sports Relay（音节运动接力）",
+      "quality": "待评估",
+      "knownIssues": [
+        "词表＝DSKP 一至四年级词表 10 个＋马来西亚常见 4 个，未对四年级课本 Sports 单元页码；单音节朗读靠改写读法（ket→kit、ton→tun）并经 Whisper 筛过，投影真机与学校电脑未实测"
+      ],
+      "nextStep": "等许愿老师回信（课本单元词表与页码、学生真实错拼、设备、署名）；回信后改 words.js、重跑 gen-voice.py 并升版",
+      "lastUpdated": "2026-10-17",
+      "version": "1.0"
     },
     "tahun3-bm-katatanya": {
       "title": "Wartawan Cilik: Kata Tanya",
