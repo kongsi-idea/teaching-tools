@@ -238,5 +238,35 @@
   "note": "Opus 主对话＋1 个 verify 子代理；cx 生图 6 张（概念 3、素材 2、背景 1）；有模型缺单价：claude-opus-5-5",
   "actual_usd": 9.84,
   "cx_draws": 0
+ },
+ {
+  "input": 388,
+  "output": 111949,
+  "cache_write": 739954,
+  "cache_read": 22917326,
+  "turns": 187,
+  "date": "2026-10-17",
+  "slug": "tahun3-bm-katatanya",
+  "what": "许愿池 #3 从开工包到上线：3 张 cx 概念图、场景/角色生图、Sonnet 实作、verify 验收、部署、Hub 上架、许愿单、Gmail 草稿",
+  "session": "e3287113-a5cd-4f7e-8bcd-4c65875f6593",
+  "est_usd": 1.6356,
+  "note": "会话 e3287113；含 1 次上下文压缩；子代理：实作 1、verify 2、截图 1；有模型缺单价：claude-opus-5-5",
+  "actual_usd": 12.31,
+  "cx_draws": 4
+ },
+ {
+  "input": 282,
+  "output": 116861,
+  "cache_write": 573020,
+  "cache_read": 18290546,
+  "turns": 139,
+  "date": "2026-10-17",
+  "slug": "tahun4-bi-sports",
+  "what": "许愿池 #10 从开工包到上线：cx 概念图 3 张→老师定 A＋B→开发、verify 1 次、截图子代理 1 次、部署＋自动部署、Hub 上架、许愿单 shipped、Gmail 草稿一封",
+  "session": "279b35b1-0abd-4ba6-8443-90ffe4839d70",
+  "est_usd": 0.5044,
+  "note": "会话中途压缩一次；cx 素材：背景、四队跑者、两张器材图；有模型缺单价：claude-opus-5-5",
+  "actual_usd": 10.05,
+  "cx_draws": 4
  }
 ]
