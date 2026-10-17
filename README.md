@@ -51,6 +51,7 @@
 | `tahun2-pj-pergerakan` | 蓝天操场 | `tahun2-pj-pergerakan/` | https://tahun2-pj-pergerakan.vercel.app |
 | `tahun3-bc-bishun` | 三年级写字 | `tahun3-bc-bishun/` | https://tahun3-bc-bishun.vercel.app |
 | `tahun3-bc-kewen` | 语文课文大PK | `tahun3-bc-kewen/` | https://tahun3-bc-kewen.vercel.app |
+| `tahun3-bm-katatanya` | Wartawan Cilik: Kata Tanya（小记者问问看） | `tahun3-bm-katatanya/` | https://tahun3-bm-katatanya.vercel.app |
 | `tahun3-dst-density` | 浮沉实验室：密度大发现 | `tahun3-dst-density/` | https://tahun3-dst-density.vercel.app |
 | `tahun3-mt-koordinat` | 座位小侦探 | `tahun3-mt-koordinat/` | https://tahun3-mt-koordinat.vercel.app |
 | `tahun3-mt-sukatan` | 换算工坊 | `tahun3-mt-sukatan/` | https://tahun3-mt-sukatan.vercel.app |

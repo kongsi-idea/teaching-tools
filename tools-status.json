@@ -570,11 +570,15 @@
       "version": "1.0"
     },
     "tahun3-bm-katatanya": {
-      "title": "Wartawan Cilik: Kata Tanya",
-      "quality": "未完成",
-      "knownIssues": [],
-      "nextStep": "等老师确认方案",
-      "lastUpdated": "2026-10-17"
+      "title": "Wartawan Cilik: Kata Tanya（小记者问问看）",
+      "quality": "待评估",
+      "knownIssues": [
+        "语音未经真人试听；夜市／运动会两个场景只做过冒烟测试，未完整走一遍；Satu Kelas 模式未实测",
+        "部分资讯（apam balik RM2、Jun Hao 付 RM2、setiap hari Jumaat）只在题目句子里，图上没有"
+      ],
+      "nextStep": "等许愿老师回信（学生真实的疑问词错法、Malay 措辞、署名）；回信后改 js/bank.js 并升版",
+      "lastUpdated": "2026-10-17",
+      "version": "1.0"
     },
     "tahun2-bi-plural": {
       "title": "One or Many? Fruit Garden（水果单复数花园）",
