@@ -6,12 +6,12 @@
 
 ## 一眼看懂目前状态
 
-- 本机工具目录：**55**
+- 本机工具目录：**58**
 - 已上架：**53**
-- 开发中：**1**
+- 开发中：**4**
 - 暂停：**1**
 - 已明确需要优化：**0**
-- 尚待逐项评估满意度：**50**
+- 尚待逐项评估满意度：**51**
 - 缺少工具级 `handoff.md`：**14**
 - 已上架但 Hub/DSKP 登记异常：**5**
 - Hub 已上架覆盖表登记：**52/53**
@@ -27,6 +27,9 @@
 | `tahun1-mt-latihan-oktober` | 已上架 | 待评估 | DSKP 对照未核（Hub standards 暂空）；「圆柱体」用词待对课本；手机／平板真机未实测 | 老师在手机／平板真机点一遍；DSKP 对照；用真实学生数据试后台 |
 | `tahun1-mz-irama` | 已上架 | 待评估 | 5 分钟节拍漂移无头量到 10–11ms，未在实机量（?debug=1）；地图上熊剪影盖住「大考验」标签；校准新版（画面跟偏移走、12 拍）只在本机测过，待课堂实测；三角铁合成声（10-11 改）待老师实听；扶梯式预备只在无头浏览器验过，待课堂实测 | 老师课堂实测；确认念法与乐器名；决定世界 5 是否改名「看图打」 |
 | `tahun2-bc-zonghe` | 已上架 | 待评估 | 尚未用真实班级与访客完成一次成绩写入／读取验证；Hub 已上线 https://eduneo-hub.vercel.app；正式工具域名 https://tahun2-bc-zonghe.vercel.app 已可访问，尚未用真实班级与访客完成成绩写入／读取验证；李老师提供的生成插画公开发布授权仍需确认 | 老师点击 Hub 入口验收 → 用真实班级与访客验证成绩写入／读取 |
+| `tahun2-bi-plural` | 开发中 | 待评估 | 课本出处待补（DSKP 二年级课本 Superminds 1 没有 Fruits and vegetables 单元，例句自编）；-ies 复数与 mango 未收；未在 iPad／学校电脑真机实测 | 等许愿老师回信（课本出处、学生真实错句、设备、署名）；回信后改 js/bank.js 并升版 |
+| `tahun3-bm-katatanya` | 开发中 | 未完成 | — | 等老师确认方案 |
+| `tahun4-bi-sports` | 开发中 | 未完成 | — | 等老师确认方案 |
 | `tahun4-bi-writing` | 已上架 | 待评估 | 纸本作业投稿仅测过一次性测试图片，尚无真实学生投稿；教师审核端（把 pending 改 approved/rejected）还没有介面，只能直接在 Supabase Dashboard 操作 | 等课堂真实使用反馈；视需要补一个给老师审核投稿的简单介面 |
 | `tahun6-bi-questiontags` | 已上架 | 待评估 | 未经 iPhone／Safari 真机实测；朗读音质只验证了请求 200；DSKP 代码未核对官方 PDF，未收进 dskp-index | Irene 老师与学生试用后收集反馈（题量、线索是否够用）；拓展档案用法 |
 
@@ -44,6 +47,9 @@
 | slug | 名称 | 年级 | 科目 | DSKP 涵盖 | 开发状态 | 品质状态 | 版本 | Hub 同步 | handoff | 已知问题／不满意 | 下一步 | 最后更新 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | `tahun1-all-online` | 网课同步作答 | Tahun 1 | all | 待核对 | 开发中 | 未完成 | — | 未上架，不需同步 | 有 | — | 方案已确认（7 个动作、蓝天操场水彩风）；开发中，插画待老师跑 cx | 2026-10-09 |
+| `tahun2-bi-plural` | One or Many? Fruit Garden（水果单复数花园） | Tahun 2 | 英文 | 待核对 | 开发中 | 待评估 | — | 未上架，不需同步 | 有 | 课本出处待补（DSKP 二年级课本 Superminds 1 没有 Fruits and vegetables 单元，例句自编）；-ies 复数与 mango 未收；未在 iPad／学校电脑真机实测 | 等许愿老师回信（课本出处、学生真实错句、设备、署名）；回信后改 js/bank.js 并升版 | 2026-10-17 |
+| `tahun3-bm-katatanya` | Wartawan Cilik: Kata Tanya | Tahun 3 | 马来文 | 待核对 | 开发中 | 未完成 | — | 未上架，不需同步 | 有 | — | 等老师确认方案 | 2026-10-17 |
+| `tahun4-bi-sports` | Syllable Sports Relay | Tahun 4 | 英文 | 待核对 | 开发中 | 未完成 | — | 未上架，不需同步 | 有 | — | 等老师确认方案 | 2026-10-17 |
 | `tahun1-bc-chongzu` | 词句拼拼乐 | Tahun 1 | 华文 | 待核对 | 暂停 | 未完成 | — | 未上架，不需同步 | 无 | 单文件 React 原型，尚无独立 Git、handoff、DSKP 核对、Vercel 部署和 Hub 登记 | 已确认搁置（2026-07-24），暂不继续；之后想重启再补 handoff.md 走完整流程 | 2026-07-24 |
 | `tahun1-am-cahaya` | 光的小探险 | Tahun 1 | Alam dan Manusia | 5.1 光的工艺（暂译） — 5.1.1/5.1.2/5.1.3/5.1.4 | 已上架 | 稳定 | 1.1 | 已同步 | 有 | 无语音 | — | 2026-10-04 |
 | `tahun1-bc-bishun` | 一年级写字 | Tahun 1 | 华文 | 3.0 书写技能 — 3.1；5.0 语文基础知识 — 5.1 | 已上架 | 待评估 | 1.3 | 已同步 | 有 | — | 老师本机+电脑室实测确认笔顺判定松紧、三步流程节奏、音效音量；等课堂反馈 | 2026-09-11 |
@@ -208,12 +214,14 @@
 - **方位词 / Kata Arah**
   - `tahun2-bm-kataarah` Di Mana Letaknya? Kata Arah｜已上架
 
-#### 英文（2）
+#### 英文（3）
 
 - **标点 / Punctuation**
   - `tahun2-bi-punctuation` 句子小火车 Sentence Train｜已上架
 - **拼写 / Spelling**
   - `tahun2-bi-dressing` The Dressing Game｜已上架
+- **未分主题**
+  - `tahun2-bi-plural` One or Many? Fruit Garden（水果单复数花园）｜开发中
 
 #### 华文（4）
 
@@ -259,6 +267,11 @@
 
 ### Tahun 3
 
+#### 马来文（1）
+
+- **未分主题**
+  - `tahun3-bm-katatanya` Wartawan Cilik: Kata Tanya｜开发中
+
 #### 华文（2）
 
 - **课文阅读 / Bacaan Teks**
@@ -280,10 +293,12 @@
 
 ### Tahun 4
 
-#### 英文（1）
+#### 英文（2）
 
 - **段落写作 / Paragraph Writing**
   - `tahun4-bi-writing` Story Quest · Sentence Workshop｜已上架
+- **未分主题**
+  - `tahun4-bi-sports` Syllable Sports Relay｜开发中
 
 #### 华文（1）
 
@@ -351,5 +366,5 @@
 
 ## 最后同步
 
-- 时间：2026-10-17, 03:27
+- 时间：2026-10-17, 09:56
 - Hub 覆盖文件可读取：是

@@ -558,6 +558,30 @@
       "nextStep": "等许愿老师回信（一年级还是幼儿园大班、真实错例、署名）；卢老师可在 1I 试用",
       "lastUpdated": "2026-10-17",
       "version": "1.0"
+    },
+    "tahun4-bi-sports": {
+      "title": "Syllable Sports Relay",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-17"
+    },
+    "tahun3-bm-katatanya": {
+      "title": "Wartawan Cilik: Kata Tanya",
+      "quality": "未完成",
+      "knownIssues": [],
+      "nextStep": "等老师确认方案",
+      "lastUpdated": "2026-10-17"
+    },
+    "tahun2-bi-plural": {
+      "title": "One or Many? Fruit Garden（水果单复数花园）",
+      "quality": "待评估",
+      "knownIssues": [
+        "课本出处待补（DSKP 二年级课本 Superminds 1 没有 Fruits and vegetables 单元，例句自编）；-ies 复数与 mango 未收；未在 iPad／学校电脑真机实测"
+      ],
+      "nextStep": "等许愿老师回信（课本出处、学生真实错句、设备、署名）；回信后改 js/bank.js 并升版",
+      "lastUpdated": "2026-10-17",
+      "version": "1.0"
     }
   },
   "planned": [
