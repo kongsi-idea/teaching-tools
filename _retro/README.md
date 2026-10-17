@@ -34,7 +34,7 @@
 | 2026-10-11 | [tahun2 The Dressing Game](2026-10-11-tahun2-the-dressing-game.md) | 转盘／玩法被纠正、年级没问；候选：关口①问年级 |
 | 2026-10-11 | [tahun1 软糖回声乐园](2026-10-11-tahun1-mz-irama.md) | 预备/人声/扶梯被纠正；候选：跟拍不放人声、可换角色文案用「我」、署名只在 Hub |
 | 2026-10-11 | [tahun2 醒狮节奏瀑布](2026-10-11-tahun2-mz-irama.md) | 钹锣改录音、名称去掉 tarian singa、verify 太慢（已晋升 CLAUDE.md） |
-| 2026-10-12 | tahun2-bc-biaodian | 无纠正；cx-draw 并行会串图（候选，未回写） |
+| 2026-10-12 | tahun2-bc-biaodian | 无纠正；cx-draw 并行会串图（已晋升 → 10-17 修 `.ops/cx-draw.sh` 按 thread_id 收图） |
 | 2026-10-12 | [tahun1 一年级10月数学练习](2026-10-12-tahun1-mt-latihan-oktober.md) | 一年级10月数学练习：关口②被老师跳过直接发布；两个 Sonnet 并行 |
 | 2026-10-12 | tahun1-bi-fruitveg | 许愿池做工具；拍板「做好写信通知许愿老师」 |
 | 2026-10-12 | [tahun5 数据侦探局](2026-10-12-tahun5-mt-data.md) | 许愿池第一个走完整流程：DSKP 漏补、署名、信件链接被纠正；已晋升 agents.md 第 2、10–12 条 |
@@ -55,3 +55,4 @@
 | 2026-10-17 | [tahun6 分数乘法格子板](2026-10-17-tahun6-mt-pecahan.md) | 许愿池 #6；「不需要和我讨论吗」第二次（已晋升 agents.md 许愿流程第 1 步）；分数要上下写（候选）；Hub 部署被别的会话覆盖 |
 | 2026-10-17 | [tahun5 钱币小掌柜](2026-10-17-tahun5-mt-wang.md) | 许愿池 #16；「不需要和我讨论吗」第三次（规则已在）；Hub 干净 worktree 部署已晋升 agents.md 第 6 步；log-cost 找不到 teaching-tools 会话已修 |
 | 2026-10-17 | [tahun2 拼字魔法锅](2026-10-17-tahun2-bc-xingsi.md) | 许愿池 #4；「不需要和我讨论吗」第四次（规则已在）；描字判定要测「涂满／只写一半」反例（候选） |
+| 2026-10-17 | [tahun2 One or Many? Fruit Garden](2026-10-17-tahun2-bi-plural.md) | 许愿池 #12：一句话定 B＋A；无纠正；cx-draw 串图第二次 → 已修脚本 |
