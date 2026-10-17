@@ -56,4 +56,5 @@
 | 2026-10-17 | [tahun5 钱币小掌柜](2026-10-17-tahun5-mt-wang.md) | 许愿池 #16；「不需要和我讨论吗」第三次（规则已在）；Hub 干净 worktree 部署已晋升 agents.md 第 6 步；log-cost 找不到 teaching-tools 会话已修 |
 | 2026-10-17 | [tahun2 拼字魔法锅](2026-10-17-tahun2-bc-xingsi.md) | 许愿池 #4；「不需要和我讨论吗」第四次（规则已在）；描字判定要测「涂满／只写一半」反例（候选） |
 | 2026-10-17 | [tahun2 One or Many? Fruit Garden](2026-10-17-tahun2-bi-plural.md) | 许愿池 #12：一句话定 B＋A；无纠正；cx-draw 串图第二次 → 已修脚本 |
+| 2026-10-17 | [tahun4 Syllable Sports Relay](2026-10-17-tahun4-bi-sports.md) | 许愿池 #10：一则讯息定 A＋B；无纠正；单音节 TTS 念歪靠 say 改写＋Whisper 回听（候选）；log-cost 缺 opus-5-5 单价 |
 | 2026-10-17 | [tahun3 Wartawan Cilik: Kata Tanya](2026-10-17-tahun3-bm-katatanya.md) | 许愿池 #3：一次定 A＋B＋C、不需教具；无纠正；我把 secrets 档标签行印出（service_role 露出，规则已在）；worktree 部署后要先 pull 主目录再 check（候选） |
