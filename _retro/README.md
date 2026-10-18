@@ -58,3 +58,4 @@
 | 2026-10-17 | [tahun2 One or Many? Fruit Garden](2026-10-17-tahun2-bi-plural.md) | 许愿池 #12：一句话定 B＋A；无纠正；cx-draw 串图第二次 → 已修脚本 |
 | 2026-10-17 | [tahun4 Syllable Sports Relay](2026-10-17-tahun4-bi-sports.md) | 许愿池 #10：一则讯息定 A＋B；无纠正；单音节 TTS 念歪靠 say 改写＋Whisper 回听（候选）；log-cost 缺 opus-5-5 单价 |
 | 2026-10-17 | [tahun3 Wartawan Cilik: Kata Tanya](2026-10-17-tahun3-bm-katatanya.md) | 许愿池 #3：一次定 A＋B＋C、不需教具；无纠正；我把 secrets 档标签行印出（service_role 露出，规则已在）；worktree 部署后要先 pull 主目录再 check（候选） |
+| 2026-10-18 | [tahun2 句子小火车 v1.2](2026-10-18-tahun2-bi-punctuation-v1-2.md) | Ming Zhu 老师抓错（逗号、Art）；发现者写进 changelog；Art 大写待老师定 |
