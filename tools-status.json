@@ -589,6 +589,18 @@
       "nextStep": "等许愿老师回信（课本出处、学生真实错句、设备、署名）；回信后改 js/bank.js 并升版",
       "lastUpdated": "2026-10-17",
       "version": "1.0"
+    },
+    "tahun1-mt-fuxi-pecahan-masa": {
+      "title": "分数与时刻复习加强本",
+      "quality": "待评估",
+      "knownIssues": [
+        "手机／平板真机未实测，朗读音质只核对文字与文件",
+        "反馈标题「没关系」因字体显示成「沒」（沿用复习本，未改）",
+        "老师后台没用真实答案跑过"
+      ],
+      "nextStep": "学生做完后，老师登录 teacher.html?tool=tahun1-mt-fuxi-pecahan-masa 看各错误类型有没有减少",
+      "lastUpdated": "2026-10-19",
+      "version": "1.0"
     }
   },
   "planned": [
