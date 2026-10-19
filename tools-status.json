@@ -590,6 +590,16 @@
       "lastUpdated": "2026-10-17",
       "version": "1.0"
     },
+    "tahun2-dst-campuran-lab": {
+      "title": "分离大法实验室",
+      "quality": "待评估",
+      "knownIssues": [
+        "课本原页未核（课本 PDF 已不在电脑上，引用句来自机器转写稿）；奶粉质感偏灰白；没有真机／触控实测"
+      ],
+      "nextStep": "等老师课堂试用，有不满意之处在这里登记",
+      "lastUpdated": "2026-10-19",
+      "version": "1.0"
+    },
     "tahun1-mt-fuxi-pecahan-masa": {
       "title": "分数与时刻复习加强本",
       "quality": "待评估",
