@@ -600,6 +600,16 @@
       "lastUpdated": "2026-10-20",
       "version": "1.0.1"
     },
+    "tahun1-mt-jisim": {
+      "title": "天平工坊",
+      "quality": "待评估",
+      "knownIssues": [
+        "课本原页未核（引用句来自机器转写稿）；手机／一体机真机手感未实测；语音读音（「重」、q5 的「十仙」）待老师抽听；订书机每颗弹子只差 1.1–1.4°（衣架几何决定）"
+      ],
+      "nextStep": "等老师课堂试用；封面先用候选 A，老师可改选 B",
+      "lastUpdated": "2026-10-20",
+      "version": "1.0"
+    },
     "tahun1-mt-fuxi-pecahan-masa": {
       "title": "分数与时刻复习加强本",
       "quality": "待评估",

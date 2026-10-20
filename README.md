@@ -25,6 +25,8 @@
 | `tahun1-bm-kvkv` | Kebun Pintar KVKV | `tahun1-bm-kvkv/` | https://tahun1-bm-kvkv.vercel.app |
 | `tahun1-dst-magnet` | 磁力创造实验室 | `tahun1-dst-magnet/` | https://tahun1-dst-magnet.vercel.app |
 | `tahun1-mt-bundar` | 近似值特快车 | `tahun1-mt-bundar/` | https://tahun1-mt-bundar.vercel.app |
+| `tahun1-mt-fuxi-pecahan-masa` | 分数与时刻复习加强本 | `tahun1-mt-fuxi-pecahan-masa/` | https://tahun1-mt-fuxi-pecahan-masa.vercel.app |
+| `tahun1-mt-jisim` | 天平工坊 | `tahun1-mt-jisim/` | https://tahun1-mt-jisim.vercel.app |
 | `tahun1-mt-latihan-oktober` | 一年级10月数学练习 | `tahun1-mt-latihan-oktober/` | https://tahun1-mt-latihan-oktober.vercel.app |
 | `tahun1-mt-masa` | 时刻大对决 | `tahun1-mt-masa/` | https://tahun1-mt-masa.vercel.app |
 | `tahun1-mt-pecahan` | 燕菜切切乐 | `tahun1-mt-pecahan/` | https://tahun1-mt-pecahan.vercel.app |
@@ -40,6 +42,7 @@
 | `tahun2-bi-plural` | One or Many? Fruit Garden（水果单复数花园） | `tahun2-bi-plural/` | https://tahun2-bi-plural.vercel.app |
 | `tahun2-bi-punctuation` | 句子小火车 Sentence Train | `tahun2-bi-punctuation/` | https://tahun2-bi-punctuation.vercel.app |
 | `tahun2-bm-kataarah` | Di Mana Letaknya? Kata Arah | `tahun2-bm-kataarah/` | https://tahun2-bm-kataarah.vercel.app |
+| `tahun2-dst-campuran-lab` | 分离大法实验室 | `tahun2-dst-campuran-lab/` | https://tahun2-dst-campuran-lab.vercel.app |
 | `tahun2-dst-tower` | 科学叠叠塔 | `tahun2-dst-tower/` | https://tahun2-dst-tower.vercel.app |
 | `tahun2-mt-baigetu` | 百格图乘法表动画 | `tahun2-mt-baigetu/` | https://tahun2-mt-baigetu.vercel.app |
 | `tahun2-mt-shulie-boss` | 数字数列大对决 | `tahun2-mt-shulie-boss/` | https://tahun2-mt-shulie-boss.vercel.app |
@@ -47,6 +50,7 @@
 | `tahun2-mt-shulie-explore` | 数序列小探险 | `tahun2-mt-shulie-explore/` | https://tahun2-mt-shulie-explore.vercel.app |
 | `tahun2-mt-shuzhi` | 苹果果园数学 | `tahun2-mt-shuzhi/` | https://tahun2-mt-shuzhi.vercel.app |
 | `tahun2-mt-wang` | 钱币乐园 | `tahun2-mt-wang/`（互动网页在 `app/`） | https://tahun2-mt-wang.vercel.app |
+| `tahun2-mt-wang-practice` | 零用钱跑腿日 | `tahun2-mt-wang-practice/` | https://tahun2-mt-wang-practice.vercel.app |
 | `tahun2-mz-irama` | 醒狮节奏瀑布 | `tahun2-mz-irama/` | https://tahun2-mz-irama.vercel.app |
 | `tahun2-pj-pergerakan` | 蓝天操场 | `tahun2-pj-pergerakan/` | https://tahun2-pj-pergerakan.vercel.app |
 | `tahun3-bc-bishun` | 三年级写字 | `tahun3-bc-bishun/` | https://tahun3-bc-bishun.vercel.app |
