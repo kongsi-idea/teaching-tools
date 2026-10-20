@@ -610,6 +610,18 @@
       "nextStep": "学生做完后，老师登录 teacher.html?tool=tahun1-mt-fuxi-pecahan-masa 看各错误类型有没有减少",
       "lastUpdated": "2026-10-19",
       "version": "1.0"
+    },
+    "tahun2-mt-wang-practice": {
+      "title": "零用钱跑腿日",
+      "quality": "待评估",
+      "knownIssues": [
+        "老师第三轮试玩时没有声音，测试浏览器重现不了；已改为共用一个 audio 元素（疑似 Safari 每个新 Audio 都被挡），待老师确认",
+        "面包店柜台台面太窄，付款区有一部分压在玻璃柜上",
+        "手机／平板真机未实测"
+      ],
+      "nextStep": "老师课堂试用；之后定「自由跑腿」（随机天、扑满跨天累积、我的房间）与是否跨机器同步进度",
+      "lastUpdated": "2026-10-20",
+      "version": "1.0"
     }
   },
   "planned": [
