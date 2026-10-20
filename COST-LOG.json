@@ -268,5 +268,20 @@
   "note": "会话中途压缩一次；cx 素材：背景、四队跑者、两张器材图；有模型缺单价：claude-opus-5-5",
   "actual_usd": 10.05,
   "cx_draws": 4
+ },
+ {
+  "input": 1564,
+  "output": 355291,
+  "cache_write": 5455431,
+  "cache_read": 148336746,
+  "turns": 744,
+  "date": "2026-10-20",
+  "slug": "tahun2-dst-campuran-lab",
+  "what": "检查点1→2、上线v1.0、v1.0.1修正、draw封面、og分享图（含57个旧工具og）",
+  "session": "8de329d0-410f-4317-a5f0-470a7a8d7588",
+  "est_usd": 27.3312,
+  "note": "同会话也替57个旧工具补og.jpg；有模型缺单价：claude-opus-5-5",
+  "actual_usd": 65.34,
+  "cx_draws": 13
  }
 ]
