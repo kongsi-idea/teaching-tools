@@ -32,6 +32,7 @@
 | `tahun1-mt-pecahan` | 燕菜切切乐 | `tahun1-mt-pecahan/` | https://tahun1-mt-pecahan.vercel.app |
 | `tahun1-mt-ruang` | 空间小天地 | `tahun1-mt-ruang/` | https://tahun1-mt-ruang.vercel.app |
 | `tahun1-mz-irama` | 软糖回声乐园 | `tahun1-mz-irama/` | https://tahun1-mz-irama.vercel.app |
+| `tahun1-pj-congkak` | 一起玩冲格 | `tahun1-pj-congkak/` | https://tahun1-pj-congkak.vercel.app |
 | `tahun1-pj-pergerakan` | 动物模仿秀 | `tahun1-pj-pergerakan/` | https://tahun1-pj-pergerakan.vercel.app |
 | `tahun1-pk-kecemasan` | 找谁来帮忙 | `tahun1-pk-kecemasan/` | https://tahun1-pk-kecemasan.vercel.app |
 | `tahun2-bc-biaodian` | 标点小蛇闯关 | `tahun2-bc-biaodian/` | https://tahun2-bc-biaodian.vercel.app |
