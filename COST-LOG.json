@@ -283,5 +283,20 @@
   "note": "同会话也替57个旧工具补og.jpg；有模型缺单价：claude-opus-5-5",
   "actual_usd": 65.34,
   "cx_draws": 13
+ },
+ {
+  "input": 1236,
+  "output": 240630,
+  "cache_write": 4190933,
+  "cache_read": 171388428,
+  "turns": 607,
+  "date": "2026-10-21",
+  "slug": "tahun1-pj-congkak",
+  "what": "C0→v1.2：方案、水彩零件、五位对手、线上对战、第一次引导、上线上架、v1.2 线上修正",
+  "session": "eb9edf2f-c9e1-4db3-9e68-6d5e1ef6139b",
+  "est_usd": 21.2651,
+  "note": "Sonnet 子代理实作＋draw 生图 26 张 US$0.32；同会话另做一年级体育课本提取（小部分）；有模型缺单价：claude-opus-5-5,claude-haiku-5-5",
+  "actual_usd": 55.38,
+  "cx_draws": 0
  }
 ]
