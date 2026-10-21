@@ -298,5 +298,20 @@
   "note": "Sonnet 子代理实作＋draw 生图 26 张 US$0.32；同会话另做一年级体育课本提取（小部分）；有模型缺单价：claude-opus-5-5,claude-haiku-5-5",
   "actual_usd": 55.38,
   "cx_draws": 0
+ },
+ {
+  "input": 80,
+  "output": 29359,
+  "cache_write": 47682,
+  "cache_read": 6569743,
+  "turns": 40,
+  "date": "2026-10-21",
+  "slug": "tahun1-pj-congkak",
+  "what": "开场封面 splash＋规则：封面 3:2 一张两用",
+  "session": "eb9edf2f-c9e1-4db3-9e68-6d5e1ef6139b",
+  "est_usd": -0.0,
+  "note": "同会话第二笔，取增量；有模型缺单价：claude-opus-5-5,claude-haiku-5-5",
+  "actual_usd": 2.52,
+  "cx_draws": 0
  }
 ]
