@@ -657,6 +657,17 @@
       "nextStep": "老师在 1I 课堂试用（投影教一教＋练一练，学生各自考一考），回报再改",
       "lastUpdated": "2026-10-22",
       "version": "1.0"
+    },
+    "tahun2-bc-kantu": {
+      "title": "心愿瓶看图写话",
+      "quality": "待评估",
+      "knownIssues": [
+        "未上 Hub（缺 draw 封面、DSKP 对照、缩图）",
+        "手电筒只用滑鼠测过，未在触控屏测"
+      ],
+      "nextStep": "10-23 Meet 课后收老师回馈；再决定上 Hub 与模板化",
+      "lastUpdated": "2026-10-22",
+      "version": "1.3"
     }
   },
   "planned": [
