@@ -22,7 +22,7 @@
 - DSKP 上架前再对一次官方 PDF，发现 1.2.3「Mengemukakan soalan」正好对应 Tahap 3，一并收进索引。
 
 ## 卡点／坑
-- **我把 `.secrets.local.md` 的标签行印出来，service_role JWT 进了对话**（已查证）。规则早已在 AGENTS §3.8（不印任何内容），是执行没守住：只该用脚本按标签取值，连 grep 标签都不要。是否重设金钥等老师决定。
+- **我把 `.secrets.local.md` 的标签行印出来，service_role JWT 进了对话**（已查证）。规则早已在 AGENTS §3.8（不印任何内容），是执行没守住：只该用脚本按标签取值，连 grep 标签都不要。是否重设金钥等老师决定。（10-19 再犯一次 → 已晋升 AGENTS §3.8）
 - 扫描版 DSKP／课本 PDF 没有文字层：用 tb.py build-ocr；python3 不能带 `-I`（fitz 找不到）。DSKP 网址直接 curl 拿到 HTML，要带 UA＋cookie jar。
 - handoff 写「第 41 页」是印刷页，PDF 要＋12（这次差点对错页）。
 - cx-draw 仍混入别的会话的图（10 张）；与 plural 会话修脚本的先后未查证（推断：本次生图在修之前）。

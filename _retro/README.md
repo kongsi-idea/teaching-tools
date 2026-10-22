@@ -59,6 +59,7 @@
 | 2026-10-17 | [tahun4 Syllable Sports Relay](2026-10-17-tahun4-bi-sports.md) | 许愿池 #10：一则讯息定 A＋B；无纠正；单音节 TTS 念歪靠 say 改写＋Whisper 回听（候选）；log-cost 缺 opus-5-5 单价 |
 | 2026-10-17 | [tahun3 Wartawan Cilik: Kata Tanya](2026-10-17-tahun3-bm-katatanya.md) | 许愿池 #3：一次定 A＋B＋C、不需教具；无纠正；我把 secrets 档标签行印出（service_role 露出，规则已在）；worktree 部署后要先 pull 主目录再 check（候选） |
 | 2026-10-18 | [tahun2 句子小火车 v1.2](2026-10-18-tahun2-bi-punctuation-v1-2.md) | Ming Zhu 老师抓错（逗号、Art）；发现者写进 changelog；Art 大写待老师定 |
+| 2026-10-19 | [tahun1 分数与时刻复习加强本](2026-10-19-tahun1-mt-fuxi-pecahan-masa.md) | 照原复习卷错题出 20 题＋新成绩表；「slug 要用复习的」（已晋升 agents.md＋newtool）；印出 secrets 标签行第二次（已晋升 AGENTS §3.8） |
 | 2026-10-20 | [tahun2 分离大法实验室](2026-10-20-tahun2-dst-campuran-lab.md) | 闯关入口没测出（测试没点卡片）、大小石头×细网筛不合理（候选）；封面一律 draw 生成（已晋升 newtool＋agents.md）；og 分享图补齐 57 个；回了英文被纠正 |
 | 2026-10-21 | [tahun1 一起玩冲格](2026-10-21-tahun1-pj-congkak.md) | 零件硬拉、语音不同步、第一次引导（已晋升）；候选：问题当场修、分层选择分步、图标配字 |
 | 2026-10-22 | [tahun2 心愿瓶看图写话](2026-10-22-tahun2-bc-kantu.md) | PPT→Meet 全课网页；四轮回馈（找一找、长句重叠、空格提示、楷体、因为不放句首）→ 已晋升 agents.md；候选：开工问署名、验收取最长组合 |
