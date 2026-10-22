@@ -5,15 +5,19 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { checkSlug, printResult } from "./check-slug.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const [slug, title] = process.argv.slice(2);
 
-if (!slug || !/^tahun[1-6]-[a-z]+-[a-z0-9-]+$/.test(slug) || !title) {
+if (!slug || !title) {
   console.error('用法：npm run new -- tahun{年级}-{科目}-{单元关键词}[-{玩法词}] "工具中文名"');
   console.error("slug 规则（2026-10-17，只管新工具）：单元关键词取 DSKP 用词；同单元已有工具才加玩法词 practice/quiz/duel/explore/build/lab/write；不放月份，不用数字后缀；详见 agents.md「新工具资料夹（slug）命名」。");
   process.exit(1);
 }
+const slugCheck = checkSlug(slug);
+printResult(slug, slugCheck);
+if (slugCheck.errors.length) process.exit(1);
 
 const dir = path.join(root, slug);
 if (fs.existsSync(dir)) {
