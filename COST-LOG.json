@@ -328,5 +328,20 @@
   "note": "Opus 主对话＋Sonnet 子代理 4 轮；draw 2 张（low 对照＋high 定稿，约 US$0.05）；有模型缺单价：claude-opus-5-5",
   "actual_usd": 18.19,
   "cx_draws": 0
+ },
+ {
+  "input": 458,
+  "output": 331817,
+  "cache_write": 937254,
+  "cache_read": 34159233,
+  "turns": 224,
+  "date": "2026-10-22",
+  "slug": "tahun1-bc-lijie",
+  "what": "v1.0 开发上线（考一考 10 题＋成绩表、全尺寸适配、预览、封面、引导、Hub 上架）",
+  "session": "f80f21fc-2a60-4bdd-afe9-113cf108b540",
+  "est_usd": 4.4082,
+  "note": "Sonnet 实作 1、verify 2；生图约 US$0.06；有模型缺单价：claude-opus-5-5",
+  "actual_usd": 17.69,
+  "cx_draws": 0
  }
 ]
