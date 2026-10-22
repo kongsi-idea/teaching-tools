@@ -42,7 +42,7 @@
 - **单个 `tahunN-*` 工具的 `vercel --prod`／alias 已在 guard 授权名单内**（2026-10-09 老师定：`guard-policy.json` 的 `deploy_allowlist` 用通配符 `tahun[1-6]-*`；此前 2026-09-17 磁力创造实验室发布时被挡，需老师本人跑）。老师在关口②说「可以发布」后，agent 自己部署到底，不再请老师跑命令。部署仍须带 `--scope kongsi-idea`，完成后跑 `npm run check -- {slug}`。
 - **已上架工具每次上线新版本，Hub 必须同步更新，这是完成的一部分，不是可选收尾**（2026-09-17 老师定：浮沉实验室 v2.0 上线了 Hub 却还是 v1，被点名）。工具部署后、回报「已上线」之前，逐项做完：
   1. `kongsi-idea/data/tools.js` 该工具的 `version` 升版（2026-10-17 起登记在 `data/tools.js`，不在 `app.js`），`changelog` 在最前面加一条 `{ version, date: 上线当天日期, note: 这次改了什么 }`；`desc`／`keywords`／`teachingMode`／`prep` 若因改版失效，一并改写。
-  2. 用 Playwright 操作**正式网址**重新截真实画面，放进 `kongsi-idea/assets/thumbs/{slug}/`（新档名带版本，如 `v2-1-xxx.png`），`thumbnails` 换成新图并写 label（新截的图照「上线」那步的缩略图规则：内容可见、顺序固定、4:3）；旧图搬 `~/Documents/待删除/`，不留失效引用。**Hub 自己的整理改版（首页、详情页、后台、登记搬位置）学生端没变，不升版、不写 changelog**（2026-10-17 老师定，记在 Hub commit 与 `kongsi-idea/agents.md`）。
+  2. 用 Playwright 操作**正式网址**重新截真实画面，放进 `kongsi-idea/assets/thumbs/{slug}/`（新档名带版本，如 `v2-1-xxx.png`），`thumbnails` 换成新图并写 label（新截的图照「上线」那步的缩略图规则：内容可见、顺序固定、4:3）；旧图用 `git rm` 删掉，不留失效引用。**Hub 自己的整理改版（首页、详情页、后台、登记搬位置）学生端没变，不升版、不写 changelog**（2026-10-17 老师定，记在 Hub commit 与 `kongsi-idea/agents.md`）。
   3. `kongsi-idea/docs/published-tools-coverage.md` 该行「优化备注」写上版本与日期，以及仍待改的点。
   4. `teaching-tools/tools-status.json` 更新 `version`／`lastUpdated`，跑 `npm run status:sync`。
   5. Hub commit＋push，按 `kongsi-idea/agents.md` 的部署三步（`vercel --prod` → `alias set kongsi-idea.vercel.app` → `curl` 线上 `data/tools.js` 确认新版本号与新缩图路径真的在）。没做完第 5 步，只能回报「工具已上线，Hub 未更新」。
