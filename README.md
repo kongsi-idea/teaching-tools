@@ -15,6 +15,7 @@
 | `tahun1-bc-kantu` | 看图小侦探 | `tahun1-bc-kantu/` | https://tahun1-bc-kantu.vercel.app |
 | `tahun1-bc-liangci` | 量词大冒险 | `tahun1-bc-liangci/` | https://tahun1-bc-liangci.vercel.app |
 | `tahun1-bc-liangci1` | 量词南瓜丰收季 | `tahun1-bc-liangci1/` | https://tahun1-bc-liangci1.vercel.app |
+| `tahun1-bc-lijie` | 答案藏在哪里？ | `tahun1-bc-lijie/` | https://tahun1-bc-lijie.vercel.app |
 | `tahun1-bc-shizi` | 识字大对决 | `tahun1-bc-shizi/` | https://tahun1-bc-shizi.vercel.app |
 | `tahun1-bc-shizi-explore` | 撕日历：昨天今天明天 | `tahun1-bc-shizi-explore/` | https://tahun1-bc-shizi-explore.vercel.app |
 | `tahun1-bc-xingsi` | 找对小帮手 | `tahun1-bc-xingsi/` | https://tahun1-bc-xingsi.vercel.app |

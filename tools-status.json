@@ -645,6 +645,18 @@
       "nextStep": "老师与学生实际课堂试玩后收集反馈（平板触控、线上对战）",
       "lastUpdated": "2026-10-21",
       "version": "1.2"
+    },
+    "tahun1-bc-lijie": {
+      "title": "答案藏在哪里？",
+      "quality": "待评估",
+      "knownIssues": [
+        "一体机触控、手机真机未实测（手机尺寸只做过 Playwright 模拟）",
+        "旁白用 zh-CN-YunxiaNeural，老师未试听",
+        "手机直立时练一练题目区较长，要在题目区内往下卷才看到选项"
+      ],
+      "nextStep": "老师在 1I 课堂试用（投影教一教＋练一练，学生各自考一考），回报再改",
+      "lastUpdated": "2026-10-22",
+      "version": "1.0"
     }
   },
   "planned": [
