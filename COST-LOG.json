@@ -313,5 +313,20 @@
   "note": "同会话第二笔，取增量；有模型缺单价：claude-opus-5-5,claude-haiku-5-5",
   "actual_usd": 2.52,
   "cx_draws": 0
+ },
+ {
+  "input": 400,
+  "output": 198079,
+  "cache_write": 1278944,
+  "cache_read": 39365215,
+  "turns": 195,
+  "date": "2026-10-22",
+  "slug": "tahun2-bc-kantu",
+  "what": "v1.0→v1.3＋上 Hub：李老师 PPT 改成 Google Meet 全课 9 步教学页，四轮老师回馈（找一找、长句重叠、空格提示、楷体、段落、因为不放句首、看范文），draw 封面",
+  "session": "20400ae1-05ae-45d2-b462-300b319e6ba7",
+  "est_usd": 4.7436,
+  "note": "Opus 主对话＋Sonnet 子代理 4 轮；draw 2 张（low 对照＋high 定稿，约 US$0.05）；有模型缺单价：claude-opus-5-5",
+  "actual_usd": 18.19,
+  "cx_draws": 0
  }
 ]
