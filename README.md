@@ -38,6 +38,7 @@
 | `tahun1-pk-kecemasan` | 找谁来帮忙 | `tahun1-pk-kecemasan/` | https://tahun1-pk-kecemasan.vercel.app |
 | `tahun2-bc-biaodian` | 标点小蛇闯关 | `tahun2-bc-biaodian/` | https://tahun2-bc-biaodian.vercel.app |
 | `tahun2-bc-bishun` | 二年级写字 | `tahun2-bc-bishun/` | https://tahun2-bc-bishun.vercel.app |
+| `tahun2-bc-kantu` | 心愿瓶看图写话 | `tahun2-bc-kantu/` | https://tahun2-bc-kantu.vercel.app |
 | `tahun2-bc-xingsi` | 拼字魔法锅 | `tahun2-bc-xingsi/` | https://tahun2-bc-xingsi.vercel.app |
 | `tahun2-bc-zonghe` | 华文勇者大冒险 | `tahun2-bc-zonghe/` | https://tahun2-bc-zonghe.vercel.app |
 | `tahun2-bi-dressing` | The Dressing Game | `tahun2-bi-dressing/` | https://tahun2-bi-dressing.vercel.app |
@@ -46,6 +47,7 @@
 | `tahun2-bm-kataarah` | Di Mana Letaknya? Kata Arah | `tahun2-bm-kataarah/` | https://tahun2-bm-kataarah.vercel.app |
 | `tahun2-dst-campuran-lab` | 分离大法实验室 | `tahun2-dst-campuran-lab/` | https://tahun2-dst-campuran-lab.vercel.app |
 | `tahun2-dst-tower` | 科学叠叠塔 | `tahun2-dst-tower/` | https://tahun2-dst-tower.vercel.app |
+| `tahun2-mt-bahagi` | 竖式小码头 | `tahun2-mt-bahagi/` | https://tahun2-mt-bahagi.vercel.app |
 | `tahun2-mt-baigetu` | 百格图乘法表动画 | `tahun2-mt-baigetu/` | https://tahun2-mt-baigetu.vercel.app |
 | `tahun2-mt-shulie-boss` | 数字数列大对决 | `tahun2-mt-shulie-boss/` | https://tahun2-mt-shulie-boss.vercel.app |
 | `tahun2-mt-shulie-duel` | 双人数字对决 | `tahun2-mt-shulie-duel/` | https://tahun2-mt-shulie-duel.vercel.app |
