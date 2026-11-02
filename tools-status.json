@@ -688,6 +688,17 @@
       "nextStep": "等课堂反馈；有不满意之处时在这里登记",
       "lastUpdated": "2026-10-23",
       "version": "1.0"
+    },
+    "tahun1-bc-pinyin": {
+      "title": "拼音小木块",
+      "quality": "待评估",
+      "knownIssues": [
+        "测试版只有 b p m f",
+        "引导手指指到最底排韵母时手掌被屏幕底边切掉一截（指尖准）"
+      ],
+      "nextStep": "收集 FB 家长意见后补齐其余声母；DELIMa 公开后换回课本原声",
+      "lastUpdated": "2026-11-02",
+      "version": "0.1"
     }
   },
   "planned": [
