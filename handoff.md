@@ -4,6 +4,8 @@
 
 ## ⏯️ 目前做到哪
 
+**2026-11-13：音效来源规则**（my-agent 主会话，Claude Opus 5.5）：老师转来一支 FB 推广片（介绍 Earshot、SFX Kit、Openverse），查证后在 `agents.md` 新增「音效照场合选来源」：界面音效用 ZzFX，8-bit 游戏感用 jsfxr，真实情境声用 SFX Kit（CC0），前三者都没有才去 Openverse 挑 CC0，Earshot 不用。`newtool` skill 里加了指针。还没在任何工具上实际用过，下一个新工具第一次套用时要让老师试听。
+
 **2026-10-22：新工具 slug 自动检查**（Hub 会话 my-agent-79）：`scripts/check-slug.mjs`，`npm run new` 开工前先跑，也可单独 `npm run slug -- {slug}`。❌ 不建档：格式／年级／科目缩写、月份学期词、数字后缀、同单元已有工具却没加玩法词、复习卷 `fuxi` 后没接单元词；⚠️ 提醒：玩法词不必要、第四层不是玩法词、复习卷要并组。10-17 后上架的 15 个都通过（`tahun2-dst-campuran-lab` 有一条「玩法词不必要」提醒，已上线不改）。单元关键词是否 DSKP 用词脚本查不了。规则写在 `agents.md`「两个脚本」那条。`e8ddaa7`。
 
 **2026-10-10：建立「磨合复盘」机制**
