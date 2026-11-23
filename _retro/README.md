@@ -58,6 +58,7 @@
 | 2026-10-17 | [tahun2 One or Many? Fruit Garden](2026-10-17-tahun2-bi-plural.md) | 许愿池 #12：一句话定 B＋A；无纠正；cx-draw 串图第二次 → 已修脚本 |
 | 2026-10-17 | [tahun4 Syllable Sports Relay](2026-10-17-tahun4-bi-sports.md) | 许愿池 #10：一则讯息定 A＋B；无纠正；单音节 TTS 念歪靠 say 改写＋Whisper 回听（候选）；log-cost 缺 opus-5-5 单价 |
 | 2026-10-17 | [tahun3 Wartawan Cilik: Kata Tanya](2026-10-17-tahun3-bm-katatanya.md) | 许愿池 #3：一次定 A＋B＋C、不需教具；无纠正；我把 secrets 档标签行印出（service_role 露出，规则已在）；worktree 部署后要先 pull 主目录再 check（候选） |
+| 2026-10-17 | [许愿池批量开工](2026-10-17-许愿池批量开工.md) | 主会话调度 8 个许愿 session；封面先给看、写信前查既有工具、Apple Mail 残留草稿 |
 | 2026-10-18 | [tahun2 句子小火车 v1.2](2026-10-18-tahun2-bi-punctuation-v1-2.md) | Ming Zhu 老师抓错（逗号、Art）；发现者写进 changelog；Art 大写待老师定 |
 | 2026-10-19 | [tahun1 分数与时刻复习加强本](2026-10-19-tahun1-mt-fuxi-pecahan-masa.md) | 照原复习卷错题出 20 题＋新成绩表；「slug 要用复习的」（已晋升 agents.md＋newtool）；印出 secrets 标签行第二次（已晋升 AGENTS §3.8） |
 | 2026-10-20 | [tahun2 分离大法实验室](2026-10-20-tahun2-dst-campuran-lab.md) | 闯关入口没测出（测试没点卡片）、大小石头×细网筛不合理（候选）；封面一律 draw 生成（已晋升 newtool＋agents.md）；og 分享图补齐 57 个；回了英文被纠正 |
@@ -67,4 +68,7 @@
 | 2026-10-20 | [tahun1 天平工坊](2026-10-20-tahun1-mt-jisim.md) | 第一个真物理工具；一年级操作太吃力→简化版；手机可变宽舞台（候选）；「先上线」用快照部署 |
 | 2026-10-20 ~ 10-22 | [tahun2 零用钱跑腿日](2026-10-22-tahun2-mt-wang-practice.md) | 课堂热修 3 个 bug、跨天存钱漏设计、第 3 天没结局；金额朗读两次被抓（两／二、令念 lǐng）→ 已晋升 newtool 坑点；上架前没重读当天改的封面规则（memory 已有） |
 | 2026-10-23 | [tahun2 竖式小码头](2026-10-23-tahun2-mt-bahagi.md) | 关口②修 8 处；draw 没合并对照图被问；引导手用图示（已晋升 newtool）；iCloud 收走 .git 卡 git |
+| 2026-10-26 | [tahun2-mt-shuzhi 改版](2026-10-26-tahun2-mt-shuzhi.md) | 拍板 3（不加语音、Canva A 风格、一次做完）；子代理返工 1 轮 |
+| 2026-11-02 | [tahun1 拼音小木块](2026-11-02-tahun1-bc-pinyin.md) | 声音选型多轮（DELIMa 降调定案）；一年级视觉要减量；三声按 214 画（候选：声调一律五度标记）；worktree 撞 iCloud 改用 GitHub 浅复制部署 Hub |
 | 2026-11-10 | [tahun1-bm-huruf 比赛版](2026-11-10-tahun1-bm-huruf.md) | 纠正 3（名单找到空壳校码、国文科该显示英文名、真手写 B 0 星）；拍板 3；候选：手写评分先拿真人笔迹校准 |
+| 2026-11-23 | [tahun1-bm-huruf → Pan·Tu](2026-11-23-tahun1-bm-huruf-pantu.md) | 纠正 5（/bentang 无斜线、旧图快取、展览三线与号码、N 连写、付费锁没主动给意见）；拍板 ~10；候选：大决定主动附建议 |
